@@ -7,6 +7,13 @@ if ($env:GIT_CONFIG_COUNT) { $configIndex = [int]$env:GIT_CONFIG_COUNT }
 Set-Item -LiteralPath "Env:GIT_CONFIG_KEY_$configIndex" -Value 'safe.directory'
 Set-Item -LiteralPath "Env:GIT_CONFIG_VALUE_$configIndex" -Value $root
 $env:GIT_CONFIG_COUNT = [string]($configIndex + 1)
+# Use the Windows trust store for Git HTTPS rather than a separate CA bundle.
+if ($env:OS -eq 'Windows_NT') {
+  $configIndex = [int]$env:GIT_CONFIG_COUNT
+  Set-Item -LiteralPath "Env:GIT_CONFIG_KEY_$configIndex" -Value 'http.sslBackend'
+  Set-Item -LiteralPath "Env:GIT_CONFIG_VALUE_$configIndex" -Value 'schannel'
+  $env:GIT_CONFIG_COUNT = [string]($configIndex + 1)
+}
 & gh auth status
 if ($LASTEXITCODE -ne 0) { throw 'Run gh auth login --hostname github.com, then run this script again.' }
 $owner = & gh api user --jq .login
@@ -21,7 +28,7 @@ if ($LASTEXITCODE -eq 1) { & git commit -m 'Build Little Bee Python spelling pra
 & gh repo view $repo --json name 2>$null
 if ($LASTEXITCODE -ne 0) {
   & gh repo create $repo --public --source . --remote origin --push --description 'Little Bee: Python-powered spelling practice and mini contests for kids'
-  if ($LASTEXITCODE -ne 0) { throw 'Repository creation failed.' }
+  if ($LASTEXITCODE -ne 0) { throw 'Repository creation or initial push failed. Check the repository and origin before retrying.' }
 } else {
   $origin = & git remote get-url origin 2>$null
   if ($LASTEXITCODE -ne 0 -or $origin -notmatch ('github.com[:/]' + [regex]::Escape($repo) + '(\.git)?$')) { throw "Repository already exists. Verify it and configure origin to https://github.com/$repo.git before retrying." }
