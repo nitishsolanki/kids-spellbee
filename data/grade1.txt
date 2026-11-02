@@ -1,0 +1,91 @@
+# level|word|part|definition|sentence
+easy|cat|noun|A small pet with whiskers that meows.|The cat sleeps on the rug.
+easy|dog|noun|A pet that barks and wags its tail.|Our dog likes to play fetch.
+easy|sun|noun|The bright star that lights our daytime sky.|The sun feels warm today.
+easy|hat|noun|Something you wear on your head.|Put on your hat before we go out.
+easy|bed|noun|A place where you lie down to sleep.|I make my bed each morning.
+easy|cup|noun|A small container you drink from.|My cup is full of water.
+easy|pig|noun|A farm animal with a flat snout and a curly tail.|The pig rolls in the mud.
+easy|hen|noun|A grown female chicken.|The hen laid an egg.
+easy|pen|noun|A tool that writes with ink.|Use a pen to sign the card.
+easy|map|noun|A drawing that shows where places are.|We used a map to find the park.
+easy|bus|noun|A large vehicle that carries many people.|We ride the bus to school.
+easy|red|adjective|The color of a ripe strawberry.|I picked a red apple.
+easy|big|adjective|Large in size.|That is a big elephant.
+easy|run|verb|To move quickly using your legs.|We run around the playground.
+easy|hop|verb|To jump on one foot or with both feet together.|The rabbit can hop over the log.
+easy|sit|verb|To rest with your body on a chair or the ground.|Please sit beside me.
+easy|dig|verb|To make a hole in the ground.|We dig in the garden.
+easy|mud|noun|Wet, soft dirt.|My boots are covered in mud.
+easy|leg|noun|A body part used for standing and walking.|The puppy has a spot on one leg.
+easy|lip|noun|One of the soft edges around your mouth.|There is a crumb on your lip.
+easy|bug|noun|A small crawling creature, often an insect.|A tiny bug landed on the leaf.
+easy|web|noun|A net of fine threads made by a spider.|The spider made a web.
+easy|jet|noun|An airplane powered by very fast engines.|The jet flew high in the sky.
+easy|van|noun|A vehicle that carries people or things.|We packed the van for our trip.
+easy|box|noun|A container with flat sides.|Put your crayons in the box.
+easy|fox|noun|A wild animal with pointed ears and a bushy tail.|A fox ran through the woods.
+easy|jam|noun|A sweet spread made by cooking fruit with sugar.|I spread jam on my toast.
+easy|zip|verb|To close something using a zipper.|Please zip your jacket.
+easy|vet|noun|A doctor who takes care of animals.|The vet checked our puppy.
+easy|rug|noun|A piece of thick cloth that covers part of a floor.|The soft rug is beside my bed.
+growing|fish|noun|An animal that lives in water and breathes through gills.|The fish swims in the pond.
+growing|ship|noun|A large boat that travels on water.|The ship sailed across the sea.
+growing|shop|noun|A place where people buy things.|We visited the toy shop.
+growing|chip|noun|A thin, crisp piece of food.|I ate a potato chip.
+growing|chin|noun|The part of your face below your mouth.|Wipe the milk off your chin.
+growing|duck|noun|A water bird with a wide, flat bill.|The duck paddled across the pond.
+growing|sock|noun|A piece of clothing worn on your foot.|I found my missing sock.
+growing|frog|noun|A small jumping animal with smooth skin that lives near water.|The frog jumped into the pond.
+growing|flag|noun|A piece of cloth used as a symbol for a country or group.|The flag waved in the wind.
+growing|stop|verb|To quit moving or doing something.|We stop at the corner.
+growing|clap|verb|To hit your hands together to make a sound.|Let us clap for the singer.
+growing|swim|verb|To move through water using your body.|We swim in the pool.
+growing|milk|noun|A white drink that can come from cows.|I drink milk with breakfast.
+growing|hand|noun|The body part at the end of your arm with fingers and a thumb.|Raise your hand to ask a question.
+growing|nest|noun|A place a bird builds to lay its eggs.|The bird built a nest in the tree.
+growing|tent|noun|A shelter made of cloth held up by poles.|We slept in a tent at camp.
+growing|lamp|noun|A thing that gives light to a room.|Turn on the lamp to read.
+growing|jump|verb|To push off the ground into the air.|I can jump over the puddle.
+growing|pink|adjective|A pale color made by mixing red and white.|She wore a pink ribbon.
+growing|long|adjective|Measuring a great distance from end to end.|The giraffe has a long neck.
+growing|fast|adjective|Moving at a high speed.|The rabbit is fast.
+growing|soft|adjective|Easy to press or pleasant to touch.|The blanket is soft.
+growing|wish|noun|Something you hope will happen.|Make a wish before blowing out the candles.
+growing|bath|noun|A washing of your body in a tub of water.|The puppy needs a bath.
+growing|path|noun|A narrow track for walking.|We followed the path to the pond.
+growing|dish|noun|A plate or bowl used to hold food.|Put the dish on the table.
+growing|bell|noun|A hollow object that rings when struck.|The bell rang for lunch.
+growing|hill|noun|An area of land higher than the ground around it.|We climbed the hill.
+growing|dress|noun|A piece of clothing with a top joined to a skirt.|She wore a dress to the party.
+growing|grass|noun|A green plant with narrow leaves that covers the ground.|We played on the grass.
+challenge|cake|noun|A sweet baked food often served at a birthday party.|We shared a chocolate cake.
+challenge|bike|noun|A vehicle with two wheels that you move by pedaling.|I ride my bike in the park.
+challenge|home|noun|The place where you live.|We went home after school.
+challenge|kite|noun|A light toy that flies on a string in the wind.|My kite flew above the trees.
+challenge|game|noun|An activity with rules that people play for fun.|We played a game after lunch.
+challenge|smile|noun|A happy look made by turning up the corners of your mouth.|Her smile made me happy.
+challenge|rain|noun|Water that falls in drops from clouds.|The rain watered the garden.
+challenge|train|noun|Connected cars that travel on tracks.|The train stopped at the station.
+challenge|snail|noun|A slow animal with a shell on its back.|A snail crawled along the leaf.
+challenge|paint|verb|To put color on something using a brush.|We paint pictures in art class.
+challenge|green|adjective|The color of many leaves and of grass.|The frog is green.
+challenge|sleep|verb|To rest with your eyes closed.|I sleep with my teddy bear.
+challenge|sheep|noun|A farm animal with a thick coat of wool.|The sheep grazed in the field.
+challenge|teeth|noun|The hard white parts in your mouth used for biting.|Brush your teeth before bed.
+challenge|beach|noun|Sandy or rocky land beside a sea or lake.|We built a sandcastle on the beach.
+challenge|peach|noun|A round, soft-skinned fruit with a large stone inside.|I ate a juicy peach.
+challenge|boat|noun|A small vehicle that floats on water.|We rowed the boat across the lake.
+challenge|coat|noun|Clothing worn over other clothes to keep warm.|Wear your coat in the cold.
+challenge|snow|noun|Soft white flakes of frozen water that fall from clouds.|The snow covered the ground.
+challenge|grow|verb|To become bigger or taller.|Plants grow when they have water and light.
+challenge|star|noun|A huge glowing ball of gas seen as a bright point in the night sky.|I saw a bright star tonight.
+challenge|park|noun|An open place where people can play or relax.|We had a picnic in the park.
+challenge|bird|noun|An animal with feathers, wings, and a beak.|A bird sang outside my window.
+challenge|shirt|noun|Clothing worn on the top half of your body.|My shirt has stripes.
+challenge|moon|noun|The round natural object that travels around Earth.|The moon glows in the night sky.
+challenge|spoon|noun|A tool with a small bowl at one end for eating or stirring.|Use a spoon to eat your soup.
+challenge|book|noun|Pages joined together inside a cover.|We read a book before bed.
+challenge|look|verb|To turn your eyes toward something.|Please look at the picture.
+challenge|school|noun|A place where children go to learn.|I walk to school with my friend.
+challenge|friend|noun|Someone you like and enjoy spending time with.|My friend helped me build a tower.
