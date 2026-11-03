@@ -1,0 +1,3682 @@
+{
+  "source": "Adapted from Phonics Pattern Practice Sheet – One Bee First Grade 2026-27, supplied by the user. Explanations paraphrased; examples and activity types follow the sheet.",
+  "lessons": [
+    {
+      "id": "short-vowels",
+      "title": "Short vowels (CVC)",
+      "rule": "A vowel between two consonants often has its short sound. Say ran, leg, and rod. Listen for the vowel in the middle.",
+      "core": [
+        "ran",
+        "leg",
+        "rod"
+      ],
+      "prompt": "Which short vowel do you hear in",
+      "groups": [
+        {
+          "label": "short a",
+          "words": [
+            "ran",
+            "can",
+            "man",
+            "pan",
+            "van",
+            "cap",
+            "tap"
+          ]
+        },
+        {
+          "label": "short e",
+          "words": [
+            "leg",
+            "pet",
+            "net",
+            "red",
+            "bed",
+            "ten",
+            "hen"
+          ]
+        },
+        {
+          "label": "short o",
+          "words": [
+            "rod",
+            "hot",
+            "dog",
+            "pot",
+            "top",
+            "mop",
+            "nod"
+          ]
+        },
+        {
+          "label": "short i",
+          "words": [
+            "sit",
+            "pig"
+          ]
+        },
+        {
+          "label": "short u",
+          "words": [
+            "sun",
+            "cup",
+            "bug",
+            "hug"
+          ]
+        }
+      ],
+      "words": [
+        "ran",
+        "leg",
+        "rod",
+        "can",
+        "man",
+        "pan",
+        "van",
+        "cap",
+        "tap",
+        "pet",
+        "net",
+        "red",
+        "bed",
+        "ten",
+        "hen",
+        "hot",
+        "dog",
+        "pot",
+        "top",
+        "mop",
+        "nod",
+        "sit",
+        "pig",
+        "sun",
+        "cup",
+        "bug",
+        "hug"
+      ],
+      "questions": [
+        {
+          "prompt": "Which short vowel do you hear in \"ran\"?",
+          "answer": "short a",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "ran belongs to the \"short a\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"can\"?",
+          "answer": "short a",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "can belongs to the \"short a\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"man\"?",
+          "answer": "short a",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "man belongs to the \"short a\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"pan\"?",
+          "answer": "short a",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "pan belongs to the \"short a\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"van\"?",
+          "answer": "short a",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "van belongs to the \"short a\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"cap\"?",
+          "answer": "short a",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "cap belongs to the \"short a\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"tap\"?",
+          "answer": "short a",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "tap belongs to the \"short a\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"leg\"?",
+          "answer": "short e",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "leg belongs to the \"short e\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"pet\"?",
+          "answer": "short e",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "pet belongs to the \"short e\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"net\"?",
+          "answer": "short e",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "net belongs to the \"short e\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"red\"?",
+          "answer": "short e",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "red belongs to the \"short e\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"bed\"?",
+          "answer": "short e",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "bed belongs to the \"short e\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"ten\"?",
+          "answer": "short e",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "ten belongs to the \"short e\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"hen\"?",
+          "answer": "short e",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "hen belongs to the \"short e\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"rod\"?",
+          "answer": "short o",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "rod belongs to the \"short o\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"hot\"?",
+          "answer": "short o",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "hot belongs to the \"short o\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"dog\"?",
+          "answer": "short o",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "dog belongs to the \"short o\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"pot\"?",
+          "answer": "short o",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "pot belongs to the \"short o\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"top\"?",
+          "answer": "short o",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "top belongs to the \"short o\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"mop\"?",
+          "answer": "short o",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "mop belongs to the \"short o\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"nod\"?",
+          "answer": "short o",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "nod belongs to the \"short o\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"sit\"?",
+          "answer": "short i",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "sit belongs to the \"short i\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"pig\"?",
+          "answer": "short i",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "pig belongs to the \"short i\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"sun\"?",
+          "answer": "short u",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "sun belongs to the \"short u\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"cup\"?",
+          "answer": "short u",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "cup belongs to the \"short u\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"bug\"?",
+          "answer": "short u",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "bug belongs to the \"short u\" group."
+        },
+        {
+          "prompt": "Which short vowel do you hear in \"hug\"?",
+          "answer": "short u",
+          "choices": [
+            "short a",
+            "short e",
+            "short o",
+            "short i",
+            "short u"
+          ],
+          "explanation": "hug belongs to the \"short u\" group."
+        }
+      ]
+    },
+    {
+      "id": "ending-blends",
+      "title": "Ending blends",
+      "rule": "In an ending blend, you can hear both consonant sounds. In pump, listen for m and p at the end.",
+      "core": [
+        "wind",
+        "drink",
+        "pump",
+        "mist",
+        "shift",
+        "tusk"
+      ],
+      "prompt": "Which ending blend is in",
+      "groups": [
+        {
+          "label": "nd",
+          "words": [
+            "wind",
+            "hand",
+            "sand",
+            "pond",
+            "bend",
+            "send",
+            "band"
+          ]
+        },
+        {
+          "label": "nk",
+          "words": [
+            "drink",
+            "sink",
+            "pink",
+            "think",
+            "wink",
+            "link",
+            "bank"
+          ]
+        },
+        {
+          "label": "mp",
+          "words": [
+            "pump",
+            "jump",
+            "bump",
+            "lamp",
+            "camp",
+            "dump",
+            "lump"
+          ]
+        },
+        {
+          "label": "st",
+          "words": [
+            "mist",
+            "fist",
+            "list",
+            "fast",
+            "best",
+            "nest",
+            "rest"
+          ]
+        },
+        {
+          "label": "ft",
+          "words": [
+            "shift",
+            "lift",
+            "gift",
+            "left",
+            "soft",
+            "raft"
+          ]
+        },
+        {
+          "label": "sk",
+          "words": [
+            "tusk",
+            "desk",
+            "dusk",
+            "mask",
+            "task",
+            "risk"
+          ]
+        }
+      ],
+      "words": [
+        "wind",
+        "drink",
+        "pump",
+        "mist",
+        "shift",
+        "tusk",
+        "hand",
+        "sand",
+        "pond",
+        "bend",
+        "send",
+        "band",
+        "sink",
+        "pink",
+        "think",
+        "wink",
+        "link",
+        "bank",
+        "jump",
+        "bump",
+        "lamp",
+        "camp",
+        "dump",
+        "lump",
+        "fist",
+        "list",
+        "fast",
+        "best",
+        "nest",
+        "rest",
+        "lift",
+        "gift",
+        "left",
+        "soft",
+        "raft",
+        "desk",
+        "dusk",
+        "mask",
+        "task",
+        "risk"
+      ],
+      "questions": [
+        {
+          "prompt": "Which ending blend is in \"wind\"?",
+          "answer": "nd",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "wind belongs to the \"nd\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"hand\"?",
+          "answer": "nd",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "hand belongs to the \"nd\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"sand\"?",
+          "answer": "nd",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "sand belongs to the \"nd\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"pond\"?",
+          "answer": "nd",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "pond belongs to the \"nd\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"bend\"?",
+          "answer": "nd",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "bend belongs to the \"nd\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"send\"?",
+          "answer": "nd",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "send belongs to the \"nd\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"band\"?",
+          "answer": "nd",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "band belongs to the \"nd\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"drink\"?",
+          "answer": "nk",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "drink belongs to the \"nk\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"sink\"?",
+          "answer": "nk",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "sink belongs to the \"nk\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"pink\"?",
+          "answer": "nk",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "pink belongs to the \"nk\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"think\"?",
+          "answer": "nk",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "think belongs to the \"nk\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"wink\"?",
+          "answer": "nk",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "wink belongs to the \"nk\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"link\"?",
+          "answer": "nk",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "link belongs to the \"nk\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"bank\"?",
+          "answer": "nk",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "bank belongs to the \"nk\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"pump\"?",
+          "answer": "mp",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "pump belongs to the \"mp\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"jump\"?",
+          "answer": "mp",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "jump belongs to the \"mp\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"bump\"?",
+          "answer": "mp",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "bump belongs to the \"mp\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"lamp\"?",
+          "answer": "mp",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "lamp belongs to the \"mp\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"camp\"?",
+          "answer": "mp",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "camp belongs to the \"mp\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"dump\"?",
+          "answer": "mp",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "dump belongs to the \"mp\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"lump\"?",
+          "answer": "mp",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "lump belongs to the \"mp\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"mist\"?",
+          "answer": "st",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "mist belongs to the \"st\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"fist\"?",
+          "answer": "st",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "fist belongs to the \"st\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"list\"?",
+          "answer": "st",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "list belongs to the \"st\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"fast\"?",
+          "answer": "st",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "fast belongs to the \"st\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"best\"?",
+          "answer": "st",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "best belongs to the \"st\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"nest\"?",
+          "answer": "st",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "nest belongs to the \"st\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"rest\"?",
+          "answer": "st",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "rest belongs to the \"st\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"shift\"?",
+          "answer": "ft",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "shift belongs to the \"ft\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"lift\"?",
+          "answer": "ft",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "lift belongs to the \"ft\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"gift\"?",
+          "answer": "ft",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "gift belongs to the \"ft\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"left\"?",
+          "answer": "ft",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "left belongs to the \"ft\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"soft\"?",
+          "answer": "ft",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "soft belongs to the \"ft\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"raft\"?",
+          "answer": "ft",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "raft belongs to the \"ft\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"tusk\"?",
+          "answer": "sk",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "tusk belongs to the \"sk\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"desk\"?",
+          "answer": "sk",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "desk belongs to the \"sk\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"dusk\"?",
+          "answer": "sk",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "dusk belongs to the \"sk\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"mask\"?",
+          "answer": "sk",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "mask belongs to the \"sk\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"task\"?",
+          "answer": "sk",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "task belongs to the \"sk\" group."
+        },
+        {
+          "prompt": "Which ending blend is in \"risk\"?",
+          "answer": "sk",
+          "choices": [
+            "nd",
+            "nk",
+            "mp",
+            "st",
+            "ft",
+            "sk"
+          ],
+          "explanation": "risk belongs to the \"sk\" group."
+        }
+      ]
+    },
+    {
+      "id": "ll-ck",
+      "title": "Double ll and ck",
+      "rule": "After a short vowel, many words end in ll or ck. The two letters represent one sound: ll in still and ck in truck.",
+      "core": [
+        "still",
+        "shell",
+        "sick",
+        "truck",
+        "crack"
+      ],
+      "prompt": "Which ending do you see in",
+      "groups": [
+        {
+          "label": "ll",
+          "words": [
+            "still",
+            "shell",
+            "bell",
+            "fill",
+            "hill",
+            "doll",
+            "tell",
+            "well",
+            "spill"
+          ]
+        },
+        {
+          "label": "ck",
+          "words": [
+            "sick",
+            "truck",
+            "crack",
+            "duck",
+            "back",
+            "kick",
+            "rock",
+            "sock",
+            "pack",
+            "lock",
+            "clock"
+          ]
+        }
+      ],
+      "words": [
+        "still",
+        "shell",
+        "sick",
+        "truck",
+        "crack",
+        "bell",
+        "fill",
+        "hill",
+        "doll",
+        "tell",
+        "well",
+        "spill",
+        "duck",
+        "back",
+        "kick",
+        "rock",
+        "sock",
+        "pack",
+        "lock",
+        "clock"
+      ],
+      "questions": [
+        {
+          "prompt": "Which ending do you see in \"still\"?",
+          "answer": "ll",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "still belongs to the \"ll\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"shell\"?",
+          "answer": "ll",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "shell belongs to the \"ll\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"bell\"?",
+          "answer": "ll",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "bell belongs to the \"ll\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"fill\"?",
+          "answer": "ll",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "fill belongs to the \"ll\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"hill\"?",
+          "answer": "ll",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "hill belongs to the \"ll\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"doll\"?",
+          "answer": "ll",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "doll belongs to the \"ll\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"tell\"?",
+          "answer": "ll",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "tell belongs to the \"ll\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"well\"?",
+          "answer": "ll",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "well belongs to the \"ll\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"spill\"?",
+          "answer": "ll",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "spill belongs to the \"ll\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"sick\"?",
+          "answer": "ck",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "sick belongs to the \"ck\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"truck\"?",
+          "answer": "ck",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "truck belongs to the \"ck\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"crack\"?",
+          "answer": "ck",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "crack belongs to the \"ck\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"duck\"?",
+          "answer": "ck",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "duck belongs to the \"ck\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"back\"?",
+          "answer": "ck",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "back belongs to the \"ck\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"kick\"?",
+          "answer": "ck",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "kick belongs to the \"ck\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"rock\"?",
+          "answer": "ck",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "rock belongs to the \"ck\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"sock\"?",
+          "answer": "ck",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "sock belongs to the \"ck\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"pack\"?",
+          "answer": "ck",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "pack belongs to the \"ck\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"lock\"?",
+          "answer": "ck",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "lock belongs to the \"ck\" group."
+        },
+        {
+          "prompt": "Which ending do you see in \"clock\"?",
+          "answer": "ck",
+          "choices": [
+            "ll",
+            "ck"
+          ],
+          "explanation": "clock belongs to the \"ck\" group."
+        }
+      ]
+    },
+    {
+      "id": "digraphs",
+      "title": "Digraphs: sh, ch, th",
+      "rule": "A digraph is two letters working together for one sound. Listen to sh in ship, ch in chip, and th in thin. The th in this has a different sound from th in thin.",
+      "core": [
+        "shy",
+        "shell",
+        "bush",
+        "sharp",
+        "shift",
+        "shoot",
+        "shine",
+        "rich",
+        "path"
+      ],
+      "prompt": "Which digraph is in",
+      "groups": [
+        {
+          "label": "sh",
+          "words": [
+            "shy",
+            "shell",
+            "bush",
+            "sharp",
+            "shift",
+            "shoot",
+            "shine",
+            "ship",
+            "shop",
+            "shut",
+            "fish",
+            "dish",
+            "wish",
+            "push",
+            "rush"
+          ]
+        },
+        {
+          "label": "ch",
+          "words": [
+            "rich",
+            "chip",
+            "chin",
+            "chop",
+            "much",
+            "such",
+            "lunch",
+            "chick"
+          ]
+        },
+        {
+          "label": "th",
+          "words": [
+            "path",
+            "bath",
+            "math",
+            "with",
+            "this",
+            "that",
+            "thin",
+            "moth",
+            "thick"
+          ]
+        }
+      ],
+      "words": [
+        "shy",
+        "shell",
+        "bush",
+        "sharp",
+        "shift",
+        "shoot",
+        "shine",
+        "rich",
+        "path",
+        "ship",
+        "shop",
+        "shut",
+        "fish",
+        "dish",
+        "wish",
+        "push",
+        "rush",
+        "chip",
+        "chin",
+        "chop",
+        "much",
+        "such",
+        "lunch",
+        "chick",
+        "bath",
+        "math",
+        "with",
+        "this",
+        "that",
+        "thin",
+        "moth",
+        "thick"
+      ],
+      "questions": [
+        {
+          "prompt": "Which digraph is in \"shy\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "shy belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"shell\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "shell belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"bush\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "bush belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"sharp\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "sharp belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"shift\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "shift belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"shoot\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "shoot belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"shine\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "shine belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"ship\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "ship belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"shop\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "shop belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"shut\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "shut belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"fish\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "fish belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"dish\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "dish belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"wish\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "wish belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"push\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "push belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"rush\"?",
+          "answer": "sh",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "rush belongs to the \"sh\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"rich\"?",
+          "answer": "ch",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "rich belongs to the \"ch\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"chip\"?",
+          "answer": "ch",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "chip belongs to the \"ch\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"chin\"?",
+          "answer": "ch",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "chin belongs to the \"ch\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"chop\"?",
+          "answer": "ch",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "chop belongs to the \"ch\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"much\"?",
+          "answer": "ch",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "much belongs to the \"ch\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"such\"?",
+          "answer": "ch",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "such belongs to the \"ch\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"lunch\"?",
+          "answer": "ch",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "lunch belongs to the \"ch\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"chick\"?",
+          "answer": "ch",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "chick belongs to the \"ch\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"path\"?",
+          "answer": "th",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "path belongs to the \"th\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"bath\"?",
+          "answer": "th",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "bath belongs to the \"th\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"math\"?",
+          "answer": "th",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "math belongs to the \"th\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"with\"?",
+          "answer": "th",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "with belongs to the \"th\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"this\"?",
+          "answer": "th",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "this belongs to the \"th\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"that\"?",
+          "answer": "th",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "that belongs to the \"th\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"thin\"?",
+          "answer": "th",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "thin belongs to the \"th\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"moth\"?",
+          "answer": "th",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "moth belongs to the \"th\" group."
+        },
+        {
+          "prompt": "Which digraph is in \"thick\"?",
+          "answer": "th",
+          "choices": [
+            "sh",
+            "ch",
+            "th"
+          ],
+          "explanation": "thick belongs to the \"th\" group."
+        }
+      ]
+    },
+    {
+      "id": "silent-e",
+      "title": "Silent E (magic E)",
+      "rule": "A silent e at the end often makes the earlier vowel say its name. Fin becomes fine. This is a useful pattern, but some words, like come, work differently.",
+      "core": [
+        "late",
+        "dive",
+        "fine",
+        "shine"
+      ],
+      "groups": [
+        {
+          "label": "a_e",
+          "words": [
+            "late",
+            "cake",
+            "gate",
+            "make",
+            "game",
+            "name",
+            "lake"
+          ]
+        },
+        {
+          "label": "i_e",
+          "words": [
+            "dive",
+            "fine",
+            "shine",
+            "five",
+            "hive",
+            "bike",
+            "time",
+            "line",
+            "nine",
+            "smile"
+          ]
+        },
+        {
+          "label": "o_e",
+          "words": [
+            "home",
+            "bone",
+            "nose",
+            "rope",
+            "hope"
+          ]
+        },
+        {
+          "label": "u_e",
+          "words": [
+            "cube",
+            "tube",
+            "cute",
+            "huge"
+          ]
+        }
+      ],
+      "transforms": [
+        [
+          "hat",
+          "hate"
+        ],
+        [
+          "pin",
+          "pine"
+        ],
+        [
+          "cap",
+          "cape"
+        ],
+        [
+          "hop",
+          "hope"
+        ],
+        [
+          "fin",
+          "fine"
+        ]
+      ],
+      "words": [
+        "late",
+        "dive",
+        "fine",
+        "shine",
+        "cake",
+        "gate",
+        "make",
+        "game",
+        "name",
+        "lake",
+        "five",
+        "hive",
+        "bike",
+        "time",
+        "line",
+        "nine",
+        "smile",
+        "home",
+        "bone",
+        "nose",
+        "rope",
+        "hope",
+        "cube",
+        "tube",
+        "cute",
+        "huge"
+      ],
+      "questions": [
+        {
+          "prompt": "Add silent e to hat. Write the new word.",
+          "answer": "hate",
+          "explanation": "hat + e = hate."
+        },
+        {
+          "prompt": "Add silent e to pin. Write the new word.",
+          "answer": "pine",
+          "explanation": "pin + e = pine."
+        },
+        {
+          "prompt": "Add silent e to cap. Write the new word.",
+          "answer": "cape",
+          "explanation": "cap + e = cape."
+        },
+        {
+          "prompt": "Add silent e to hop. Write the new word.",
+          "answer": "hope",
+          "explanation": "hop + e = hope."
+        },
+        {
+          "prompt": "Add silent e to fin. Write the new word.",
+          "answer": "fine",
+          "explanation": "fin + e = fine."
+        }
+      ]
+    },
+    {
+      "id": "bossy-r",
+      "title": "Bossy R",
+      "rule": "An r after a vowel can change its sound. Listen to ar in yarn, ir in dirt, and ur in hurt. Fire has the ire pattern; its pronunciation can vary by accent.",
+      "core": [
+        "dirt",
+        "hurt",
+        "yarn",
+        "sharp",
+        "stars",
+        "fire"
+      ],
+      "prompt": "Which vowel-and-r spelling is in",
+      "groups": [
+        {
+          "label": "ar",
+          "words": [
+            "yarn",
+            "sharp",
+            "stars",
+            "car",
+            "star",
+            "farm",
+            "barn",
+            "park",
+            "dark",
+            "card"
+          ]
+        },
+        {
+          "label": "ir",
+          "words": [
+            "dirt",
+            "bird",
+            "girl",
+            "first",
+            "shirt",
+            "stir"
+          ]
+        },
+        {
+          "label": "ur",
+          "words": [
+            "hurt",
+            "burn",
+            "turn",
+            "fur",
+            "curl",
+            "nurse"
+          ]
+        },
+        {
+          "label": "er",
+          "words": [
+            "her",
+            "fern",
+            "after",
+            "under"
+          ]
+        },
+        {
+          "label": "ire",
+          "words": [
+            "fire",
+            "hire",
+            "tire",
+            "wire"
+          ]
+        }
+      ],
+      "words": [
+        "dirt",
+        "hurt",
+        "yarn",
+        "sharp",
+        "stars",
+        "fire",
+        "car",
+        "star",
+        "farm",
+        "barn",
+        "park",
+        "dark",
+        "card",
+        "bird",
+        "girl",
+        "first",
+        "shirt",
+        "stir",
+        "burn",
+        "turn",
+        "fur",
+        "curl",
+        "nurse",
+        "her",
+        "fern",
+        "after",
+        "under",
+        "hire",
+        "tire",
+        "wire"
+      ],
+      "questions": [
+        {
+          "prompt": "Which vowel-and-r spelling is in \"yarn\"?",
+          "answer": "ar",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "yarn belongs to the \"ar\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"sharp\"?",
+          "answer": "ar",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "sharp belongs to the \"ar\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"stars\"?",
+          "answer": "ar",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "stars belongs to the \"ar\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"car\"?",
+          "answer": "ar",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "car belongs to the \"ar\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"star\"?",
+          "answer": "ar",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "star belongs to the \"ar\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"farm\"?",
+          "answer": "ar",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "farm belongs to the \"ar\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"barn\"?",
+          "answer": "ar",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "barn belongs to the \"ar\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"park\"?",
+          "answer": "ar",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "park belongs to the \"ar\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"dark\"?",
+          "answer": "ar",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "dark belongs to the \"ar\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"card\"?",
+          "answer": "ar",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "card belongs to the \"ar\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"dirt\"?",
+          "answer": "ir",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "dirt belongs to the \"ir\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"bird\"?",
+          "answer": "ir",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "bird belongs to the \"ir\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"girl\"?",
+          "answer": "ir",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "girl belongs to the \"ir\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"first\"?",
+          "answer": "ir",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "first belongs to the \"ir\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"shirt\"?",
+          "answer": "ir",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "shirt belongs to the \"ir\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"stir\"?",
+          "answer": "ir",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "stir belongs to the \"ir\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"hurt\"?",
+          "answer": "ur",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "hurt belongs to the \"ur\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"burn\"?",
+          "answer": "ur",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "burn belongs to the \"ur\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"turn\"?",
+          "answer": "ur",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "turn belongs to the \"ur\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"fur\"?",
+          "answer": "ur",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "fur belongs to the \"ur\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"curl\"?",
+          "answer": "ur",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "curl belongs to the \"ur\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"nurse\"?",
+          "answer": "ur",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "nurse belongs to the \"ur\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"her\"?",
+          "answer": "er",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "her belongs to the \"er\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"fern\"?",
+          "answer": "er",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "fern belongs to the \"er\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"after\"?",
+          "answer": "er",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "after belongs to the \"er\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"under\"?",
+          "answer": "er",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "under belongs to the \"er\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"fire\"?",
+          "answer": "ire",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "fire belongs to the \"ire\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"hire\"?",
+          "answer": "ire",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "hire belongs to the \"ire\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"tire\"?",
+          "answer": "ire",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "tire belongs to the \"ire\" group."
+        },
+        {
+          "prompt": "Which vowel-and-r spelling is in \"wire\"?",
+          "answer": "ire",
+          "choices": [
+            "ar",
+            "ir",
+            "ur",
+            "er",
+            "ire"
+          ],
+          "explanation": "wire belongs to the \"ire\" group."
+        }
+      ]
+    },
+    {
+      "id": "vowel-teams",
+      "title": "Vowel teams",
+      "rule": "Letters can work together to spell a vowel sound. The same team can have different sounds: compare oo in moon and book. Listen to the whole word rather than guessing from one rule.",
+      "core": [
+        "seal",
+        "easy",
+        "good",
+        "shoot",
+        "house",
+        "sound",
+        "down",
+        "claws"
+      ],
+      "prompt": "Which vowel-team group matches",
+      "groups": [
+        {
+          "label": "ea",
+          "words": [
+            "seal",
+            "easy",
+            "beat",
+            "meat",
+            "leaf",
+            "beach",
+            "team"
+          ]
+        },
+        {
+          "label": "oo as in moon",
+          "words": [
+            "shoot",
+            "moon",
+            "food",
+            "zoom",
+            "pool",
+            "boot"
+          ]
+        },
+        {
+          "label": "oo as in book",
+          "words": [
+            "good",
+            "book",
+            "look",
+            "cook",
+            "foot",
+            "wood"
+          ]
+        },
+        {
+          "label": "ou",
+          "words": [
+            "house",
+            "sound",
+            "out",
+            "loud",
+            "cloud",
+            "mouse",
+            "found",
+            "round"
+          ]
+        },
+        {
+          "label": "ow",
+          "words": [
+            "down",
+            "town",
+            "brown",
+            "clown",
+            "crown",
+            "owl"
+          ]
+        },
+        {
+          "label": "aw",
+          "words": [
+            "claws",
+            "paw",
+            "saw",
+            "jaw",
+            "draw",
+            "straw"
+          ]
+        }
+      ],
+      "words": [
+        "seal",
+        "easy",
+        "good",
+        "shoot",
+        "house",
+        "sound",
+        "down",
+        "claws",
+        "beat",
+        "meat",
+        "leaf",
+        "beach",
+        "team",
+        "moon",
+        "food",
+        "zoom",
+        "pool",
+        "boot",
+        "book",
+        "look",
+        "cook",
+        "foot",
+        "wood",
+        "out",
+        "loud",
+        "cloud",
+        "mouse",
+        "found",
+        "round",
+        "town",
+        "brown",
+        "clown",
+        "crown",
+        "owl",
+        "paw",
+        "saw",
+        "jaw",
+        "draw",
+        "straw"
+      ],
+      "questions": [
+        {
+          "prompt": "Which vowel-team group matches \"seal\"?",
+          "answer": "ea",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "seal belongs to the \"ea\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"easy\"?",
+          "answer": "ea",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "easy belongs to the \"ea\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"beat\"?",
+          "answer": "ea",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "beat belongs to the \"ea\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"meat\"?",
+          "answer": "ea",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "meat belongs to the \"ea\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"leaf\"?",
+          "answer": "ea",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "leaf belongs to the \"ea\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"beach\"?",
+          "answer": "ea",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "beach belongs to the \"ea\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"team\"?",
+          "answer": "ea",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "team belongs to the \"ea\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"shoot\"?",
+          "answer": "oo as in moon",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "shoot belongs to the \"oo as in moon\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"moon\"?",
+          "answer": "oo as in moon",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "moon belongs to the \"oo as in moon\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"food\"?",
+          "answer": "oo as in moon",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "food belongs to the \"oo as in moon\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"zoom\"?",
+          "answer": "oo as in moon",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "zoom belongs to the \"oo as in moon\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"pool\"?",
+          "answer": "oo as in moon",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "pool belongs to the \"oo as in moon\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"boot\"?",
+          "answer": "oo as in moon",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "boot belongs to the \"oo as in moon\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"good\"?",
+          "answer": "oo as in book",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "good belongs to the \"oo as in book\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"book\"?",
+          "answer": "oo as in book",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "book belongs to the \"oo as in book\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"look\"?",
+          "answer": "oo as in book",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "look belongs to the \"oo as in book\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"cook\"?",
+          "answer": "oo as in book",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "cook belongs to the \"oo as in book\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"foot\"?",
+          "answer": "oo as in book",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "foot belongs to the \"oo as in book\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"wood\"?",
+          "answer": "oo as in book",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "wood belongs to the \"oo as in book\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"house\"?",
+          "answer": "ou",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "house belongs to the \"ou\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"sound\"?",
+          "answer": "ou",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "sound belongs to the \"ou\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"out\"?",
+          "answer": "ou",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "out belongs to the \"ou\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"loud\"?",
+          "answer": "ou",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "loud belongs to the \"ou\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"cloud\"?",
+          "answer": "ou",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "cloud belongs to the \"ou\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"mouse\"?",
+          "answer": "ou",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "mouse belongs to the \"ou\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"found\"?",
+          "answer": "ou",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "found belongs to the \"ou\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"round\"?",
+          "answer": "ou",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "round belongs to the \"ou\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"down\"?",
+          "answer": "ow",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "down belongs to the \"ow\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"town\"?",
+          "answer": "ow",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "town belongs to the \"ow\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"brown\"?",
+          "answer": "ow",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "brown belongs to the \"ow\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"clown\"?",
+          "answer": "ow",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "clown belongs to the \"ow\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"crown\"?",
+          "answer": "ow",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "crown belongs to the \"ow\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"owl\"?",
+          "answer": "ow",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "owl belongs to the \"ow\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"claws\"?",
+          "answer": "aw",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "claws belongs to the \"aw\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"paw\"?",
+          "answer": "aw",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "paw belongs to the \"aw\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"saw\"?",
+          "answer": "aw",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "saw belongs to the \"aw\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"jaw\"?",
+          "answer": "aw",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "jaw belongs to the \"aw\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"draw\"?",
+          "answer": "aw",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "draw belongs to the \"aw\" group."
+        },
+        {
+          "prompt": "Which vowel-team group matches \"straw\"?",
+          "answer": "aw",
+          "choices": [
+            "ea",
+            "oo as in moon",
+            "oo as in book",
+            "ou",
+            "ow",
+            "aw"
+          ],
+          "explanation": "straw belongs to the \"aw\" group."
+        }
+      ]
+    },
+    {
+      "id": "ending-y",
+      "title": "Ending Y",
+      "rule": "At the end of many two-syllable words, y sounds like ee, as in bunny. In many one-syllable words, y sounds like eye, as in shy.",
+      "core": [
+        "bunny",
+        "silly",
+        "mossy",
+        "body",
+        "easy",
+        "shy"
+      ],
+      "prompt": "What sound does the ending y make in",
+      "groups": [
+        {
+          "label": "ee as in happy",
+          "words": [
+            "bunny",
+            "silly",
+            "mossy",
+            "body",
+            "easy",
+            "happy",
+            "puppy",
+            "funny",
+            "sunny",
+            "candy",
+            "baby",
+            "messy"
+          ]
+        },
+        {
+          "label": "eye as in shy",
+          "words": [
+            "shy",
+            "my",
+            "by",
+            "fly",
+            "try",
+            "cry",
+            "sky",
+            "dry"
+          ]
+        }
+      ],
+      "words": [
+        "bunny",
+        "silly",
+        "mossy",
+        "body",
+        "easy",
+        "shy",
+        "happy",
+        "puppy",
+        "funny",
+        "sunny",
+        "candy",
+        "baby",
+        "messy",
+        "my",
+        "by",
+        "fly",
+        "try",
+        "cry",
+        "sky",
+        "dry"
+      ],
+      "questions": [
+        {
+          "prompt": "What sound does the ending y make in \"bunny\"?",
+          "answer": "ee as in happy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "bunny belongs to the \"ee as in happy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"silly\"?",
+          "answer": "ee as in happy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "silly belongs to the \"ee as in happy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"mossy\"?",
+          "answer": "ee as in happy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "mossy belongs to the \"ee as in happy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"body\"?",
+          "answer": "ee as in happy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "body belongs to the \"ee as in happy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"easy\"?",
+          "answer": "ee as in happy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "easy belongs to the \"ee as in happy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"happy\"?",
+          "answer": "ee as in happy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "happy belongs to the \"ee as in happy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"puppy\"?",
+          "answer": "ee as in happy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "puppy belongs to the \"ee as in happy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"funny\"?",
+          "answer": "ee as in happy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "funny belongs to the \"ee as in happy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"sunny\"?",
+          "answer": "ee as in happy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "sunny belongs to the \"ee as in happy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"candy\"?",
+          "answer": "ee as in happy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "candy belongs to the \"ee as in happy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"baby\"?",
+          "answer": "ee as in happy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "baby belongs to the \"ee as in happy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"messy\"?",
+          "answer": "ee as in happy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "messy belongs to the \"ee as in happy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"shy\"?",
+          "answer": "eye as in shy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "shy belongs to the \"eye as in shy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"my\"?",
+          "answer": "eye as in shy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "my belongs to the \"eye as in shy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"by\"?",
+          "answer": "eye as in shy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "by belongs to the \"eye as in shy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"fly\"?",
+          "answer": "eye as in shy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "fly belongs to the \"eye as in shy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"try\"?",
+          "answer": "eye as in shy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "try belongs to the \"eye as in shy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"cry\"?",
+          "answer": "eye as in shy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "cry belongs to the \"eye as in shy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"sky\"?",
+          "answer": "eye as in shy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "sky belongs to the \"eye as in shy\" group."
+        },
+        {
+          "prompt": "What sound does the ending y make in \"dry\"?",
+          "answer": "eye as in shy",
+          "choices": [
+            "ee as in happy",
+            "eye as in shy"
+          ],
+          "explanation": "dry belongs to the \"eye as in shy\" group."
+        }
+      ]
+    },
+    {
+      "id": "plurals",
+      "title": "Plurals with S",
+      "rule": "Add s to many words to show more than one. The ending can sound like s or z. For bunny, change y to ies to make bunnies.",
+      "core": [
+        "wings",
+        "steps",
+        "stars",
+        "claws"
+      ],
+      "groups": [
+        {
+          "label": "plural",
+          "words": [
+            "wings",
+            "steps",
+            "stars",
+            "claws",
+            "cats",
+            "dogs",
+            "hats",
+            "ships",
+            "birds",
+            "trucks",
+            "shells",
+            "bunnies"
+          ]
+        }
+      ],
+      "transforms": [
+        [
+          "star",
+          "stars"
+        ],
+        [
+          "wing",
+          "wings"
+        ],
+        [
+          "step",
+          "steps"
+        ],
+        [
+          "claw",
+          "claws"
+        ],
+        [
+          "cat",
+          "cats"
+        ],
+        [
+          "dog",
+          "dogs"
+        ],
+        [
+          "bunny",
+          "bunnies"
+        ]
+      ],
+      "words": [
+        "wings",
+        "steps",
+        "stars",
+        "claws",
+        "cats",
+        "dogs",
+        "hats",
+        "ships",
+        "birds",
+        "trucks",
+        "shells",
+        "bunnies"
+      ],
+      "questions": [
+        {
+          "prompt": "Write the word for more than one star.",
+          "answer": "stars",
+          "explanation": "star becomes stars."
+        },
+        {
+          "prompt": "Write the word for more than one wing.",
+          "answer": "wings",
+          "explanation": "wing becomes wings."
+        },
+        {
+          "prompt": "Write the word for more than one step.",
+          "answer": "steps",
+          "explanation": "step becomes steps."
+        },
+        {
+          "prompt": "Write the word for more than one claw.",
+          "answer": "claws",
+          "explanation": "claw becomes claws."
+        },
+        {
+          "prompt": "Write the word for more than one cat.",
+          "answer": "cats",
+          "explanation": "cat becomes cats."
+        },
+        {
+          "prompt": "Write the word for more than one dog.",
+          "answer": "dogs",
+          "explanation": "dog becomes dogs."
+        },
+        {
+          "prompt": "Write the word for more than one bunny.",
+          "answer": "bunnies",
+          "explanation": "bunny becomes bunnies."
+        }
+      ]
+    },
+    {
+      "id": "syllables",
+      "title": "Two-syllable words",
+      "rule": "Clap the beats in a word. Each syllable has a vowel sound. Winter has two beats: win · ter. Apple also has two: ap · ple.",
+      "core": [
+        "winter",
+        "apple",
+        "yellow",
+        "hello",
+        "bunny",
+        "silly",
+        "mossy"
+      ],
+      "groups": [
+        {
+          "label": "two beats",
+          "words": [
+            "winter",
+            "apple",
+            "yellow",
+            "hello",
+            "bunny",
+            "silly",
+            "mossy",
+            "sunset",
+            "rabbit",
+            "picnic",
+            "little",
+            "puppy",
+            "mitten",
+            "butter",
+            "summer"
+          ]
+        }
+      ],
+      "counts": [
+        [
+          "winter",
+          2
+        ],
+        [
+          "apple",
+          2
+        ],
+        [
+          "yellow",
+          2
+        ],
+        [
+          "hello",
+          2
+        ],
+        [
+          "bunny",
+          2
+        ],
+        [
+          "silly",
+          2
+        ],
+        [
+          "sunset",
+          2
+        ],
+        [
+          "rabbit",
+          2
+        ],
+        [
+          "cat",
+          1
+        ],
+        [
+          "sun",
+          1
+        ],
+        [
+          "ship",
+          1
+        ]
+      ],
+      "words": [
+        "winter",
+        "apple",
+        "yellow",
+        "hello",
+        "bunny",
+        "silly",
+        "mossy",
+        "sunset",
+        "rabbit",
+        "picnic",
+        "little",
+        "puppy",
+        "mitten",
+        "butter",
+        "summer"
+      ],
+      "questions": [
+        {
+          "prompt": "Clap the beats in \"winter\". How many syllables?",
+          "answer": "2",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "explanation": "winter has 2 syllables."
+        },
+        {
+          "prompt": "Clap the beats in \"apple\". How many syllables?",
+          "answer": "2",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "explanation": "apple has 2 syllables."
+        },
+        {
+          "prompt": "Clap the beats in \"yellow\". How many syllables?",
+          "answer": "2",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "explanation": "yellow has 2 syllables."
+        },
+        {
+          "prompt": "Clap the beats in \"hello\". How many syllables?",
+          "answer": "2",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "explanation": "hello has 2 syllables."
+        },
+        {
+          "prompt": "Clap the beats in \"bunny\". How many syllables?",
+          "answer": "2",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "explanation": "bunny has 2 syllables."
+        },
+        {
+          "prompt": "Clap the beats in \"silly\". How many syllables?",
+          "answer": "2",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "explanation": "silly has 2 syllables."
+        },
+        {
+          "prompt": "Clap the beats in \"sunset\". How many syllables?",
+          "answer": "2",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "explanation": "sunset has 2 syllables."
+        },
+        {
+          "prompt": "Clap the beats in \"rabbit\". How many syllables?",
+          "answer": "2",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "explanation": "rabbit has 2 syllables."
+        },
+        {
+          "prompt": "Clap the beats in \"cat\". How many syllables?",
+          "answer": "1",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "explanation": "cat has 1 syllable."
+        },
+        {
+          "prompt": "Clap the beats in \"sun\". How many syllables?",
+          "answer": "1",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "explanation": "sun has 1 syllable."
+        },
+        {
+          "prompt": "Clap the beats in \"ship\". How many syllables?",
+          "answer": "1",
+          "choices": [
+            "1",
+            "2",
+            "3"
+          ],
+          "explanation": "ship has 1 syllable."
+        }
+      ]
+    },
+    {
+      "id": "tricky",
+      "title": "Tricky words",
+      "rule": "Some words have a part you need to learn by heart. Say the word, notice the tricky part, then cover it and spell it. Compare come with some, and good with wood.",
+      "core": [
+        "come",
+        "most",
+        "even",
+        "heart",
+        "body",
+        "good"
+      ],
+      "groups": [
+        {
+          "label": "practice",
+          "words": [
+            "come",
+            "most",
+            "even",
+            "heart",
+            "body",
+            "good",
+            "some",
+            "done",
+            "post",
+            "host",
+            "both",
+            "wood",
+            "stood",
+            "foot"
+          ]
+        }
+      ],
+      "missing": [
+        [
+          "c_me",
+          "come"
+        ],
+        [
+          "m_st",
+          "most"
+        ],
+        [
+          "ev_n",
+          "even"
+        ],
+        [
+          "h_art",
+          "heart"
+        ],
+        [
+          "b_dy",
+          "body"
+        ],
+        [
+          "g_od",
+          "good"
+        ],
+        [
+          "s_me",
+          "some"
+        ],
+        [
+          "d_ne",
+          "done"
+        ]
+      ],
+      "words": [
+        "come",
+        "most",
+        "even",
+        "heart",
+        "body",
+        "good",
+        "some",
+        "done",
+        "post",
+        "host",
+        "both",
+        "wood",
+        "stood",
+        "foot"
+      ],
+      "questions": [
+        {
+          "prompt": "Fill in the missing letter. Write the whole word: c_me",
+          "answer": "come",
+          "explanation": "The word is come. Look, cover, and spell it again."
+        },
+        {
+          "prompt": "Fill in the missing letter. Write the whole word: m_st",
+          "answer": "most",
+          "explanation": "The word is most. Look, cover, and spell it again."
+        },
+        {
+          "prompt": "Fill in the missing letter. Write the whole word: ev_n",
+          "answer": "even",
+          "explanation": "The word is even. Look, cover, and spell it again."
+        },
+        {
+          "prompt": "Fill in the missing letter. Write the whole word: h_art",
+          "answer": "heart",
+          "explanation": "The word is heart. Look, cover, and spell it again."
+        },
+        {
+          "prompt": "Fill in the missing letter. Write the whole word: b_dy",
+          "answer": "body",
+          "explanation": "The word is body. Look, cover, and spell it again."
+        },
+        {
+          "prompt": "Fill in the missing letter. Write the whole word: g_od",
+          "answer": "good",
+          "explanation": "The word is good. Look, cover, and spell it again."
+        },
+        {
+          "prompt": "Fill in the missing letter. Write the whole word: s_me",
+          "answer": "some",
+          "explanation": "The word is some. Look, cover, and spell it again."
+        },
+        {
+          "prompt": "Fill in the missing letter. Write the whole word: d_ne",
+          "answer": "done",
+          "explanation": "The word is done. Look, cover, and spell it again."
+        }
+      ]
+    }
+  ]
+}
