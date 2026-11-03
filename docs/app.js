@@ -107,6 +107,7 @@ $('mic').onclick=()=>{
 $('guide-button').onclick=()=> $('guide').showModal();$('close-guide').onclick=()=> $('guide').close();
 $('import').onchange=async e=>{try{if(!callPython)throw Error('Wait for the spelling engine to finish loading.');const file=e.target.files[0];if(!file)return;if(file.size>3_000_000)throw Error('Choose a JSON pack smaller than 3 MB.');const words=JSON.parse(await file.text());if(!Array.isArray(words))throw Error('Your pack must be a JSON array of words.');const merged=new Map([...baseWords,...saved.packs,...words].map(w=>[`${w.grade}:${w.word}`,w]));const combined=[...merged.values()];const response=api('load',{words:combined});saved.packs=[...new Map([...saved.packs,...words].map(w=>[`${w.grade}:${w.word}`,w])).values()];save();populateGrades(response.grades);$('import-status').textContent=`Pack ready! Available grades: ${response.grades.join(', ')}.`;}catch(err){$('import-status').textContent=errorText(err);}finally{e.target.value='';}};
 let patternLessons=[], quiz=[], quizIndex=0, quizAnswers=[], quizLocked=false;
+const wordPictures={ran:'🏃',leg:'🦵',rod:'🎣',wind:'🍃',drink:'🥤',mist:'🌫️',shell:'🐚',truck:'🚚',bush:'🌳',shoot:'🏀',shine:'☀️',dive:'🏊',dirt:'🌱',yarn:'🧶',stars:'⭐',fire:'🔥',seal:'🦭',house:'🏠',claws:'🐾',bunny:'🐰',mossy:'🌿',body:'🧍',wings:'🪽',steps:'👣',winter:'❄️',apple:'🍎',yellow:'🟡',hello:'👋',heart:'❤️'};
 function currentPattern(){return patternLessons.find(p=>p.id===$('pattern-select').value);}
 function shuffled(items){const result=[...items];for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}return result;}
 async function initPatterns(){
@@ -121,7 +122,7 @@ function renderLesson(){
  const p=currentPattern();if(!p)return;
  patternView('pattern-lesson');$('pattern-number').textContent='PATTERN '+(patternLessons.indexOf(p)+1)+' OF 11';
  $('pattern-title').textContent=p.title;$('pattern-rule').textContent=p.rule;
- $('pattern-words').replaceChildren(...p.core.map(word=>{const button=document.createElement('button');button.type='button';button.textContent=word;button.onclick=()=>speak(word);return button;}));
+ $('pattern-words').replaceChildren(...p.core.map(word=>{const button=document.createElement('button');button.type='button';const picture=document.createElement('span');picture.className='word-picture';picture.setAttribute('aria-hidden','true');picture.textContent=wordPictures[word]||'🔊';button.append(picture,document.createTextNode(word));button.onclick=()=>speak(word);return button;}));
  $('pattern-status').textContent='';$('pattern-spell-start').disabled=!callPython;
 }
 $('pattern-select').onchange=renderLesson;
