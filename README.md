@@ -1,6 +1,6 @@
 # Little Bee
 
-A cheerful spelling-bee practice app with a **Python rules engine running in the browser**, ready for GitHub Pages. The MVP includes 90 original US English grade-one words across Easy, Growing, and Challenge. Grade 1 is a starting point; teacher packs support grades 1–12.
+A cheerful spelling-bee practice app with a **Python rules engine running in the browser**, ready for GitHub Pages. The MVP includes 90 original US English grade-one words across Easy, Growing, and Challenge. Grade 1 is a starting point; custom word lists support grades 1–12.
 
 ## Run locally
 
@@ -46,19 +46,25 @@ The script creates a public `kids-spellbee` repository under the authenticated a
 
 Edit `data/grade1.txt`, then run `node scripts/build-words.mjs` to update `docs/words.json`. All meanings and example sentences are original app content; the list is not an official Scripps study list. Adults should review vocabulary for their own curriculum.
 
-Or import a JSON array under **For grown-ups: add another grade**. Each entry has this form; provide at least 10 entries in a pack:
+Under **For grown-ups: add your own words**, choose a grade (1-12) and difficulty, then paste comma-separated words or one word per line. For example:
 
-```json
-{"grade":2,"level":"easy","word":"garden","part":"noun","definition":"A place where flowers or vegetables are grown.","sentence":"We planted seeds in the garden."}
+```text
+apple, bunny, winter
+yellow
+hello
 ```
 
-Grades are integers 1–12; levels are `easy`, `growing`, `challenge`. Each word is 2–25 English letters. Supply enough words at each level you want to use. Imported words and updates to existing word/grade pairs are available for this visit only. They are not saved or uploaded.
+Use single English words with 2-25 ASCII letters. Uppercase is normalized, duplicates are removed, and blank lines or trailing separators are ignored. Empty lists, spaces inside words, punctuation, digits, HTML, control characters, and non-ASCII lookalikes are rejected. Limits: 12,000 characters, 200 nonempty entries per addition (including duplicates), and 1,000 distinct custom word/grade pairs across the visit. One valid word is enough; a round is capped at the available pool size. Words are added to the chosen grade/difficulty, alongside any starter words already there. Re-adding a word/grade pair updates its difficulty.
+
+Validation runs in the Python engine through the same JSON argument bridge used for scoring. Text is never evaluated as code or inserted as HTML. The complete candidate bank is validated before session state changes; a failed submission keeps existing words intact. Form validation reports errors next to the input. The format check does not verify whether a letter sequence is a real dictionary word.
+
+Words in the starter dictionary retain their curated clues. New words support audio/spelling practice, with dictionary hint buttons hidden rather than fabricated meanings or sentences. Difficulty only advances when the next level has words for that grade. Imported words last for this visit only and are not saved or uploaded. The old JSON file-upload control has been removed; repository word-bank JSON remains an internal app asset.
 
 ## Architecture and tests
 
 `docs/engine.py` owns validation, deck selection, attempts, scoring, feedback visibility, and difficulty progression. `docs/app.js` bridges Python to the DOM, device speech and local storage. `docs/` is the entire deployable site. Python runs via pinned Pyodide 0.27.7 (WebAssembly); GitHub Pages serves static assets. There is no server backend, account system, or API key. The hidden answers are a learning interaction, not an exam security boundary: client-side source/data can be inspected.
 
-`npm test` executes the actual Python engine through Pyodide, including contest secrecy, retry scoring, advancement, no-repeat rotation, word-pack validation, and other-grade support. DOM integration checks exercise both activities for all 11 patterns, regular practice/contest switching, audio settings, and removal of saved progress. GitHub Actions runs the same tests. Preview manually on mobile and desktop; verify speech on actual devices.
+`npm test` executes the actual Python engine through Pyodide, including contest secrecy, retry scoring, advancement, no-repeat rotation, word-list validation, injection/control-character rejection, input limits, and other-grade support. DOM integration checks exercise both activities for all 11 patterns, regular practice/contest switching, audio settings, and removal of saved progress. GitHub Actions runs the same tests. Preview manually on mobile and desktop; verify speech on actual devices.
 
 ## Compatibility and privacy
 

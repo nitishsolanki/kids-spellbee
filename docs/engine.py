@@ -4,6 +4,36 @@ import random
 import re
 
 
+def parse_word_list(text, grade, level):
+    """Validate untrusted text without evaluating it or changing the word bank."""
+    if not isinstance(text, str) or len(text) > 12000:
+        raise ValueError('Keep your list under 12,000 characters.')
+    if type(grade) is not int or not 1 <= grade <= 12:
+        raise ValueError('Choose a grade from 1 to 12.')
+    if level not in ('easy', 'growing', 'challenge'):
+        raise ValueError('Choose Easy, Growing, or Challenge.')
+    entries = [entry.strip(' \t') for entry in
+               re.split(r'[,\r\n]', text) if entry.strip(' \t')]
+    if not entries:
+        raise ValueError('Add at least one word, separated by commas or new lines.')
+    if len(entries) > 200:
+        raise ValueError('Add up to 200 words at a time.')
+    words = []
+    unique = set()
+    for index, entry in enumerate(entries, 1):
+        if not re.fullmatch(r'[A-Za-z]{2,25}', entry):
+            raise ValueError(
+                f'Entry {index} must have 2–25 English letters only. '
+                'Use commas or new lines between words; leave out numbers, '
+                'symbols, spaces within words, and HTML.')
+        word = entry.lower()
+        if word not in unique:
+            words.append(word)
+            unique.add(word)
+    return {'words': words, 'duplicates': len(entries) - len(words),
+            'grade': grade, 'level': level}
+
+
 def validate_words(words):
     if not isinstance(words, list) or not 10 <= len(words) <= 5000:
         raise ValueError('A pack needs 10 to 5,000 words.')
@@ -42,7 +72,7 @@ class Bee:
             raise ValueError('Choose a valid mode and level.')
         pool = [w for w in self.words if w['grade'] == grade and w['level'] == level]
         if not pool:
-            raise ValueError('This grade has no words at this level. Import a pack or choose another level.')
+            raise ValueError('This grade has no words at this level. Add some words or choose another level.')
         seen = seen or {}
         random.shuffle(pool)
         # Least recently heard first, shuffled within unseen words. No repeats until exhausted.
@@ -108,7 +138,9 @@ def dispatch(payload):
     global bee
     data = json.loads(payload)
     action = data.pop('action')
-    if action == 'load':
+    if action == 'parse_list':
+        result = parse_word_list(**data)
+    elif action == 'load':
         bee = Bee(data['words'])
         result = {'grades': sorted(set(w['grade'] for w in bee.words))}
     elif action == 'start':

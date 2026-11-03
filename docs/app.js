@@ -39,7 +39,7 @@ async function boot(){
   python=python||await loadPyodide({indexURL:'https://cdn.jsdelivr.net/pyodide/v0.27.7/full/'});
   python.runPython(engine);callPython=python.globals.get('dispatch');
   let loaded;try{const combined=[...new Map([...baseWords,...saved.packs].map(w=>[`${w.grade}:${w.word}`,w])).values()];loaded=api('load',{words:combined});}catch{saved.packs=[];save();loaded=api('load',{words:baseWords});}
-  populateGrades(loaded.grades);$('start').textContent='Let’s practice →';$('start').disabled=false;$('pattern-spell-start').disabled=false;
+  populateGrades(loaded.grades);$('start').textContent='Let’s practice →';$('start').disabled=false;$('pattern-spell-start').disabled=false;$('add-words').disabled=false;
   $('load-status').textContent=`${baseWords.length} starter words · Fresh rounds, one little word at a time`;
  }catch(e){$('load-status').textContent=errorText(e);$('start').textContent='Waiting for your words';$('reload').hidden=false;}
 }
@@ -58,6 +58,8 @@ function renderWord(){
  $('round-label').textContent=origin==='patterns'?currentPattern().title:`Grade ${current.grade} · ${level} · ${mode==='contest'?'Mini contest':'Practice'}`;
  $('mystery').textContent='A little mystery word.';$('spelling').value='';$('spelling').disabled=false;$('check').disabled=false;
  $('feedback').textContent='';$('hint').textContent='A clue is just a question away.';$('answer-form').hidden=false;$('next').hidden=true;$('skip').hidden=false;
+ setRoundHints(origin==='home'&&!current.custom);
+ if(origin==='home'&&current.custom){$('hint').hidden=false;$('hint').textContent='This is one of your added words. Listen again if you need a clue; no dictionary hints are provided.';}
  $('voice-status').textContent=voiceAvailable?'Say each letter, then check what we heard before submitting.':'Microphone recognition is unavailable in this browser. Type your spelling instead.';
  $('spelling').focus();
 }
@@ -81,7 +83,14 @@ function submit(skip){
 $('next').onclick=()=>{stopAudio();state=api('next');if(state.done)finish();else{renderWord();speak(current.word);}};
 function finish(){
  const completedLevel=level;
- result=api('results');show('results');$('score').textContent=`${result.score} / ${result.total} correct`;
+ if(origin==='home'){
+  const available=[...new Map([...baseWords,...saved.packs].map(w=>[w.grade+':'+w.word,w])).values()];
+  const nextLevel=['easy','growing','challenge'][['easy','growing','challenge'].indexOf(completedLevel)+1];
+  const summary=api('results');
+  if(summary.advanced&&!available.some(w=>w.grade===current.grade&&w.level===nextLevel)){summary.advanced=false;summary.next_level=completedLevel;}
+  result=summary;
+ }else result=api('results');
+ show('results');$('score').textContent=`${result.score} / ${result.total} correct`;
  $('result-note').textContent=`${result.first_try} correct on the first try. ${result.advanced&&origin==='home'?'You’re ready for '+result.next_level+'!':'Every little practice helps you grow.'}`;
  if(mode==='practice'&&origin==='home'){saved.levels[$('grade').value]=result.next_level;selectLevel(result.next_level);}
  lastResult={date:new Date().toISOString(),grade:current.grade,level:completedLevel,mode,pattern:origin==='patterns'?currentPattern().id:null,...result};
@@ -105,7 +114,27 @@ $('mic').onclick=()=>{
  try{active.start();}catch{$('voice-status').textContent='Microphone could not start. Please type your spelling.';recognition=null;$('mic').setAttribute('aria-pressed','false');}
 };
 $('guide-button').onclick=()=> $('guide').showModal();$('close-guide').onclick=()=> $('guide').close();
-$('import').onchange=async e=>{try{if(!callPython)throw Error('Wait for the spelling engine to finish loading.');const file=e.target.files[0];if(!file)return;if(file.size>3_000_000)throw Error('Choose a JSON pack smaller than 3 MB.');const words=JSON.parse(await file.text());if(!Array.isArray(words))throw Error('Your pack must be a JSON array of words.');const merged=new Map([...baseWords,...saved.packs,...words].map(w=>[`${w.grade}:${w.word}`,w]));const combined=[...merged.values()];const response=api('load',{words:combined});saved.packs=[...new Map([...saved.packs,...words].map(w=>[`${w.grade}:${w.word}`,w])).values()];save();populateGrades(response.grades);$('import-status').textContent=`Pack ready! Available grades: ${response.grades.join(', ')}.`;}catch(err){$('import-status').textContent=errorText(err);}finally{e.target.value='';}};
+$('word-list').oninput=()=>{$('word-list').setAttribute('aria-invalid','false');$('import-status').textContent='';};
+$('word-list-form').onsubmit=e=>{
+ e.preventDefault();
+ try{
+  if(!callPython)throw Error('Wait for the spelling engine to finish loading.');
+  const parsed=api('parse_list',{text:$('word-list').value,grade:Number($('word-list-grade').value),level:$('word-list-level').value});
+  const words=parsed.words.map(word=>{
+   const known=baseWords.find(w=>w.word===word);
+   return {...(known||{part:'word',definition:'No definition is provided for this custom word.',sentence:'No example sentence is provided for this custom word.'}),word,grade:parsed.grade,level:parsed.level,custom:!known};
+  });
+  const candidate=[...new Map([...saved.packs,...words].map(w=>[w.grade+':'+w.word,w])).values()];
+  if(candidate.length>1000)throw Error('Keep custom words under 1,000 per visit. Refresh to start a new list.');
+  const combined=[...new Map([...baseWords,...candidate].map(w=>[w.grade+':'+w.word,w])).values()];
+  // Validate the complete replacement before updating any session state.
+  const response=api('load',{words:combined});
+  saved.packs=candidate;saved.levels[parsed.grade]=parsed.level;
+  populateGrades(response.grades);$('grade').value=parsed.grade;selectLevel(parsed.level);
+  $('word-list').setAttribute('aria-invalid','false');
+  $('import-status').textContent='Ready! Added '+words.length+' unique '+(words.length===1?'word':'words')+' for Grade '+parsed.grade+' ('+parsed.level+').'+(parsed.duplicates?' Removed '+parsed.duplicates+' duplicate '+(parsed.duplicates===1?'entry.':'entries.'):'')+' Start a spelling round above. Words last for this visit only.';
+ }catch(error){$('word-list').setAttribute('aria-invalid','true');$('import-status').textContent=errorText(error);}
+};
 let patternLessons=[], quiz=[], quizIndex=0, quizAnswers=[], quizLocked=false;
 const wordPictures={ran:'🏃',leg:'🦵',rod:'🎣',wind:'🍃',drink:'🥤',mist:'🌫️',shell:'🐚',truck:'🚚',bush:'🌳',shoot:'🏀',shine:'☀️',dive:'🏊',dirt:'🌱',yarn:'🧶',stars:'⭐',fire:'🔥',seal:'🦭',house:'🏠',claws:'🐾',bunny:'🐰',mossy:'🌿',body:'🧍',wings:'🪽',steps:'👣',winter:'❄️',apple:'🍎',yellow:'🟡',hello:'👋',heart:'❤️'};
 function currentPattern(){return patternLessons.find(p=>p.id===$('pattern-select').value);}

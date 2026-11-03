@@ -101,6 +101,54 @@ assert.equal(py.runPython('bee.mode'),'contest');
 assert.ok(JSON.parse(await readFile('docs/words.json','utf8')).some(item=>item.word===py.runPython("bee.current()['word']")));
 $('end').click();
 // Only audio preferences survive a reload; no names, scores, or difficulty history.
+// Untrusted plain text is validated as a whole, without touching the current bank.
+$('spelling-tab').click();
+assert.equal($('import'),null);
+const addList=(text,grade='2',level='growing')=>{
+ $('word-list').value=text;$('word-list-grade').value=grade;$('word-list-level').value=level;
+ $('word-list-form').dispatchEvent(new w.Event('submit',{cancelable:true}));
+};
+const before=runInContext('saved.packs.length',dom.getInternalVMContext());
+const originalError=w.console.error;w.console.error=()=>{};
+for(const input of ['cat dog','cat, <script>window.injected=true</script>','123','word'.repeat(3001),Array(201).fill('cat').join(',')]){
+ addList(input);
+ assert.equal($('word-list').getAttribute('aria-invalid'),'true');
+ assert.equal(runInContext('saved.packs.length',dom.getInternalVMContext()),before);
+ assert.equal(w.injected,undefined);
+ assert.equal($('import-status').querySelector('script'),null);
+}
+w.console.error=originalError;
+addList('Apple, bunny\nwinter\nAPPLE, hello');
+assert.equal($('word-list').getAttribute('aria-invalid'),'false');
+assert.ok($('import-status').textContent.includes('Added 4 unique words'));
+assert.ok($('import-status').textContent.includes('1 duplicate'));
+assert.equal($('grade').value,'2');
+assert.equal(w.document.querySelector('[data-level].selected').dataset.level,'growing');
+assert.equal(runInContext('saved.packs.length',dom.getInternalVMContext()),4);
+const validWords=runInContext('JSON.stringify(saved.packs)',dom.getInternalVMContext());
+w.console.error=()=>{};addList('hello, <img src=x onerror=alert(1)>');w.console.error=originalError;
+assert.equal(runInContext('JSON.stringify(saved.packs)',dom.getInternalVMContext()),validWords);
+// A small custom list works end to end, with no made-up dictionary clues.
+w.document.querySelector('[data-mode="practice"]').click();addList('orchard','3','easy');
+$('start').click();
+assert.equal(py.runPython("bee.current()['word']"),'orchard');
+assert.equal($('position').textContent,'Word 1 of 1');
+assert.equal(w.document.querySelector('.hint-buttons').hidden,true);
+$('spelling').value='orchard';$('answer-form').dispatchEvent(new w.Event('submit',{cancelable:true}));$('next').click();
+assert.equal($('score').textContent,'1 / 1 correct');
+assert.equal(w.document.querySelector('[data-level].selected').dataset.level,'easy');
+assert.equal($('result-note').textContent.includes('ready for growing'),false);
+$('again').click();
+addList('cat','4','easy');$('start').click();
+assert.equal(w.document.querySelector('.hint-buttons').hidden,false);
+assert.ok(py.runPython("bee.current()['definition']").includes('whiskers'));
+$('end').click();
+// The per-visit limit also applies across multiple additions.
+runInContext("saved.packs=Array.from({length:1000},(_,i)=>({grade:12,word:'word'+i}))",dom.getInternalVMContext());
+$('spelling-tab').click();w.console.error=()=>{};addList('extra','5','easy');w.console.error=originalError;
+assert.equal($('word-list').getAttribute('aria-invalid'),'true');
+assert.ok($('import-status').textContent.includes('1,000'));
+assert.equal(runInContext('saved.packs.length',dom.getInternalVMContext()),1000);
 const audio=JSON.parse(w.localStorage.getItem('little-bee-settings'));
 assert.deepEqual(Object.keys(audio).sort(),['rate','voice']);assert.equal(audio.rate,.5);
 assert.equal(w.localStorage.length,1);
@@ -113,6 +161,7 @@ assert.equal(rw.document.getElementById('reading-voice').value,'uk');
 assert.equal(rw.document.getElementById('speech-speed').value,'0.5');
 assert.equal(runInContext('lastResult',reloaded.getInternalVMContext()),null);
 assert.equal(Object.keys(runInContext('saved.seen',reloaded.getInternalVMContext())).length,0);
+assert.equal(runInContext('saved.packs.length',reloaded.getInternalVMContext()),0);
 reloaded.window.close();
 dom.window.close();
 console.log('DOM integration passed: spelling, voice controls, all 11 pattern activities and spelling pools, removal of saved progress.');

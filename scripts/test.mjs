@@ -75,6 +75,30 @@ class RulesTest(unittest.TestCase):
             self.bee.next()
         self.assertEqual(self.bee.results()['score'],0)
         self.assertTrue(all(row['skipped'] for row in self.bee.results()['answers']))
+    def test_plain_text_words(self):
+        result = parse_word_list(' Apple, BUNNY,' + chr(13) + chr(10) + 'winter' + chr(10) + 'apple, hello, ', 2, 'growing')
+        self.assertEqual(result['words'], ['apple', 'bunny', 'winter', 'hello'])
+        self.assertEqual(result['duplicates'], 1)
+        self.assertEqual(result['grade'], 2)
+        self.assertEqual(parse_word_list('cat', 1, 'easy')['words'], ['cat'])
+    def test_text_list_rejects_invalid_input(self):
+        invalid = ['', ' , ' + chr(10), 'cat dog', 'abc123', '<script>alert(1)</script>',
+                   '<img src=x onerror=alert(1)>', '{"word":"cat"}', 'https://example.com',
+                   'cat; DROP TABLE words;', 'cat' + chr(0), 'caf' + chr(233),
+                   chr(65279) + 'cat', 'ca' + chr(8203) + 't', 'a', 'a' * 26,
+                   'cat, dog, <b>bad</b>', chr(65315) + 'at', None, ['cat']]
+        for text in invalid:
+            with self.subTest(text=text):
+                with self.assertRaises(ValueError):
+                    parse_word_list(text, 1, 'easy')
+    def test_text_list_bounds_and_options(self):
+        self.assertEqual(len(parse_word_list(','.join(['cat'] * 200), 12, 'challenge')['words']), 1)
+        self.assertEqual(len(parse_word_list('a' * 25, 1, 'easy')['words'][0]), 25)
+        for text in [','.join(['cat'] * 201), 'a' * 12001]:
+            with self.assertRaises(ValueError): parse_word_list(text, 1, 'easy')
+        for grade in [0, 13, True, 1.5, '2', None]:
+            with self.assertRaises(ValueError): parse_word_list('cat', grade, 'easy')
+        with self.assertRaises(ValueError): parse_word_list('cat', 1, 'unexpected')
 suite=unittest.defaultTestLoader.loadTestsFromTestCase(RulesTest)
 report=unittest.TextTestRunner(verbosity=2).run(suite)
 if not report.wasSuccessful():
