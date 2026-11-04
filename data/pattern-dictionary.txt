@@ -1,0 +1,215 @@
+# word|part|definition|sentence
+ran|verb|Moved quickly on foot in the past.|We ran to the playground.
+rod|noun|A long, thin stick or pole.|He held a fishing rod.
+can|verb|To be able to do something.|I can tie my shoes.
+man|noun|An adult male person.|The man waved to us.
+pan|noun|A container used for cooking food.|The eggs are in the pan.
+cap|noun|A soft hat, often with a brim at the front.|Wear your cap in the sunshine.
+tap|verb|To touch something lightly.|Please tap the drum gently.
+pet|noun|An animal kept at home for company.|My pet likes to cuddle.
+net|noun|A material made of strings with spaces between them.|We caught the ball in a net.
+ten|number|The number that comes after nine.|I have ten fingers.
+hot|adjective|Having a high temperature.|The soup is too hot to eat.
+pot|noun|A deep container used for cooking or growing plants.|The flower grows in a pot.
+top|noun|The highest part of something.|The flag is at the top of the hill.
+mop|noun|A tool with a long handle used to clean floors.|We used a mop to clean the spill.
+nod|verb|To move your head up and down to say yes.|Please nod if you understand.
+hug|noun|An embrace with your arms around someone.|I gave my friend a hug.
+wind|noun|Moving air that you can feel outside.|The wind blew the leaves away.
+drink|verb|To take liquid into your mouth and swallow it.|I drink water after playing.
+pump|noun|A tool that moves air or liquid.|Use the pump to fill the tire with air.
+mist|noun|Tiny water drops floating in the air near the ground.|The morning mist hid the hill.
+shift|verb|To move something to a different position.|Please shift your chair a little.
+tusk|noun|A long, pointed tooth that sticks out of an animal's mouth.|The elephant has a curved tusk.
+sand|noun|Tiny grains of rock found on beaches and in deserts.|We built a castle in the sand.
+pond|noun|A small area of still water surrounded by land.|The ducks swim in the pond.
+bend|verb|To make something curve or to lean your body.|Please bend your knees.
+send|verb|To make something go to another person or place.|I will send a card to my cousin.
+band|noun|A group of people who play music together.|The band played a happy song.
+sink|noun|A bowl with a faucet and drain used for washing.|Wash your hands in the sink.
+think|verb|To use your mind to form an idea.|I think the answer is five.
+wink|verb|To close one eye briefly as a signal.|Can you wink with one eye?
+link|noun|A connection between two things.|One link in the chain is broken.
+bank|noun|The land along the edge of a river.|We sat on the river bank.
+bump|verb|To hit something, usually by accident.|Be careful not to bump the table.
+camp|noun|A place to stay outdoors, often in tents.|We made our camp beside the lake.
+dump|verb|To empty something out of a container.|Please dump the leaves onto the pile.
+lump|noun|A small piece or mass without a regular shape.|There is a lump of clay on the table.
+fist|noun|A hand with its fingers curled tightly into the palm.|He held the coin in his fist.
+list|noun|Words written one below another to help you remember things.|We made a list of things to pack.
+best|adjective|Better than all the others.|That was my best jump.
+rest|verb|To stop working or playing so your body can relax.|Let us rest under the tree.
+lift|verb|To move something upward.|Can you lift this box?
+gift|noun|Something you give to another person.|I made a gift for my teacher.
+left|adjective|On the side opposite the right.|Put the mitten on your left hand.
+raft|noun|A flat floating platform used on water.|The raft floated down the river.
+desk|noun|A table used for reading, writing, or working.|My notebook is on the desk.
+dusk|noun|The time in the evening when daylight is fading.|We came home at dusk.
+mask|noun|Something worn over part or all of the face.|The costume has a cat mask.
+task|noun|A piece of work that needs to be done.|My task is to water the plants.
+risk|noun|The chance that something unwanted may happen.|There is a risk of slipping on ice.
+still|adjective|Not moving.|The rabbit stayed very still.
+shell|noun|A hard covering that protects an animal.|The turtle pulled its head into its shell.
+sick|adjective|Not feeling well.|I stayed home because I felt sick.
+truck|noun|A large vehicle used to carry things.|The truck delivered our new sofa.
+crack|noun|A narrow break in something.|There is a crack in the old flowerpot.
+fill|verb|To put things into a space until it is full.|Please fill the bowl with water.
+doll|noun|A toy shaped like a person.|My doll has a blue dress.
+tell|verb|To give information by speaking.|Please tell me a story.
+well|adverb|In a good or skillful way.|You read that story very well.
+spill|verb|To let liquid fall out of its container by accident.|Try not to spill your juice.
+back|noun|The part of your body opposite your chest.|My backpack rests against my back.
+kick|verb|To hit something with your foot.|Please kick the ball to me.
+rock|noun|A hard piece of stone.|I found a smooth rock by the stream.
+pack|verb|To put things into a bag or container for a trip.|We pack our bags before leaving.
+lock|noun|A device that keeps something closed until it is opened with a key or code.|The gate has a lock.
+clock|noun|A device that shows the time.|The clock says it is noon.
+shy|adjective|Feeling nervous about meeting or speaking to people.|The shy child waved hello.
+bush|noun|A plant with many woody stems growing close to the ground.|A bird landed in the bush.
+sharp|adjective|Having an edge or point that can cut or pierce.|Be careful with that sharp pencil.
+shoot|verb|To send a ball toward a goal or basket.|I will shoot the ball into the basket.
+shine|verb|To give off or reflect bright light.|The stars shine at night.
+rich|adjective|Having a lot of money or valuable things.|The rich king lived in a palace.
+shut|verb|To close something.|Please shut the door softly.
+push|verb|To move something away from you by pressing against it.|Help me push the wagon.
+rush|verb|To move or act very quickly.|We do not need to rush.
+chop|verb|To cut something into pieces.|A grown-up will chop the carrots.
+much|determiner|A large amount of something.|There is not much milk left.
+such|determiner|Of that kind or degree.|It was such a lovely day.
+lunch|noun|A meal usually eaten around the middle of the day.|We eat lunch at school.
+chick|noun|A baby chicken.|The yellow chick followed its mother.
+math|noun|The study of numbers, shapes, and amounts.|We counted blocks in math.
+with|preposition|Together or in the company of someone or something.|I played with my friend.
+this|determiner|Used to point out one person or thing nearby.|Please read this book.
+that|determiner|Used to point out one person or thing farther away.|Look at that bird in the tree.
+thin|adjective|Having only a small distance from one side to the other.|We drew a thin line.
+moth|noun|An insect related to a butterfly that often flies at night.|A moth flew near the porch light.
+thick|adjective|Having a large distance from one side to the other.|The bear has thick fur.
+late|adjective|Arriving or happening after the expected time.|We were late for the bus.
+dive|verb|To jump or move headfirst into water.|Watch the swimmer dive into the pool.
+fine|adjective|Well or in good condition.|I feel fine today.
+gate|noun|A door in a fence or wall.|Please close the garden gate.
+make|verb|To create or put something together.|We make paper boats.
+name|noun|A word used to identify a person, place, or thing.|Write your name at the top.
+lake|noun|A large area of water surrounded by land.|We saw ducks on the lake.
+five|number|The number that comes after four.|There are five stars on my sticker.
+hive|noun|A home where bees live together.|The bees flew back to their hive.
+time|noun|What we measure in seconds, minutes, and hours.|It is time for lunch.
+line|noun|A long, narrow mark.|Draw a straight line across the page.
+nine|number|The number that comes after eight.|I counted nine shells.
+bone|noun|One of the hard parts inside a body that support it.|The dog buried a bone.
+nose|noun|The part of your face used for smelling and breathing.|The puppy has a wet nose.
+rope|noun|A strong, thick cord made of twisted fibers.|We used a rope to pull the sled.
+hope|verb|To want something good to happen.|I hope we can play outside.
+cube|noun|A solid shape with six equal square faces.|An ice cube melted in my cup.
+tube|noun|A hollow object that is usually long and round.|The toothpaste comes in a tube.
+cute|adjective|Pretty or charming in a small, pleasing way.|The puppy is very cute.
+huge|adjective|Very large.|A huge whale swam past the boat.
+dirt|noun|Loose earth or soil.|We planted seeds in the dirt.
+hurt|verb|To feel pain.|My toe began to hurt.
+yarn|noun|A long thread used for knitting or weaving.|The kitten played with a ball of yarn.
+stars|noun|Bright objects like our sun that are far away in space.|We looked at the stars at night.
+fire|noun|Heat, light, and flames produced when something burns.|The campers sat near the fire.
+car|noun|A road vehicle with wheels that carries a few people.|Our car is parked outside.
+farm|noun|Land used for growing crops or raising animals.|We visited a farm with goats.
+barn|noun|A farm building used for animals or storing crops and tools.|The horses sleep in the barn.
+dark|adjective|Having little or no light.|The room was dark until we turned on a lamp.
+card|noun|A small piece of thick paper used for a message or game.|I made a birthday card.
+girl|noun|A female child.|The girl read a book.
+first|adjective|Coming before all the others.|I was the first person in line.
+stir|verb|To move a spoon or another tool around in a liquid to mix it.|Please stir the soup.
+burn|verb|To be damaged or used up by fire or heat.|Dry sticks burn in a campfire.
+turn|verb|To move so that you face a different direction.|Please turn toward the window.
+fur|noun|The thick hair covering the bodies of many animals.|The rabbit has soft fur.
+curl|noun|A piece of hair or another thing shaped into a loop or curve.|One curl fell over her forehead.
+nurse|noun|A person trained to care for people who are sick or injured.|The school nurse checked my temperature.
+her|pronoun|Used to refer to a girl or woman already mentioned.|I gave her a pencil.
+fern|noun|A green plant with divided, feathery leaves and no flowers.|A fern grows in the shady garden.
+after|preposition|Later than something else.|We play outside after lunch.
+under|preposition|Below or beneath something.|The cat is under the table.
+hire|verb|To give someone a job.|The shop will hire a new helper.
+tire|noun|A rubber ring around a wheel.|My bicycle has a flat tire.
+wire|noun|Metal drawn into a long, thin strand.|A bird perched on the wire.
+seal|noun|A sea animal with flippers that can also rest on land.|The seal swam beside the rocks.
+easy|adjective|Not difficult to do or understand.|The first puzzle was easy.
+good|adjective|Of a pleasing or helpful kind.|That was a good idea.
+house|noun|A building where people live.|Our house has a red door.
+sound|noun|Something you can hear.|I heard the sound of a bell.
+down|adverb|Toward a lower place.|The ball rolled down the hill.
+claws|noun|Sharp, curved nails on an animal's feet.|The cat used its claws to climb.
+beat|verb|To strike something again and again.|We beat the drum to the song.
+meat|noun|Food made from the flesh of an animal.|The sandwich has meat and cheese.
+leaf|noun|A flat, usually green part of a plant.|A leaf fell from the tree.
+team|noun|A group of people working or playing together.|Our team cheered for everyone.
+food|noun|Things that people or animals eat.|We put food in the puppy's bowl.
+zoom|verb|To move very quickly.|The toy cars zoom down the track.
+pool|noun|An area of water used for swimming.|We splashed in the pool.
+boot|noun|A shoe that covers the foot and some of the leg.|One boot was stuck in the mud.
+cook|verb|To prepare food by heating it.|We cook soup in a pot.
+foot|noun|The body part at the end of a leg that you stand on.|I put a sock on my foot.
+wood|noun|The hard material that makes up the trunk and branches of a tree.|The chair is made of wood.
+out|adverb|Away from the inside of something.|The puppy ran out of the room.
+loud|adjective|Making a strong sound that is easy to hear.|The drum made a loud noise.
+cloud|noun|Tiny drops of water or ice floating together in the sky.|A white cloud drifted overhead.
+mouse|noun|A small animal with a pointed nose and a long tail.|The mouse nibbled a seed.
+found|verb|Discovered something or learned where it was.|I found my missing mitten.
+round|adjective|Shaped like a circle or ball.|The table has a round top.
+town|noun|A place with homes, shops, and streets, smaller than many cities.|Our town has a library.
+brown|adjective|The color of chocolate or many tree trunks.|The dog has brown fur.
+clown|noun|A performer who wears funny clothes and makes people laugh.|The clown juggled three balls.
+crown|noun|A special head covering worn by a king or queen.|We made a crown from paper.
+owl|noun|A bird with large eyes that often hunts at night.|An owl sat on a branch.
+paw|noun|The foot of an animal such as a cat or dog.|The puppy lifted one paw.
+saw|noun|A tool with a toothed blade used for cutting.|A grown-up used a saw to cut the wood.
+jaw|noun|One of the bones in your mouth that holds your teeth.|My jaw moves when I chew.
+draw|verb|To make a picture using lines.|I like to draw animals.
+straw|noun|A thin tube used for drinking.|I drank juice through a straw.
+bunny|noun|A rabbit, especially a young one.|The bunny hopped across the grass.
+silly|adjective|Playful or funny in a way that is not serious.|We laughed at the silly dance.
+mossy|adjective|Covered with small, soft green plants that grow in damp places.|The frog sat on a mossy rock.
+body|noun|All the physical parts of a person or animal.|Exercise helps keep your body strong.
+happy|adjective|Feeling pleased or glad.|I am happy to see my friend.
+puppy|noun|A young dog.|The puppy chased its tail.
+funny|adjective|Making you laugh.|The story had a funny ending.
+sunny|adjective|Bright with light from the sun.|It was a sunny day.
+candy|noun|A sweet food often made with sugar.|I chose a piece of candy.
+baby|noun|A very young child.|The baby held my finger.
+messy|adjective|Untidy or not neatly arranged.|My desk was messy after art class.
+my|determiner|Belonging to the person who is speaking.|This is my favorite book.
+by|preposition|Next to or near something.|We sat by the window.
+fly|verb|To move through the air using wings.|Birds fly above the trees.
+try|verb|To make an effort to do something.|I will try to solve the puzzle.
+cry|verb|To shed tears because of a strong feeling.|The sad story made me cry.
+sky|noun|The space above the ground that you see when you look up outside.|The sky is bright blue.
+dry|adjective|Not wet.|The towel is clean and dry.
+wings|noun|The body parts that birds use to fly.|The bird spread its wings.
+steps|noun|Flat surfaces you put your feet on to go up or down.|We climbed the steps to the door.
+cats|noun|Small pets that have whiskers and often meow.|The cats slept in the sunshine.
+dogs|noun|Pets that bark and often wag their tails.|The dogs played in the park.
+hats|noun|Things you wear on your head.|We wore warm hats outside.
+ships|noun|Large boats that carry people or things.|Two ships sailed past the harbor.
+birds|noun|Animals with feathers, wings, and beaks.|The birds sang in the trees.
+trucks|noun|Large road vehicles that carry things.|The trucks delivered boxes to the store.
+shells|noun|Hard coverings that protect animals such as turtles and snails.|We found empty shells on the beach.
+bunnies|noun|Rabbits, especially young ones.|The bunnies hopped into the grass.
+winter|noun|The coldest season of the year.|We wear warm coats in winter.
+apple|noun|A round fruit that can have red, green, or yellow skin.|I ate an apple at lunch.
+yellow|adjective|The color of a ripe lemon.|The duck has a yellow beak.
+hello|interjection|A word used to greet someone.|I said hello to my teacher.
+sunset|noun|The time when the sun disappears below the horizon in the evening.|We watched the sunset from the porch.
+rabbit|noun|An animal with long ears, soft fur, and a short tail.|The rabbit ate a carrot.
+picnic|noun|A meal eaten outdoors for fun.|We had a picnic under the tree.
+little|adjective|Small in size or amount.|A little frog sat on the leaf.
+mitten|noun|A warm hand covering with one part for the thumb and one for the fingers.|I found my missing mitten.
+butter|noun|A pale yellow food made from cream that is often spread on bread.|I spread butter on my toast.
+summer|noun|The warmest season of the year.|We swim outside in summer.
+come|verb|To move toward the person speaking or a certain place.|Please come and sit beside me.
+most|determiner|The greatest amount or number.|This basket holds the most apples.
+even|adjective|Able to be divided into two equal whole-number groups.|Six is an even number.
+heart|noun|The organ inside your chest that pumps blood through your body.|My heart beats faster when I run.
+some|determiner|An amount or number that is not stated exactly.|We saved some cookies for later.
+done|adjective|Finished or completed.|My homework is done.
+post|noun|A strong upright piece of wood or metal used as a support.|The gate hangs from a wooden post.
+host|noun|A person who welcomes guests.|Our host showed us where to sit.
+both|determiner|The two people or things together.|I put both shoes by the door.
+stood|verb|Was upright on the feet in the past.|We stood in a line.

@@ -1,722 +1,2857 @@
 [
   {
-    "grade": 1,
-    "level": "easy",
-    "word": "cat",
-    "part": "noun",
-    "definition": "A small pet with whiskers that meows.",
-    "sentence": "The cat sleeps on the rug."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "dog",
-    "part": "noun",
-    "definition": "A pet that barks and wags its tail.",
-    "sentence": "Our dog likes to play fetch."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "sun",
-    "part": "noun",
-    "definition": "The bright star that lights our daytime sky.",
-    "sentence": "The sun feels warm today."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "hat",
-    "part": "noun",
-    "definition": "Something you wear on your head.",
-    "sentence": "Put on your hat before we go out."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "bed",
-    "part": "noun",
-    "definition": "A place where you lie down to sleep.",
-    "sentence": "I make my bed each morning."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "cup",
-    "part": "noun",
-    "definition": "A small container you drink from.",
-    "sentence": "My cup is full of water."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "pig",
-    "part": "noun",
-    "definition": "A farm animal with a flat snout and a curly tail.",
-    "sentence": "The pig rolls in the mud."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "hen",
-    "part": "noun",
-    "definition": "A grown female chicken.",
-    "sentence": "The hen laid an egg."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "pen",
-    "part": "noun",
-    "definition": "A tool that writes with ink.",
-    "sentence": "Use a pen to sign the card."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "map",
-    "part": "noun",
-    "definition": "A drawing that shows where places are.",
-    "sentence": "We used a map to find the park."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "bus",
-    "part": "noun",
-    "definition": "A large vehicle that carries many people.",
-    "sentence": "We ride the bus to school."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "red",
-    "part": "adjective",
-    "definition": "The color of a ripe strawberry.",
-    "sentence": "I picked a red apple."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "big",
-    "part": "adjective",
-    "definition": "Large in size.",
-    "sentence": "That is a big elephant."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "run",
+    "word": "ran",
     "part": "verb",
-    "definition": "To move quickly using your legs.",
-    "sentence": "We run around the playground."
-  },
-  {
+    "definition": "Moved quickly on foot in the past.",
+    "sentence": "We ran to the playground.",
     "grade": 1,
     "level": "easy",
-    "word": "hop",
-    "part": "verb",
-    "definition": "To jump on one foot or with both feet together.",
-    "sentence": "The rabbit can hop over the log."
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
-    "grade": 1,
-    "level": "easy",
-    "word": "sit",
-    "part": "verb",
-    "definition": "To rest with your body on a chair or the ground.",
-    "sentence": "Please sit beside me."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "dig",
-    "part": "verb",
-    "definition": "To make a hole in the ground.",
-    "sentence": "We dig in the garden."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "mud",
-    "part": "noun",
-    "definition": "Wet, soft dirt.",
-    "sentence": "My boots are covered in mud."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
     "word": "leg",
     "part": "noun",
     "definition": "A body part used for standing and walking.",
-    "sentence": "The puppy has a spot on one leg."
-  },
-  {
+    "sentence": "The puppy has a spot on one leg.",
     "grade": 1,
     "level": "easy",
-    "word": "lip",
+    "patterns": [
+      "short-vowels"
+    ]
+  },
+  {
+    "word": "rod",
     "part": "noun",
-    "definition": "One of the soft edges around your mouth.",
-    "sentence": "There is a crumb on your lip."
-  },
-  {
+    "definition": "A long, thin stick or pole.",
+    "sentence": "He held a fishing rod.",
     "grade": 1,
     "level": "easy",
-    "word": "bug",
+    "patterns": [
+      "short-vowels"
+    ]
+  },
+  {
+    "word": "can",
+    "part": "verb",
+    "definition": "To be able to do something.",
+    "sentence": "I can tie my shoes.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
+  },
+  {
+    "word": "man",
     "part": "noun",
-    "definition": "A small crawling creature, often an insect.",
-    "sentence": "A tiny bug landed on the leaf."
-  },
-  {
+    "definition": "An adult male person.",
+    "sentence": "The man waved to us.",
     "grade": 1,
     "level": "easy",
-    "word": "web",
+    "patterns": [
+      "short-vowels"
+    ]
+  },
+  {
+    "word": "pan",
     "part": "noun",
-    "definition": "A net of fine threads made by a spider.",
-    "sentence": "The spider made a web."
-  },
-  {
+    "definition": "A container used for cooking food.",
+    "sentence": "The eggs are in the pan.",
     "grade": 1,
     "level": "easy",
-    "word": "jet",
-    "part": "noun",
-    "definition": "An airplane powered by very fast engines.",
-    "sentence": "The jet flew high in the sky."
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
-    "grade": 1,
-    "level": "easy",
     "word": "van",
     "part": "noun",
     "definition": "A vehicle that carries people or things.",
-    "sentence": "We packed the van for our trip."
-  },
-  {
+    "sentence": "We packed the van for our trip.",
     "grade": 1,
     "level": "easy",
-    "word": "box",
+    "patterns": [
+      "short-vowels"
+    ]
+  },
+  {
+    "word": "cap",
     "part": "noun",
-    "definition": "A container with flat sides.",
-    "sentence": "Put your crayons in the box."
-  },
-  {
+    "definition": "A soft hat, often with a brim at the front.",
+    "sentence": "Wear your cap in the sunshine.",
     "grade": 1,
     "level": "easy",
-    "word": "fox",
-    "part": "noun",
-    "definition": "A wild animal with pointed ears and a bushy tail.",
-    "sentence": "A fox ran through the woods."
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
-    "grade": 1,
-    "level": "easy",
-    "word": "jam",
-    "part": "noun",
-    "definition": "A sweet spread made by cooking fruit with sugar.",
-    "sentence": "I spread jam on my toast."
-  },
-  {
-    "grade": 1,
-    "level": "easy",
-    "word": "zip",
+    "word": "tap",
     "part": "verb",
-    "definition": "To close something using a zipper.",
-    "sentence": "Please zip your jacket."
-  },
-  {
+    "definition": "To touch something lightly.",
+    "sentence": "Please tap the drum gently.",
     "grade": 1,
     "level": "easy",
-    "word": "vet",
-    "part": "noun",
-    "definition": "A doctor who takes care of animals.",
-    "sentence": "The vet checked our puppy."
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
+    "word": "pet",
+    "part": "noun",
+    "definition": "An animal kept at home for company.",
+    "sentence": "My pet likes to cuddle.",
     "grade": 1,
     "level": "easy",
-    "word": "rug",
-    "part": "noun",
-    "definition": "A piece of thick cloth that covers part of a floor.",
-    "sentence": "The soft rug is beside my bed."
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
-    "grade": 1,
-    "level": "growing",
-    "word": "fish",
+    "word": "net",
     "part": "noun",
-    "definition": "An animal that lives in water and breathes through gills.",
-    "sentence": "The fish swims in the pond."
+    "definition": "A material made of strings with spaces between them.",
+    "sentence": "We caught the ball in a net.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
+    "word": "red",
+    "part": "adjective",
+    "definition": "The color of a ripe strawberry.",
+    "sentence": "I picked a red apple.",
     "grade": 1,
-    "level": "growing",
-    "word": "ship",
-    "part": "noun",
-    "definition": "A large boat that travels on water.",
-    "sentence": "The ship sailed across the sea."
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
-    "grade": 1,
-    "level": "growing",
-    "word": "shop",
+    "word": "bed",
     "part": "noun",
-    "definition": "A place where people buy things.",
-    "sentence": "We visited the toy shop."
+    "definition": "A place where you lie down to sleep.",
+    "sentence": "I make my bed each morning.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
+    "word": "ten",
+    "part": "number",
+    "definition": "The number that comes after nine.",
+    "sentence": "I have ten fingers.",
     "grade": 1,
-    "level": "growing",
-    "word": "chip",
-    "part": "noun",
-    "definition": "A thin, crisp piece of food.",
-    "sentence": "I ate a potato chip."
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
-    "grade": 1,
-    "level": "growing",
-    "word": "chin",
+    "word": "hen",
     "part": "noun",
-    "definition": "The part of your face below your mouth.",
-    "sentence": "Wipe the milk off your chin."
+    "definition": "A grown female chicken.",
+    "sentence": "The hen laid an egg.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
+    "word": "hot",
+    "part": "adjective",
+    "definition": "Having a high temperature.",
+    "sentence": "The soup is too hot to eat.",
     "grade": 1,
-    "level": "growing",
-    "word": "duck",
-    "part": "noun",
-    "definition": "A water bird with a wide, flat bill.",
-    "sentence": "The duck paddled across the pond."
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
-    "grade": 1,
-    "level": "growing",
-    "word": "sock",
+    "word": "dog",
     "part": "noun",
-    "definition": "A piece of clothing worn on your foot.",
-    "sentence": "I found my missing sock."
+    "definition": "A pet that barks and wags its tail.",
+    "sentence": "Our dog likes to play fetch.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
-    "grade": 1,
-    "level": "growing",
-    "word": "frog",
+    "word": "pot",
     "part": "noun",
-    "definition": "A small jumping animal with smooth skin that lives near water.",
-    "sentence": "The frog jumped into the pond."
+    "definition": "A deep container used for cooking or growing plants.",
+    "sentence": "The flower grows in a pot.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
-    "grade": 1,
-    "level": "growing",
-    "word": "flag",
+    "word": "top",
     "part": "noun",
-    "definition": "A piece of cloth used as a symbol for a country or group.",
-    "sentence": "The flag waved in the wind."
+    "definition": "The highest part of something.",
+    "sentence": "The flag is at the top of the hill.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
+    "word": "mop",
+    "part": "noun",
+    "definition": "A tool with a long handle used to clean floors.",
+    "sentence": "We used a mop to clean the spill.",
     "grade": 1,
-    "level": "growing",
-    "word": "stop",
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
+  },
+  {
+    "word": "nod",
     "part": "verb",
-    "definition": "To quit moving or doing something.",
-    "sentence": "We stop at the corner."
+    "definition": "To move your head up and down to say yes.",
+    "sentence": "Please nod if you understand.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
-    "grade": 1,
-    "level": "growing",
-    "word": "clap",
+    "word": "sit",
     "part": "verb",
-    "definition": "To hit your hands together to make a sound.",
-    "sentence": "Let us clap for the singer."
+    "definition": "To rest with your body on a chair or the ground.",
+    "sentence": "Please sit beside me.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
-    "grade": 1,
-    "level": "growing",
-    "word": "swim",
-    "part": "verb",
-    "definition": "To move through water using your body.",
-    "sentence": "We swim in the pool."
-  },
-  {
-    "grade": 1,
-    "level": "growing",
-    "word": "milk",
+    "word": "pig",
     "part": "noun",
-    "definition": "A white drink that can come from cows.",
-    "sentence": "I drink milk with breakfast."
+    "definition": "A farm animal with a flat snout and a curly tail.",
+    "sentence": "The pig rolls in the mud.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
   },
   {
+    "word": "sun",
+    "part": "noun",
+    "definition": "The bright star that lights our daytime sky.",
+    "sentence": "The sun feels warm today.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
+  },
+  {
+    "word": "cup",
+    "part": "noun",
+    "definition": "A small container you drink from.",
+    "sentence": "My cup is full of water.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
+  },
+  {
+    "word": "bug",
+    "part": "noun",
+    "definition": "A small crawling creature, often an insect.",
+    "sentence": "A tiny bug landed on the leaf.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
+  },
+  {
+    "word": "hug",
+    "part": "noun",
+    "definition": "An embrace with your arms around someone.",
+    "sentence": "I gave my friend a hug.",
+    "grade": 1,
+    "level": "easy",
+    "patterns": [
+      "short-vowels"
+    ]
+  },
+  {
+    "word": "wind",
+    "part": "noun",
+    "definition": "Moving air that you can feel outside.",
+    "sentence": "The wind blew the leaves away.",
     "grade": 1,
     "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "drink",
+    "part": "verb",
+    "definition": "To take liquid into your mouth and swallow it.",
+    "sentence": "I drink water after playing.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "pump",
+    "part": "noun",
+    "definition": "A tool that moves air or liquid.",
+    "sentence": "Use the pump to fill the tire with air.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "mist",
+    "part": "noun",
+    "definition": "Tiny water drops floating in the air near the ground.",
+    "sentence": "The morning mist hid the hill.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "shift",
+    "part": "verb",
+    "definition": "To move something to a different position.",
+    "sentence": "Please shift your chair a little.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends",
+      "digraphs"
+    ]
+  },
+  {
+    "word": "tusk",
+    "part": "noun",
+    "definition": "A long, pointed tooth that sticks out of an animal's mouth.",
+    "sentence": "The elephant has a curved tusk.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
     "word": "hand",
     "part": "noun",
     "definition": "The body part at the end of your arm with fingers and a thumb.",
-    "sentence": "Raise your hand to ask a question."
-  },
-  {
+    "sentence": "Raise your hand to ask a question.",
     "grade": 1,
     "level": "growing",
-    "word": "nest",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "sand",
     "part": "noun",
-    "definition": "A place a bird builds to lay its eggs.",
-    "sentence": "The bird built a nest in the tree."
-  },
-  {
+    "definition": "Tiny grains of rock found on beaches and in deserts.",
+    "sentence": "We built a castle in the sand.",
     "grade": 1,
     "level": "growing",
-    "word": "tent",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "pond",
     "part": "noun",
-    "definition": "A shelter made of cloth held up by poles.",
-    "sentence": "We slept in a tent at camp."
-  },
-  {
+    "definition": "A small area of still water surrounded by land.",
+    "sentence": "The ducks swim in the pond.",
     "grade": 1,
     "level": "growing",
-    "word": "lamp",
-    "part": "noun",
-    "definition": "A thing that gives light to a room.",
-    "sentence": "Turn on the lamp to read."
+    "patterns": [
+      "ending-blends"
+    ]
   },
   {
-    "grade": 1,
-    "level": "growing",
-    "word": "jump",
+    "word": "bend",
     "part": "verb",
-    "definition": "To push off the ground into the air.",
-    "sentence": "I can jump over the puddle."
-  },
-  {
+    "definition": "To make something curve or to lean your body.",
+    "sentence": "Please bend your knees.",
     "grade": 1,
     "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "send",
+    "part": "verb",
+    "definition": "To make something go to another person or place.",
+    "sentence": "I will send a card to my cousin.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "band",
+    "part": "noun",
+    "definition": "A group of people who play music together.",
+    "sentence": "The band played a happy song.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "sink",
+    "part": "noun",
+    "definition": "A bowl with a faucet and drain used for washing.",
+    "sentence": "Wash your hands in the sink.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
     "word": "pink",
     "part": "adjective",
     "definition": "A pale color made by mixing red and white.",
-    "sentence": "She wore a pink ribbon."
-  },
-  {
+    "sentence": "She wore a pink ribbon.",
     "grade": 1,
     "level": "growing",
-    "word": "long",
-    "part": "adjective",
-    "definition": "Measuring a great distance from end to end.",
-    "sentence": "The giraffe has a long neck."
+    "patterns": [
+      "ending-blends"
+    ]
   },
   {
+    "word": "think",
+    "part": "verb",
+    "definition": "To use your mind to form an idea.",
+    "sentence": "I think the answer is five.",
     "grade": 1,
     "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "wink",
+    "part": "verb",
+    "definition": "To close one eye briefly as a signal.",
+    "sentence": "Can you wink with one eye?",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "link",
+    "part": "noun",
+    "definition": "A connection between two things.",
+    "sentence": "One link in the chain is broken.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "bank",
+    "part": "noun",
+    "definition": "The land along the edge of a river.",
+    "sentence": "We sat on the river bank.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "jump",
+    "part": "verb",
+    "definition": "To push off the ground into the air.",
+    "sentence": "I can jump over the puddle.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "bump",
+    "part": "verb",
+    "definition": "To hit something, usually by accident.",
+    "sentence": "Be careful not to bump the table.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "lamp",
+    "part": "noun",
+    "definition": "A thing that gives light to a room.",
+    "sentence": "Turn on the lamp to read.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "camp",
+    "part": "noun",
+    "definition": "A place to stay outdoors, often in tents.",
+    "sentence": "We made our camp beside the lake.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "dump",
+    "part": "verb",
+    "definition": "To empty something out of a container.",
+    "sentence": "Please dump the leaves onto the pile.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "lump",
+    "part": "noun",
+    "definition": "A small piece or mass without a regular shape.",
+    "sentence": "There is a lump of clay on the table.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "fist",
+    "part": "noun",
+    "definition": "A hand with its fingers curled tightly into the palm.",
+    "sentence": "He held the coin in his fist.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "list",
+    "part": "noun",
+    "definition": "Words written one below another to help you remember things.",
+    "sentence": "We made a list of things to pack.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
     "word": "fast",
     "part": "adjective",
     "definition": "Moving at a high speed.",
-    "sentence": "The rabbit is fast."
-  },
-  {
+    "sentence": "The rabbit is fast.",
     "grade": 1,
     "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "best",
+    "part": "adjective",
+    "definition": "Better than all the others.",
+    "sentence": "That was my best jump.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "nest",
+    "part": "noun",
+    "definition": "A place a bird builds to lay its eggs.",
+    "sentence": "The bird built a nest in the tree.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "rest",
+    "part": "verb",
+    "definition": "To stop working or playing so your body can relax.",
+    "sentence": "Let us rest under the tree.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "lift",
+    "part": "verb",
+    "definition": "To move something upward.",
+    "sentence": "Can you lift this box?",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "gift",
+    "part": "noun",
+    "definition": "Something you give to another person.",
+    "sentence": "I made a gift for my teacher.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "left",
+    "part": "adjective",
+    "definition": "On the side opposite the right.",
+    "sentence": "Put the mitten on your left hand.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
     "word": "soft",
     "part": "adjective",
     "definition": "Easy to press or pleasant to touch.",
-    "sentence": "The blanket is soft."
-  },
-  {
+    "sentence": "The blanket is soft.",
     "grade": 1,
     "level": "growing",
-    "word": "wish",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "raft",
     "part": "noun",
-    "definition": "Something you hope will happen.",
-    "sentence": "Make a wish before blowing out the candles."
-  },
-  {
+    "definition": "A flat floating platform used on water.",
+    "sentence": "The raft floated down the river.",
     "grade": 1,
     "level": "growing",
-    "word": "bath",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "desk",
     "part": "noun",
-    "definition": "A washing of your body in a tub of water.",
-    "sentence": "The puppy needs a bath."
-  },
-  {
+    "definition": "A table used for reading, writing, or working.",
+    "sentence": "My notebook is on the desk.",
     "grade": 1,
     "level": "growing",
-    "word": "path",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "dusk",
     "part": "noun",
-    "definition": "A narrow track for walking.",
-    "sentence": "We followed the path to the pond."
-  },
-  {
+    "definition": "The time in the evening when daylight is fading.",
+    "sentence": "We came home at dusk.",
     "grade": 1,
     "level": "growing",
-    "word": "dish",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "mask",
     "part": "noun",
-    "definition": "A plate or bowl used to hold food.",
-    "sentence": "Put the dish on the table."
-  },
-  {
+    "definition": "Something worn over part or all of the face.",
+    "sentence": "The costume has a cat mask.",
     "grade": 1,
     "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "task",
+    "part": "noun",
+    "definition": "A piece of work that needs to be done.",
+    "sentence": "My task is to water the plants.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "risk",
+    "part": "noun",
+    "definition": "The chance that something unwanted may happen.",
+    "sentence": "There is a risk of slipping on ice.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ending-blends"
+    ]
+  },
+  {
+    "word": "still",
+    "part": "adjective",
+    "definition": "Not moving.",
+    "sentence": "The rabbit stayed very still.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "shell",
+    "part": "noun",
+    "definition": "A hard covering that protects an animal.",
+    "sentence": "The turtle pulled its head into its shell.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck",
+      "digraphs"
+    ]
+  },
+  {
+    "word": "sick",
+    "part": "adjective",
+    "definition": "Not feeling well.",
+    "sentence": "I stayed home because I felt sick.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "truck",
+    "part": "noun",
+    "definition": "A large vehicle used to carry things.",
+    "sentence": "The truck delivered our new sofa.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "crack",
+    "part": "noun",
+    "definition": "A narrow break in something.",
+    "sentence": "There is a crack in the old flowerpot.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
     "word": "bell",
     "part": "noun",
     "definition": "A hollow object that rings when struck.",
-    "sentence": "The bell rang for lunch."
-  },
-  {
+    "sentence": "The bell rang for lunch.",
     "grade": 1,
     "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "fill",
+    "part": "verb",
+    "definition": "To put things into a space until it is full.",
+    "sentence": "Please fill the bowl with water.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
     "word": "hill",
     "part": "noun",
     "definition": "An area of land higher than the ground around it.",
-    "sentence": "We climbed the hill."
-  },
-  {
+    "sentence": "We climbed the hill.",
     "grade": 1,
     "level": "growing",
-    "word": "dress",
-    "part": "noun",
-    "definition": "A piece of clothing with a top joined to a skirt.",
-    "sentence": "She wore a dress to the party."
+    "patterns": [
+      "ll-ck"
+    ]
   },
   {
+    "word": "doll",
+    "part": "noun",
+    "definition": "A toy shaped like a person.",
+    "sentence": "My doll has a blue dress.",
     "grade": 1,
     "level": "growing",
-    "word": "grass",
-    "part": "noun",
-    "definition": "A green plant with narrow leaves that covers the ground.",
-    "sentence": "We played on the grass."
+    "patterns": [
+      "ll-ck"
+    ]
   },
   {
+    "word": "tell",
+    "part": "verb",
+    "definition": "To give information by speaking.",
+    "sentence": "Please tell me a story.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "well",
+    "part": "adverb",
+    "definition": "In a good or skillful way.",
+    "sentence": "You read that story very well.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "spill",
+    "part": "verb",
+    "definition": "To let liquid fall out of its container by accident.",
+    "sentence": "Try not to spill your juice.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "duck",
+    "part": "noun",
+    "definition": "A water bird with a wide, flat bill.",
+    "sentence": "The duck paddled across the pond.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "back",
+    "part": "noun",
+    "definition": "The part of your body opposite your chest.",
+    "sentence": "My backpack rests against my back.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "kick",
+    "part": "verb",
+    "definition": "To hit something with your foot.",
+    "sentence": "Please kick the ball to me.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "rock",
+    "part": "noun",
+    "definition": "A hard piece of stone.",
+    "sentence": "I found a smooth rock by the stream.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "sock",
+    "part": "noun",
+    "definition": "A piece of clothing worn on your foot.",
+    "sentence": "I found my missing sock.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "pack",
+    "part": "verb",
+    "definition": "To put things into a bag or container for a trip.",
+    "sentence": "We pack our bags before leaving.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "lock",
+    "part": "noun",
+    "definition": "A device that keeps something closed until it is opened with a key or code.",
+    "sentence": "The gate has a lock.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "clock",
+    "part": "noun",
+    "definition": "A device that shows the time.",
+    "sentence": "The clock says it is noon.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "ll-ck"
+    ]
+  },
+  {
+    "word": "shy",
+    "part": "adjective",
+    "definition": "Feeling nervous about meeting or speaking to people.",
+    "sentence": "The shy child waved hello.",
     "grade": 1,
     "level": "challenge",
+    "patterns": [
+      "digraphs",
+      "ending-y"
+    ]
+  },
+  {
+    "word": "bush",
+    "part": "noun",
+    "definition": "A plant with many woody stems growing close to the ground.",
+    "sentence": "A bird landed in the bush.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "sharp",
+    "part": "adjective",
+    "definition": "Having an edge or point that can cut or pierce.",
+    "sentence": "Be careful with that sharp pencil.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "digraphs",
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "shoot",
+    "part": "verb",
+    "definition": "To send a ball toward a goal or basket.",
+    "sentence": "I will shoot the ball into the basket.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "digraphs",
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "shine",
+    "part": "verb",
+    "definition": "To give off or reflect bright light.",
+    "sentence": "The stars shine at night.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "digraphs",
+      "silent-e"
+    ]
+  },
+  {
+    "word": "rich",
+    "part": "adjective",
+    "definition": "Having a lot of money or valuable things.",
+    "sentence": "The rich king lived in a palace.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "path",
+    "part": "noun",
+    "definition": "A narrow track for walking.",
+    "sentence": "We followed the path to the pond.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "ship",
+    "part": "noun",
+    "definition": "A large boat that travels on water.",
+    "sentence": "The ship sailed across the sea.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "shop",
+    "part": "noun",
+    "definition": "A place where people buy things.",
+    "sentence": "We visited the toy shop.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "shut",
+    "part": "verb",
+    "definition": "To close something.",
+    "sentence": "Please shut the door softly.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "fish",
+    "part": "noun",
+    "definition": "An animal that lives in water and breathes through gills.",
+    "sentence": "The fish swims in the pond.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "dish",
+    "part": "noun",
+    "definition": "A plate or bowl used to hold food.",
+    "sentence": "Put the dish on the table.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "wish",
+    "part": "noun",
+    "definition": "Something you hope will happen.",
+    "sentence": "Make a wish before blowing out the candles.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "push",
+    "part": "verb",
+    "definition": "To move something away from you by pressing against it.",
+    "sentence": "Help me push the wagon.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "rush",
+    "part": "verb",
+    "definition": "To move or act very quickly.",
+    "sentence": "We do not need to rush.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "chip",
+    "part": "noun",
+    "definition": "A thin, crisp piece of food.",
+    "sentence": "I ate a potato chip.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "chin",
+    "part": "noun",
+    "definition": "The part of your face below your mouth.",
+    "sentence": "Wipe the milk off your chin.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "chop",
+    "part": "verb",
+    "definition": "To cut something into pieces.",
+    "sentence": "A grown-up will chop the carrots.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "much",
+    "part": "determiner",
+    "definition": "A large amount of something.",
+    "sentence": "There is not much milk left.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "such",
+    "part": "determiner",
+    "definition": "Of that kind or degree.",
+    "sentence": "It was such a lovely day.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "lunch",
+    "part": "noun",
+    "definition": "A meal usually eaten around the middle of the day.",
+    "sentence": "We eat lunch at school.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "chick",
+    "part": "noun",
+    "definition": "A baby chicken.",
+    "sentence": "The yellow chick followed its mother.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "bath",
+    "part": "noun",
+    "definition": "A washing of your body in a tub of water.",
+    "sentence": "The puppy needs a bath.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "math",
+    "part": "noun",
+    "definition": "The study of numbers, shapes, and amounts.",
+    "sentence": "We counted blocks in math.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "with",
+    "part": "preposition",
+    "definition": "Together or in the company of someone or something.",
+    "sentence": "I played with my friend.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "this",
+    "part": "determiner",
+    "definition": "Used to point out one person or thing nearby.",
+    "sentence": "Please read this book.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "that",
+    "part": "determiner",
+    "definition": "Used to point out one person or thing farther away.",
+    "sentence": "Look at that bird in the tree.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "thin",
+    "part": "adjective",
+    "definition": "Having only a small distance from one side to the other.",
+    "sentence": "We drew a thin line.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "moth",
+    "part": "noun",
+    "definition": "An insect related to a butterfly that often flies at night.",
+    "sentence": "A moth flew near the porch light.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "thick",
+    "part": "adjective",
+    "definition": "Having a large distance from one side to the other.",
+    "sentence": "The bear has thick fur.",
+    "grade": 1,
+    "level": "growing",
+    "patterns": [
+      "digraphs"
+    ]
+  },
+  {
+    "word": "late",
+    "part": "adjective",
+    "definition": "Arriving or happening after the expected time.",
+    "sentence": "We were late for the bus.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "dive",
+    "part": "verb",
+    "definition": "To jump or move headfirst into water.",
+    "sentence": "Watch the swimmer dive into the pool.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "fine",
+    "part": "adjective",
+    "definition": "Well or in good condition.",
+    "sentence": "I feel fine today.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
     "word": "cake",
     "part": "noun",
     "definition": "A sweet baked food often served at a birthday party.",
-    "sentence": "We shared a chocolate cake."
-  },
-  {
+    "sentence": "We shared a chocolate cake.",
     "grade": 1,
     "level": "challenge",
-    "word": "bike",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "gate",
     "part": "noun",
-    "definition": "A vehicle with two wheels that you move by pedaling.",
-    "sentence": "I ride my bike in the park."
-  },
-  {
+    "definition": "A door in a fence or wall.",
+    "sentence": "Please close the garden gate.",
     "grade": 1,
     "level": "challenge",
-    "word": "home",
-    "part": "noun",
-    "definition": "The place where you live.",
-    "sentence": "We went home after school."
+    "patterns": [
+      "silent-e"
+    ]
   },
   {
+    "word": "make",
+    "part": "verb",
+    "definition": "To create or put something together.",
+    "sentence": "We make paper boats.",
     "grade": 1,
     "level": "challenge",
-    "word": "kite",
-    "part": "noun",
-    "definition": "A light toy that flies on a string in the wind.",
-    "sentence": "My kite flew above the trees."
+    "patterns": [
+      "silent-e"
+    ]
   },
   {
-    "grade": 1,
-    "level": "challenge",
     "word": "game",
     "part": "noun",
     "definition": "An activity with rules that people play for fun.",
-    "sentence": "We played a game after lunch."
-  },
-  {
+    "sentence": "We played a game after lunch.",
     "grade": 1,
     "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "name",
+    "part": "noun",
+    "definition": "A word used to identify a person, place, or thing.",
+    "sentence": "Write your name at the top.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "lake",
+    "part": "noun",
+    "definition": "A large area of water surrounded by land.",
+    "sentence": "We saw ducks on the lake.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "five",
+    "part": "number",
+    "definition": "The number that comes after four.",
+    "sentence": "There are five stars on my sticker.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "hive",
+    "part": "noun",
+    "definition": "A home where bees live together.",
+    "sentence": "The bees flew back to their hive.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "bike",
+    "part": "noun",
+    "definition": "A vehicle with two wheels that you move by pedaling.",
+    "sentence": "I ride my bike in the park.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "time",
+    "part": "noun",
+    "definition": "What we measure in seconds, minutes, and hours.",
+    "sentence": "It is time for lunch.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "line",
+    "part": "noun",
+    "definition": "A long, narrow mark.",
+    "sentence": "Draw a straight line across the page.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "nine",
+    "part": "number",
+    "definition": "The number that comes after eight.",
+    "sentence": "I counted nine shells.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
     "word": "smile",
     "part": "noun",
     "definition": "A happy look made by turning up the corners of your mouth.",
-    "sentence": "Her smile made me happy."
-  },
-  {
+    "sentence": "Her smile made me happy.",
     "grade": 1,
     "level": "challenge",
-    "word": "rain",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "home",
     "part": "noun",
-    "definition": "Water that falls in drops from clouds.",
-    "sentence": "The rain watered the garden."
-  },
-  {
+    "definition": "The place where you live.",
+    "sentence": "We went home after school.",
     "grade": 1,
     "level": "challenge",
-    "word": "train",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "bone",
     "part": "noun",
-    "definition": "Connected cars that travel on tracks.",
-    "sentence": "The train stopped at the station."
-  },
-  {
+    "definition": "One of the hard parts inside a body that support it.",
+    "sentence": "The dog buried a bone.",
     "grade": 1,
     "level": "challenge",
-    "word": "snail",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "nose",
     "part": "noun",
-    "definition": "A slow animal with a shell on its back.",
-    "sentence": "A snail crawled along the leaf."
-  },
-  {
+    "definition": "The part of your face used for smelling and breathing.",
+    "sentence": "The puppy has a wet nose.",
     "grade": 1,
     "level": "challenge",
-    "word": "paint",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "rope",
+    "part": "noun",
+    "definition": "A strong, thick cord made of twisted fibers.",
+    "sentence": "We used a rope to pull the sled.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "hope",
     "part": "verb",
-    "definition": "To put color on something using a brush.",
-    "sentence": "We paint pictures in art class."
-  },
-  {
+    "definition": "To want something good to happen.",
+    "sentence": "I hope we can play outside.",
     "grade": 1,
     "level": "challenge",
-    "word": "green",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "cube",
+    "part": "noun",
+    "definition": "A solid shape with six equal square faces.",
+    "sentence": "An ice cube melted in my cup.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "tube",
+    "part": "noun",
+    "definition": "A hollow object that is usually long and round.",
+    "sentence": "The toothpaste comes in a tube.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "cute",
     "part": "adjective",
-    "definition": "The color of many leaves and of grass.",
-    "sentence": "The frog is green."
-  },
-  {
+    "definition": "Pretty or charming in a small, pleasing way.",
+    "sentence": "The puppy is very cute.",
     "grade": 1,
     "level": "challenge",
-    "word": "sleep",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "huge",
+    "part": "adjective",
+    "definition": "Very large.",
+    "sentence": "A huge whale swam past the boat.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "silent-e"
+    ]
+  },
+  {
+    "word": "dirt",
+    "part": "noun",
+    "definition": "Loose earth or soil.",
+    "sentence": "We planted seeds in the dirt.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "hurt",
     "part": "verb",
-    "definition": "To rest with your eyes closed.",
-    "sentence": "I sleep with my teddy bear."
-  },
-  {
+    "definition": "To feel pain.",
+    "sentence": "My toe began to hurt.",
     "grade": 1,
     "level": "challenge",
-    "word": "sheep",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "yarn",
     "part": "noun",
-    "definition": "A farm animal with a thick coat of wool.",
-    "sentence": "The sheep grazed in the field."
-  },
-  {
+    "definition": "A long thread used for knitting or weaving.",
+    "sentence": "The kitten played with a ball of yarn.",
     "grade": 1,
     "level": "challenge",
-    "word": "teeth",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "stars",
     "part": "noun",
-    "definition": "The hard white parts in your mouth used for biting.",
-    "sentence": "Brush your teeth before bed."
+    "definition": "Bright objects like our sun that are far away in space.",
+    "sentence": "We looked at the stars at night.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "bossy-r",
+      "plurals"
+    ]
   },
   {
-    "grade": 1,
-    "level": "challenge",
-    "word": "beach",
+    "word": "fire",
     "part": "noun",
-    "definition": "Sandy or rocky land beside a sea or lake.",
-    "sentence": "We built a sandcastle on the beach."
-  },
-  {
+    "definition": "Heat, light, and flames produced when something burns.",
+    "sentence": "The campers sat near the fire.",
     "grade": 1,
     "level": "challenge",
-    "word": "peach",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "car",
     "part": "noun",
-    "definition": "A round, soft-skinned fruit with a large stone inside.",
-    "sentence": "I ate a juicy peach."
-  },
-  {
+    "definition": "A road vehicle with wheels that carries a few people.",
+    "sentence": "Our car is parked outside.",
     "grade": 1,
     "level": "challenge",
-    "word": "boat",
-    "part": "noun",
-    "definition": "A small vehicle that floats on water.",
-    "sentence": "We rowed the boat across the lake."
+    "patterns": [
+      "bossy-r"
+    ]
   },
   {
-    "grade": 1,
-    "level": "challenge",
-    "word": "coat",
-    "part": "noun",
-    "definition": "Clothing worn over other clothes to keep warm.",
-    "sentence": "Wear your coat in the cold."
-  },
-  {
-    "grade": 1,
-    "level": "challenge",
-    "word": "snow",
-    "part": "noun",
-    "definition": "Soft white flakes of frozen water that fall from clouds.",
-    "sentence": "The snow covered the ground."
-  },
-  {
-    "grade": 1,
-    "level": "challenge",
-    "word": "grow",
-    "part": "verb",
-    "definition": "To become bigger or taller.",
-    "sentence": "Plants grow when they have water and light."
-  },
-  {
-    "grade": 1,
-    "level": "challenge",
     "word": "star",
     "part": "noun",
     "definition": "A huge glowing ball of gas seen as a bright point in the night sky.",
-    "sentence": "I saw a bright star tonight."
-  },
-  {
+    "sentence": "I saw a bright star tonight.",
     "grade": 1,
     "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "farm",
+    "part": "noun",
+    "definition": "Land used for growing crops or raising animals.",
+    "sentence": "We visited a farm with goats.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "barn",
+    "part": "noun",
+    "definition": "A farm building used for animals or storing crops and tools.",
+    "sentence": "The horses sleep in the barn.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
     "word": "park",
     "part": "noun",
     "definition": "An open place where people can play or relax.",
-    "sentence": "We had a picnic in the park."
-  },
-  {
+    "sentence": "We had a picnic in the park.",
     "grade": 1,
     "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "dark",
+    "part": "adjective",
+    "definition": "Having little or no light.",
+    "sentence": "The room was dark until we turned on a lamp.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "card",
+    "part": "noun",
+    "definition": "A small piece of thick paper used for a message or game.",
+    "sentence": "I made a birthday card.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
     "word": "bird",
     "part": "noun",
     "definition": "An animal with feathers, wings, and a beak.",
-    "sentence": "A bird sang outside my window."
-  },
-  {
+    "sentence": "A bird sang outside my window.",
     "grade": 1,
     "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "girl",
+    "part": "noun",
+    "definition": "A female child.",
+    "sentence": "The girl read a book.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "first",
+    "part": "adjective",
+    "definition": "Coming before all the others.",
+    "sentence": "I was the first person in line.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
     "word": "shirt",
     "part": "noun",
     "definition": "Clothing worn on the top half of your body.",
-    "sentence": "My shirt has stripes."
-  },
-  {
+    "sentence": "My shirt has stripes.",
     "grade": 1,
     "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "stir",
+    "part": "verb",
+    "definition": "To move a spoon or another tool around in a liquid to mix it.",
+    "sentence": "Please stir the soup.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "burn",
+    "part": "verb",
+    "definition": "To be damaged or used up by fire or heat.",
+    "sentence": "Dry sticks burn in a campfire.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "turn",
+    "part": "verb",
+    "definition": "To move so that you face a different direction.",
+    "sentence": "Please turn toward the window.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "fur",
+    "part": "noun",
+    "definition": "The thick hair covering the bodies of many animals.",
+    "sentence": "The rabbit has soft fur.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "curl",
+    "part": "noun",
+    "definition": "A piece of hair or another thing shaped into a loop or curve.",
+    "sentence": "One curl fell over her forehead.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "nurse",
+    "part": "noun",
+    "definition": "A person trained to care for people who are sick or injured.",
+    "sentence": "The school nurse checked my temperature.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "her",
+    "part": "pronoun",
+    "definition": "Used to refer to a girl or woman already mentioned.",
+    "sentence": "I gave her a pencil.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "fern",
+    "part": "noun",
+    "definition": "A green plant with divided, feathery leaves and no flowers.",
+    "sentence": "A fern grows in the shady garden.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "after",
+    "part": "preposition",
+    "definition": "Later than something else.",
+    "sentence": "We play outside after lunch.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "under",
+    "part": "preposition",
+    "definition": "Below or beneath something.",
+    "sentence": "The cat is under the table.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "hire",
+    "part": "verb",
+    "definition": "To give someone a job.",
+    "sentence": "The shop will hire a new helper.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "tire",
+    "part": "noun",
+    "definition": "A rubber ring around a wheel.",
+    "sentence": "My bicycle has a flat tire.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "wire",
+    "part": "noun",
+    "definition": "Metal drawn into a long, thin strand.",
+    "sentence": "A bird perched on the wire.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "bossy-r"
+    ]
+  },
+  {
+    "word": "seal",
+    "part": "noun",
+    "definition": "A sea animal with flippers that can also rest on land.",
+    "sentence": "The seal swam beside the rocks.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "easy",
+    "part": "adjective",
+    "definition": "Not difficult to do or understand.",
+    "sentence": "The first puzzle was easy.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams",
+      "ending-y"
+    ]
+  },
+  {
+    "word": "good",
+    "part": "adjective",
+    "definition": "Of a pleasing or helpful kind.",
+    "sentence": "That was a good idea.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "vowel-teams",
+      "tricky"
+    ]
+  },
+  {
+    "word": "house",
+    "part": "noun",
+    "definition": "A building where people live.",
+    "sentence": "Our house has a red door.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "sound",
+    "part": "noun",
+    "definition": "Something you can hear.",
+    "sentence": "I heard the sound of a bell.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "down",
+    "part": "adverb",
+    "definition": "Toward a lower place.",
+    "sentence": "The ball rolled down the hill.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "claws",
+    "part": "noun",
+    "definition": "Sharp, curved nails on an animal's feet.",
+    "sentence": "The cat used its claws to climb.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "vowel-teams",
+      "plurals"
+    ]
+  },
+  {
+    "word": "beat",
+    "part": "verb",
+    "definition": "To strike something again and again.",
+    "sentence": "We beat the drum to the song.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "meat",
+    "part": "noun",
+    "definition": "Food made from the flesh of an animal.",
+    "sentence": "The sandwich has meat and cheese.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "leaf",
+    "part": "noun",
+    "definition": "A flat, usually green part of a plant.",
+    "sentence": "A leaf fell from the tree.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "beach",
+    "part": "noun",
+    "definition": "Sandy or rocky land beside a sea or lake.",
+    "sentence": "We built a sandcastle on the beach.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "team",
+    "part": "noun",
+    "definition": "A group of people working or playing together.",
+    "sentence": "Our team cheered for everyone.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
     "word": "moon",
     "part": "noun",
     "definition": "The round natural object that travels around Earth.",
-    "sentence": "The moon glows in the night sky."
-  },
-  {
+    "sentence": "The moon glows in the night sky.",
     "grade": 1,
     "level": "challenge",
-    "word": "spoon",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "food",
     "part": "noun",
-    "definition": "A tool with a small bowl at one end for eating or stirring.",
-    "sentence": "Use a spoon to eat your soup."
-  },
-  {
+    "definition": "Things that people or animals eat.",
+    "sentence": "We put food in the puppy's bowl.",
     "grade": 1,
     "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "zoom",
+    "part": "verb",
+    "definition": "To move very quickly.",
+    "sentence": "The toy cars zoom down the track.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "pool",
+    "part": "noun",
+    "definition": "An area of water used for swimming.",
+    "sentence": "We splashed in the pool.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "boot",
+    "part": "noun",
+    "definition": "A shoe that covers the foot and some of the leg.",
+    "sentence": "One boot was stuck in the mud.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
     "word": "book",
     "part": "noun",
     "definition": "Pages joined together inside a cover.",
-    "sentence": "We read a book before bed."
-  },
-  {
+    "sentence": "We read a book before bed.",
     "grade": 1,
     "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
     "word": "look",
     "part": "verb",
     "definition": "To turn your eyes toward something.",
-    "sentence": "Please look at the picture."
-  },
-  {
+    "sentence": "Please look at the picture.",
     "grade": 1,
     "level": "challenge",
-    "word": "school",
-    "part": "noun",
-    "definition": "A place where children go to learn.",
-    "sentence": "I walk to school with my friend."
+    "patterns": [
+      "vowel-teams"
+    ]
   },
   {
+    "word": "cook",
+    "part": "verb",
+    "definition": "To prepare food by heating it.",
+    "sentence": "We cook soup in a pot.",
     "grade": 1,
     "level": "challenge",
-    "word": "friend",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "foot",
     "part": "noun",
-    "definition": "Someone you like and enjoy spending time with.",
-    "sentence": "My friend helped me build a tower."
+    "definition": "The body part at the end of a leg that you stand on.",
+    "sentence": "I put a sock on my foot.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "vowel-teams",
+      "tricky"
+    ]
+  },
+  {
+    "word": "wood",
+    "part": "noun",
+    "definition": "The hard material that makes up the trunk and branches of a tree.",
+    "sentence": "The chair is made of wood.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "vowel-teams",
+      "tricky"
+    ]
+  },
+  {
+    "word": "out",
+    "part": "adverb",
+    "definition": "Away from the inside of something.",
+    "sentence": "The puppy ran out of the room.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "loud",
+    "part": "adjective",
+    "definition": "Making a strong sound that is easy to hear.",
+    "sentence": "The drum made a loud noise.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "cloud",
+    "part": "noun",
+    "definition": "Tiny drops of water or ice floating together in the sky.",
+    "sentence": "A white cloud drifted overhead.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "mouse",
+    "part": "noun",
+    "definition": "A small animal with a pointed nose and a long tail.",
+    "sentence": "The mouse nibbled a seed.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "found",
+    "part": "verb",
+    "definition": "Discovered something or learned where it was.",
+    "sentence": "I found my missing mitten.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "round",
+    "part": "adjective",
+    "definition": "Shaped like a circle or ball.",
+    "sentence": "The table has a round top.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "town",
+    "part": "noun",
+    "definition": "A place with homes, shops, and streets, smaller than many cities.",
+    "sentence": "Our town has a library.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "brown",
+    "part": "adjective",
+    "definition": "The color of chocolate or many tree trunks.",
+    "sentence": "The dog has brown fur.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "clown",
+    "part": "noun",
+    "definition": "A performer who wears funny clothes and makes people laugh.",
+    "sentence": "The clown juggled three balls.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "crown",
+    "part": "noun",
+    "definition": "A special head covering worn by a king or queen.",
+    "sentence": "We made a crown from paper.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "owl",
+    "part": "noun",
+    "definition": "A bird with large eyes that often hunts at night.",
+    "sentence": "An owl sat on a branch.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "paw",
+    "part": "noun",
+    "definition": "The foot of an animal such as a cat or dog.",
+    "sentence": "The puppy lifted one paw.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "saw",
+    "part": "noun",
+    "definition": "A tool with a toothed blade used for cutting.",
+    "sentence": "A grown-up used a saw to cut the wood.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "jaw",
+    "part": "noun",
+    "definition": "One of the bones in your mouth that holds your teeth.",
+    "sentence": "My jaw moves when I chew.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "draw",
+    "part": "verb",
+    "definition": "To make a picture using lines.",
+    "sentence": "I like to draw animals.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "straw",
+    "part": "noun",
+    "definition": "A thin tube used for drinking.",
+    "sentence": "I drank juice through a straw.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "vowel-teams"
+    ]
+  },
+  {
+    "word": "bunny",
+    "part": "noun",
+    "definition": "A rabbit, especially a young one.",
+    "sentence": "The bunny hopped across the grass.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "ending-y",
+      "syllables"
+    ]
+  },
+  {
+    "word": "silly",
+    "part": "adjective",
+    "definition": "Playful or funny in a way that is not serious.",
+    "sentence": "We laughed at the silly dance.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "ending-y",
+      "syllables"
+    ]
+  },
+  {
+    "word": "mossy",
+    "part": "adjective",
+    "definition": "Covered with small, soft green plants that grow in damp places.",
+    "sentence": "The frog sat on a mossy rock.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "ending-y",
+      "syllables"
+    ]
+  },
+  {
+    "word": "body",
+    "part": "noun",
+    "definition": "All the physical parts of a person or animal.",
+    "sentence": "Exercise helps keep your body strong.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "ending-y",
+      "tricky"
+    ]
+  },
+  {
+    "word": "happy",
+    "part": "adjective",
+    "definition": "Feeling pleased or glad.",
+    "sentence": "I am happy to see my friend.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "ending-y"
+    ]
+  },
+  {
+    "word": "puppy",
+    "part": "noun",
+    "definition": "A young dog.",
+    "sentence": "The puppy chased its tail.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "ending-y",
+      "syllables"
+    ]
+  },
+  {
+    "word": "funny",
+    "part": "adjective",
+    "definition": "Making you laugh.",
+    "sentence": "The story had a funny ending.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "ending-y"
+    ]
+  },
+  {
+    "word": "sunny",
+    "part": "adjective",
+    "definition": "Bright with light from the sun.",
+    "sentence": "It was a sunny day.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "ending-y"
+    ]
+  },
+  {
+    "word": "candy",
+    "part": "noun",
+    "definition": "A sweet food often made with sugar.",
+    "sentence": "I chose a piece of candy.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "ending-y"
+    ]
+  },
+  {
+    "word": "baby",
+    "part": "noun",
+    "definition": "A very young child.",
+    "sentence": "The baby held my finger.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "ending-y"
+    ]
+  },
+  {
+    "word": "messy",
+    "part": "adjective",
+    "definition": "Untidy or not neatly arranged.",
+    "sentence": "My desk was messy after art class.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "ending-y"
+    ]
+  },
+  {
+    "word": "my",
+    "part": "determiner",
+    "definition": "Belonging to the person who is speaking.",
+    "sentence": "This is my favorite book.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "ending-y"
+    ]
+  },
+  {
+    "word": "by",
+    "part": "preposition",
+    "definition": "Next to or near something.",
+    "sentence": "We sat by the window.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "ending-y"
+    ]
+  },
+  {
+    "word": "fly",
+    "part": "verb",
+    "definition": "To move through the air using wings.",
+    "sentence": "Birds fly above the trees.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "ending-y"
+    ]
+  },
+  {
+    "word": "try",
+    "part": "verb",
+    "definition": "To make an effort to do something.",
+    "sentence": "I will try to solve the puzzle.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "ending-y"
+    ]
+  },
+  {
+    "word": "cry",
+    "part": "verb",
+    "definition": "To shed tears because of a strong feeling.",
+    "sentence": "The sad story made me cry.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "ending-y"
+    ]
+  },
+  {
+    "word": "sky",
+    "part": "noun",
+    "definition": "The space above the ground that you see when you look up outside.",
+    "sentence": "The sky is bright blue.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "ending-y"
+    ]
+  },
+  {
+    "word": "dry",
+    "part": "adjective",
+    "definition": "Not wet.",
+    "sentence": "The towel is clean and dry.",
+    "grade": 1,
+    "level": "challenge",
+    "patterns": [
+      "ending-y"
+    ]
+  },
+  {
+    "word": "wings",
+    "part": "noun",
+    "definition": "The body parts that birds use to fly.",
+    "sentence": "The bird spread its wings.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "plurals"
+    ]
+  },
+  {
+    "word": "steps",
+    "part": "noun",
+    "definition": "Flat surfaces you put your feet on to go up or down.",
+    "sentence": "We climbed the steps to the door.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "plurals"
+    ]
+  },
+  {
+    "word": "cats",
+    "part": "noun",
+    "definition": "Small pets that have whiskers and often meow.",
+    "sentence": "The cats slept in the sunshine.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "plurals"
+    ]
+  },
+  {
+    "word": "dogs",
+    "part": "noun",
+    "definition": "Pets that bark and often wag their tails.",
+    "sentence": "The dogs played in the park.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "plurals"
+    ]
+  },
+  {
+    "word": "hats",
+    "part": "noun",
+    "definition": "Things you wear on your head.",
+    "sentence": "We wore warm hats outside.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "plurals"
+    ]
+  },
+  {
+    "word": "ships",
+    "part": "noun",
+    "definition": "Large boats that carry people or things.",
+    "sentence": "Two ships sailed past the harbor.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "plurals"
+    ]
+  },
+  {
+    "word": "birds",
+    "part": "noun",
+    "definition": "Animals with feathers, wings, and beaks.",
+    "sentence": "The birds sang in the trees.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "plurals"
+    ]
+  },
+  {
+    "word": "trucks",
+    "part": "noun",
+    "definition": "Large road vehicles that carry things.",
+    "sentence": "The trucks delivered boxes to the store.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "plurals"
+    ]
+  },
+  {
+    "word": "shells",
+    "part": "noun",
+    "definition": "Hard coverings that protect animals such as turtles and snails.",
+    "sentence": "We found empty shells on the beach.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "plurals"
+    ]
+  },
+  {
+    "word": "bunnies",
+    "part": "noun",
+    "definition": "Rabbits, especially young ones.",
+    "sentence": "The bunnies hopped into the grass.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "plurals"
+    ]
+  },
+  {
+    "word": "winter",
+    "part": "noun",
+    "definition": "The coldest season of the year.",
+    "sentence": "We wear warm coats in winter.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "syllables"
+    ]
+  },
+  {
+    "word": "apple",
+    "part": "noun",
+    "definition": "A round fruit that can have red, green, or yellow skin.",
+    "sentence": "I ate an apple at lunch.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "syllables"
+    ]
+  },
+  {
+    "word": "yellow",
+    "part": "adjective",
+    "definition": "The color of a ripe lemon.",
+    "sentence": "The duck has a yellow beak.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "syllables"
+    ]
+  },
+  {
+    "word": "hello",
+    "part": "interjection",
+    "definition": "A word used to greet someone.",
+    "sentence": "I said hello to my teacher.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "syllables"
+    ]
+  },
+  {
+    "word": "sunset",
+    "part": "noun",
+    "definition": "The time when the sun disappears below the horizon in the evening.",
+    "sentence": "We watched the sunset from the porch.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "syllables"
+    ]
+  },
+  {
+    "word": "rabbit",
+    "part": "noun",
+    "definition": "An animal with long ears, soft fur, and a short tail.",
+    "sentence": "The rabbit ate a carrot.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "syllables"
+    ]
+  },
+  {
+    "word": "picnic",
+    "part": "noun",
+    "definition": "A meal eaten outdoors for fun.",
+    "sentence": "We had a picnic under the tree.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "syllables"
+    ]
+  },
+  {
+    "word": "little",
+    "part": "adjective",
+    "definition": "Small in size or amount.",
+    "sentence": "A little frog sat on the leaf.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "syllables"
+    ]
+  },
+  {
+    "word": "mitten",
+    "part": "noun",
+    "definition": "A warm hand covering with one part for the thumb and one for the fingers.",
+    "sentence": "I found my missing mitten.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "syllables"
+    ]
+  },
+  {
+    "word": "butter",
+    "part": "noun",
+    "definition": "A pale yellow food made from cream that is often spread on bread.",
+    "sentence": "I spread butter on my toast.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "syllables"
+    ]
+  },
+  {
+    "word": "summer",
+    "part": "noun",
+    "definition": "The warmest season of the year.",
+    "sentence": "We swim outside in summer.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "syllables"
+    ]
+  },
+  {
+    "word": "come",
+    "part": "verb",
+    "definition": "To move toward the person speaking or a certain place.",
+    "sentence": "Please come and sit beside me.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "tricky"
+    ]
+  },
+  {
+    "word": "most",
+    "part": "determiner",
+    "definition": "The greatest amount or number.",
+    "sentence": "This basket holds the most apples.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "tricky"
+    ]
+  },
+  {
+    "word": "even",
+    "part": "adjective",
+    "definition": "Able to be divided into two equal whole-number groups.",
+    "sentence": "Six is an even number.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "tricky"
+    ]
+  },
+  {
+    "word": "heart",
+    "part": "noun",
+    "definition": "The organ inside your chest that pumps blood through your body.",
+    "sentence": "My heart beats faster when I run.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "tricky"
+    ]
+  },
+  {
+    "word": "some",
+    "part": "determiner",
+    "definition": "An amount or number that is not stated exactly.",
+    "sentence": "We saved some cookies for later.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "tricky"
+    ]
+  },
+  {
+    "word": "done",
+    "part": "adjective",
+    "definition": "Finished or completed.",
+    "sentence": "My homework is done.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "tricky"
+    ]
+  },
+  {
+    "word": "post",
+    "part": "noun",
+    "definition": "A strong upright piece of wood or metal used as a support.",
+    "sentence": "The gate hangs from a wooden post.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "tricky"
+    ]
+  },
+  {
+    "word": "host",
+    "part": "noun",
+    "definition": "A person who welcomes guests.",
+    "sentence": "Our host showed us where to sit.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "tricky"
+    ]
+  },
+  {
+    "word": "both",
+    "part": "determiner",
+    "definition": "The two people or things together.",
+    "sentence": "I put both shoes by the door.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "tricky"
+    ]
+  },
+  {
+    "word": "stood",
+    "part": "verb",
+    "definition": "Was upright on the feet in the past.",
+    "sentence": "We stood in a line.",
+    "grade": 1,
+    "level": "expert",
+    "patterns": [
+      "tricky"
+    ]
   }
 ]

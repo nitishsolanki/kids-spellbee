@@ -2,16 +2,18 @@ const $ = id => document.getElementById(id);
 let python, callPython, current, state, result, recognition;
 let mode='practice', level='easy', busy=false, voiceToken=0;
 const settingsKey='little-bee-settings';
-const saved={seen:{},packs:[],levels:{},audio:{voice:'',rate:.75}};
+const saved={seen:{},packs:[],levels:{},audio:{voice:'',rate:1}};
 let lastResult=null, origin='home';
 try {
  const settings=JSON.parse(localStorage.getItem(settingsKey)||'{}');
  if(typeof settings.voice==='string')saved.audio.voice=settings.voice;
- saved.audio.rate=Math.min(1.2,Math.max(.5,Number(settings.rate)||.75));
+ const previousRate=Number(settings.rate);
+ saved.audio.rate=Number.isFinite(previousRate)&&previousRate>0?Math.min(1.2,Math.max(.5,previousRate)):1;
+ if(settings.version!==2&&previousRate===.75)saved.audio.rate=1;
 }catch{}
 // Retire old player/progress data even when voice preferences are malformed.
 try{localStorage.removeItem('little-bee-v1');}catch{}
-function save(){try{localStorage.setItem(settingsKey,JSON.stringify(saved.audio));}catch{}}
+function save(){try{localStorage.setItem(settingsKey,JSON.stringify({...saved.audio,version:2}));}catch{}}
 function api(action,data={}){return JSON.parse(callPython(JSON.stringify({action,...data})));}
 function errorText(error){console.error(error);return String(error.message||error).split('\n').filter(Boolean).at(-1).replace(/^ValueError: /,'');}
 function show(id){
@@ -40,7 +42,7 @@ async function boot(){
   python.runPython(engine);callPython=python.globals.get('dispatch');
   let loaded;try{const combined=[...new Map([...baseWords,...saved.packs].map(w=>[`${w.grade}:${w.word}`,w])).values()];loaded=api('load',{words:combined});}catch{saved.packs=[];save();loaded=api('load',{words:baseWords});}
   populateGrades(loaded.grades);$('start').textContent='Let’s practice →';$('start').disabled=false;$('pattern-spell-start').disabled=false;$('add-words').disabled=false;
-  $('load-status').textContent=`${baseWords.length} starter words · Fresh rounds, one little word at a time`;
+  $('load-status').textContent=baseWords.length+' words from Learn patterns - Four levels, one little word at a time';refreshLearningHints();
  }catch(e){$('load-status').textContent=errorText(e);$('start').textContent='Waiting for your words';$('reload').hidden=false;}
 }
 function checkResponse(response){if(!response.ok)throw Error('A word file could not load. Please try again.');return response;}
@@ -58,8 +60,7 @@ function renderWord(){
  $('round-label').textContent=origin==='patterns'?currentPattern().title:`Grade ${current.grade} · ${level} · ${mode==='contest'?'Mini contest':'Practice'}`;
  $('mystery').textContent='A little mystery word.';$('spelling').value='';$('spelling').disabled=false;$('check').disabled=false;
  $('feedback').textContent='';$('hint').textContent='A clue is just a question away.';$('answer-form').hidden=false;$('next').hidden=true;$('skip').hidden=false;
- setRoundHints(origin==='home'&&!current.custom);
- if(origin==='home'&&current.custom){$('hint').hidden=false;$('hint').textContent='This is one of your added words. Listen again if you need a clue; no dictionary hints are provided.';}
+ setRoundHints(true);
  $('voice-status').textContent=voiceAvailable?'Say each letter, then check what we heard before submitting.':'Microphone recognition is unavailable in this browser. Type your spelling instead.';
  $('spelling').focus();
 }
@@ -69,7 +70,7 @@ $('start').onclick=()=>{
  catch(e){$('load-status').textContent=errorText(e);}
 };
 $('listen').onclick=()=>speak(current.word);
-document.querySelectorAll('[data-hint]').forEach(b=>b.onclick=()=>{const kind=b.dataset.hint;const text=kind==='part'?`This word is a ${current.part}.`:current[kind];$('hint').textContent=kind==='sentence'?text.replace(new RegExp(`\\b${current.word}\\b`,'gi'),'____'):text;speak(text);});
+document.querySelectorAll('[data-hint]').forEach(b=>b.onclick=()=>{const kind=b.dataset.hint;const text=clueText(current,kind);$('hint').textContent=text.replace(new RegExp('\\b'+current.word+'\\b','gi'),'____');speak(text);});
 $('answer-form').onsubmit=e=>{e.preventDefault();submit(false);};
 $('skip').onclick=()=>submit(true);
 function submit(skip){
@@ -85,7 +86,7 @@ function finish(){
  const completedLevel=level;
  if(origin==='home'){
   const available=[...new Map([...baseWords,...saved.packs].map(w=>[w.grade+':'+w.word,w])).values()];
-  const nextLevel=['easy','growing','challenge'][['easy','growing','challenge'].indexOf(completedLevel)+1];
+  const nextLevel=['easy','growing','challenge','expert'][['easy','growing','challenge','expert'].indexOf(completedLevel)+1];
   const summary=api('results');
   if(summary.advanced&&!available.some(w=>w.grade===current.grade&&w.level===nextLevel)){summary.advanced=false;summary.next_level=completedLevel;}
   result=summary;
@@ -114,15 +115,41 @@ $('mic').onclick=()=>{
  try{active.start();}catch{$('voice-status').textContent='Microphone could not start. Please type your spelling.';recognition=null;$('mic').setAttribute('aria-pressed','false');}
 };
 $('guide-button').onclick=()=> $('guide').showModal();$('close-guide').onclick=()=> $('guide').close();
-$('word-list').oninput=()=>{$('word-list').setAttribute('aria-invalid','false');$('import-status').textContent='';};
+$('word-list').oninput=()=>{$('word-list').setAttribute('aria-invalid','false');$('import-status').textContent='';$('custom-clues').replaceChildren();$('custom-clues').hidden=true;};
+function customClueFields(unknown){
+ const container=$('custom-clues');const previous=new Map([...container.querySelectorAll('[data-clue-word]')].map(group=>[group.dataset.clueWord,group]));
+ const parts=['noun','verb','adjective','adverb','pronoun','determiner','preposition','conjunction','interjection','number'];
+ container.replaceChildren(...unknown.map(word=>{
+  if(previous.has(word))return previous.get(word);
+  const group=document.createElement('fieldset');group.dataset.clueWord=word;const legend=document.createElement('legend');legend.textContent='Clues for '+word;group.append(legend);
+  for(const kind of ['definition','sentence','part']){
+   const label=document.createElement('label');label.textContent=kind==='part'?'Part of speech':kind==='sentence'?'Example sentence using '+word:'Definition';
+   const field=document.createElement(kind==='part'?'select':'input');field.dataset.clue=kind;field.required=true;
+   if(kind==='part')field.replaceChildren(new Option('Choose a part of speech',''),...parts.map(part=>new Option(part,part)));
+   else {field.type='text';field.maxLength=400;field.minLength=5;field.autocomplete='off';}
+   label.append(field);group.append(label);
+  }
+  return group;
+ }));
+ container.hidden=!unknown.length;
+ return new Map([...container.querySelectorAll('[data-clue-word]')].map(group=>[group.dataset.clueWord,Object.fromEntries([...group.querySelectorAll('[data-clue]')].map(field=>[field.dataset.clue,field.value.trim()]))]));
+}
 $('word-list-form').onsubmit=e=>{
  e.preventDefault();
  try{
   if(!callPython)throw Error('Wait for the spelling engine to finish loading.');
   const parsed=api('parse_list',{text:$('word-list').value,grade:Number($('word-list-grade').value),level:$('word-list-level').value});
+  const candidateKeys=new Set([...saved.packs.map(w=>w.grade+':'+w.word),...parsed.words.map(word=>parsed.grade+':'+word)]);
+  if(candidateKeys.size>1000)throw Error('Add up to 1,000 custom words per visit. Refresh to start a new list.');
+  const unknown=parsed.words.filter(word=>!baseWords.some(w=>w.word===word)&&!saved.packs.some(w=>w.word===word));
+  const clueFields=customClueFields(unknown);
+  if(unknown.some(word=>Object.values(clueFields.get(word)).some(value=>!value))){
+   $('import-status').textContent='Add the definition, example sentence, and part of speech for each new word below, then choose Add these words again. Nothing has been added yet.';
+   $('custom-clues').querySelector('input,select')?.focus();return;
+  }
   const words=parsed.words.map(word=>{
-   const known=baseWords.find(w=>w.word===word);
-   return {...(known||{part:'word',definition:'No definition is provided for this custom word.',sentence:'No example sentence is provided for this custom word.'}),word,grade:parsed.grade,level:parsed.level,custom:!known};
+   const known=baseWords.find(w=>w.word===word)||saved.packs.find(w=>w.word===word);
+   return {...(known||clueFields.get(word)),word,grade:parsed.grade,level:parsed.level};
   });
   const candidate=[...new Map([...saved.packs,...words].map(w=>[w.grade+':'+w.word,w])).values()];
   if(candidate.length>1000)throw Error('Keep custom words under 1,000 per visit. Refresh to start a new list.');
@@ -132,10 +159,11 @@ $('word-list-form').onsubmit=e=>{
   saved.packs=candidate;saved.levels[parsed.grade]=parsed.level;
   populateGrades(response.grades);$('grade').value=parsed.grade;selectLevel(parsed.level);
   $('word-list').setAttribute('aria-invalid','false');
+  $('custom-clues').hidden=true;
   $('import-status').textContent='Ready! Added '+words.length+' unique '+(words.length===1?'word':'words')+' for Grade '+parsed.grade+' ('+parsed.level+').'+(parsed.duplicates?' Removed '+parsed.duplicates+' duplicate '+(parsed.duplicates===1?'entry.':'entries.'):'')+' Start a spelling round above. Words last for this visit only.';
  }catch(error){$('word-list').setAttribute('aria-invalid','true');$('import-status').textContent=errorText(error);}
 };
-let patternLessons=[], quiz=[], quizIndex=0, quizAnswers=[], quizLocked=false;
+let patternLessons=[], quiz=[], quizIndex=0, quizAnswers=[], quizLocked=false, learningWord=null;
 const wordPictures={ran:'🏃',leg:'🦵',rod:'🎣',wind:'🍃',drink:'🥤',mist:'🌫️',shell:'🐚',truck:'🚚',bush:'🌳',shoot:'🏀',shine:'☀️',dive:'🏊',dirt:'🌱',yarn:'🧶',stars:'⭐',fire:'🔥',seal:'🦭',house:'🏠',claws:'🐾',bunny:'🐰',mossy:'🌿',body:'🧍',wings:'🪽',steps:'👣',winter:'❄️',apple:'🍎',yellow:'🟡',hello:'👋',heart:'❤️'};
 function currentPattern(){return patternLessons.find(p=>p.id===$('pattern-select').value);}
 function shuffled(items){const result=[...items];for(let i=result.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[result[i],result[j]]=[result[j],result[i]];}return result;}
@@ -151,7 +179,10 @@ function renderLesson(){
  const p=currentPattern();if(!p)return;
  patternView('pattern-lesson');$('pattern-number').textContent='PATTERN '+(patternLessons.indexOf(p)+1)+' OF 11';
  $('pattern-title').textContent=p.title;$('pattern-rule').textContent=p.rule;
- $('pattern-words').replaceChildren(...p.core.map(word=>{const button=document.createElement('button');button.type='button';const picture=document.createElement('span');picture.className='word-picture';picture.setAttribute('aria-hidden','true');picture.textContent=wordPictures[word]||'🔊';button.append(picture,document.createTextNode(word));button.onclick=()=>speak(word);return button;}));
+ const wordButton=word=>{const button=document.createElement('button');button.type='button';button.dataset.lessonWord=word;button.setAttribute('aria-pressed','false');const picture=document.createElement('span');picture.className='word-picture';picture.setAttribute('aria-hidden','true');picture.textContent=wordPictures[word]||'🔊';button.append(picture,document.createTextNode(word));button.onclick=()=>{learningWord=word;refreshLearningHints();speak(word);};return button;};
+ $('pattern-words').replaceChildren(...p.core.map(wordButton));
+ $('pattern-more-words').replaceChildren(...p.words.filter(word=>!p.core.includes(word)).map(wordButton));
+ learningWord=p.core[0];refreshLearningHints();
  $('pattern-status').textContent='';$('pattern-spell-start').disabled=!callPython;
 }
 $('pattern-select').onchange=renderLesson;
@@ -181,15 +212,26 @@ $('activity-next').onclick=()=>{
  $('activity-review').replaceChildren(...quizAnswers.map(a=>{const li=document.createElement('li');li.textContent=a.prompt+' Your answer: '+a.response+'. Correct answer: '+a.answer+'.';li.className=a.correct?'good':'miss';return li;}));
 };
 $('pattern-spell-start').onclick=()=>{
- if(!callPython)return;const p=currentPattern();origin='patterns';mode='practice';level='easy';setRoundHints(false);
+ if(!callPython)return;const p=currentPattern();origin='patterns';mode='practice';level='easy';setRoundHints(true);
  try{
-  const words=p.words.map(word=>({...baseWords.find(w=>w.word===word),word,grade:1,level:'easy',part:'word',definition:'A practice word for '+p.title+'.',sentence:'Listen carefully and spell this word.'}));
+  const words=p.words.map(word=>{const entry=baseWords.find(w=>w.word===word);if(!entry)throw Error('Word clues are not ready. Please reload.');return {...entry,level:'easy'};});
   api('load',{words});state=api('start',{grade:1,level:'easy',mode:'practice',count:5,seen:saved.seen});show('round');renderWord();speak(current.word);
  }catch(e){$('pattern-status').textContent=errorText(e);show('patterns');}
 };
 document.querySelectorAll('[data-tab]').forEach((button,index,buttons)=>{
  button.onclick=()=>{if(!$('round').hidden&&!confirm('Leave this spelling round? This round will not be saved.'))return;origin=button.dataset.tab;show(origin);};
  button.onkeydown=e=>{let next;if(e.key==='ArrowRight'||e.key==='ArrowLeft')next=1-index;else if(e.key==='Home')next=0;else if(e.key==='End')next=1;else return;e.preventDefault();buttons[next].click();buttons[next].focus();};
+});
+function clueText(word,kind){return kind==='part'?'This word is '+(/^[aeiou]/i.test(word.part)?'an':'a')+' '+word.part+'.':word[kind];}
+function refreshLearningHints(){
+ const entry=baseWords.find(w=>w.word===learningWord);
+ document.querySelectorAll('[data-learn-hint]').forEach(button=>button.disabled=!entry);
+ document.querySelectorAll('[data-lesson-word]').forEach(button=>button.setAttribute('aria-pressed',button.dataset.lessonWord===learningWord));
+ if(learningWord)$('learning-clue').textContent='Selected word: '+learningWord+'. Choose a clue below.';
+}
+document.querySelectorAll('[data-learn-hint]').forEach(button=>button.onclick=()=>{
+ const entry=baseWords.find(w=>w.word===learningWord);if(!entry)return;
+ const text=clueText(entry,button.dataset.learnHint);$('learning-clue').textContent=text;speak(text);
 });
 function populateVoices(){
  const synth=window.speechSynthesis;

@@ -3,6 +3,9 @@ import json
 import random
 import re
 
+LEVELS = ('easy', 'growing', 'challenge', 'expert')
+PARTS = ('noun', 'verb', 'adjective', 'adverb', 'pronoun', 'determiner',
+         'preposition', 'conjunction', 'interjection', 'number')
 
 def parse_word_list(text, grade, level):
     """Validate untrusted text without evaluating it or changing the word bank."""
@@ -10,8 +13,8 @@ def parse_word_list(text, grade, level):
         raise ValueError('Keep your list under 12,000 characters.')
     if type(grade) is not int or not 1 <= grade <= 12:
         raise ValueError('Choose a grade from 1 to 12.')
-    if level not in ('easy', 'growing', 'challenge'):
-        raise ValueError('Choose Easy, Growing, or Challenge.')
+    if level not in LEVELS:
+        raise ValueError('Choose Easy, Growing, Challenge, or Expert.')
     entries = [entry.strip(' \t') for entry in
                re.split(r'[,\r\n]', text) if entry.strip(' \t')]
     if not entries:
@@ -49,8 +52,16 @@ def validate_words(words):
             raise ValueError('Use single English words with 2–25 letters.')
         if type(item.get('grade')) is not int or not 1 <= item['grade'] <= 12:
             raise ValueError('Grade must be a number from 1 to 12.')
-        if item.get('level') not in ('easy', 'growing', 'challenge'):
-            raise ValueError('Level must be easy, growing, or challenge.')
+        if item.get('level') not in LEVELS:
+            raise ValueError('Choose a valid difficulty, from Easy to Expert.')
+        if item['part'] not in PARTS:
+            raise ValueError('Choose a valid part of speech for every word.')
+        for field in ('definition', 'sentence'):
+            clue = item[field]
+            if len(clue.strip()) < 5 or re.search(r'[<>]|[\x00-\x1f\x7f]', clue):
+                raise ValueError('Clues need 5–400 characters of plain text, without HTML or control characters.')
+        if not re.search(r'\b' + re.escape(item['word']) + r'\b', item['sentence'], re.I):
+            raise ValueError('Each example sentence must include its word.')
         key = (item['grade'], item['word'])
         if key in unique:
             raise ValueError('Remove duplicate words within each grade.')
@@ -68,7 +79,7 @@ class Bee:
         self.locked = False
 
     def start(self, grade=1, level='easy', mode='practice', count=10, seen=None):
-        if mode not in ('practice', 'contest') or level not in ('easy', 'growing', 'challenge'):
+        if mode not in ('practice', 'contest') or level not in LEVELS:
             raise ValueError('Choose a valid mode and level.')
         pool = [w for w in self.words if w['grade'] == grade and w['level'] == level]
         if not pool:
@@ -123,9 +134,9 @@ class Bee:
             raise ValueError('Finish your round to see the answers.')
         score = sum(row['correct'] for row in self.answers)
         first = sum(row['first_try'] for row in self.answers)
-        levels = ['easy', 'growing', 'challenge']
+        levels = list(LEVELS)
         level = levels.index(self.level)
-        advance = self.mode == 'practice' and first / max(len(self.answers), 1) >= .8 and level < 2
+        advance = self.mode == 'practice' and first / max(len(self.answers), 1) >= .8 and level < len(levels) - 1
         return {'score': score, 'first_try': first, 'total': len(self.answers),
                 'answers': self.answers, 'next_level': levels[level + 1] if advance else self.level,
                 'advanced': advance}
