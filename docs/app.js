@@ -27,7 +27,7 @@ function stopAudio(){voiceToken++;recognition?.abort();recognition=null;if('spee
 function selectLevel(value){level=value;document.querySelectorAll('[data-level]').forEach(b=>{const selected=b.dataset.level===value;b.classList.toggle('selected',selected);b.setAttribute('aria-pressed',selected);});}
 document.querySelectorAll('[data-level]').forEach(b=>b.onclick=()=>selectLevel(b.dataset.level));
 document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.mode;document.querySelectorAll('[data-mode]').forEach(x=>{const selected=x===b;x.classList.toggle('selected',selected);x.setAttribute('aria-pressed',selected);});});
-function populateGrades(grades){const previous=$('grade').value;$('grade').replaceChildren(...grades.map(grade=>new Option(`Grade ${grade}${grade===1?' · starter pack':''}`,grade)));if(grades.includes(Number(previous)))$('grade').value=previous;selectLevel(saved.levels[$('grade').value]||'easy');}
+function populateGrades(grades){const previous=$('grade').value;$('grade').replaceChildren(...grades.map(grade=>new Option(`Grade ${grade}${baseWords.some(w=>w.grade===grade)?' · starter pack':''}`,grade)));if(grades.includes(Number(previous)))$('grade').value=previous;selectLevel(saved.levels[$('grade').value]||'easy');}
 $('grade').onchange=()=>selectLevel(saved.levels[$('grade').value]||'easy');
 let baseWords=[];
 function loadSpellingBank(){return api('load',{words:[...new Map([...baseWords,...saved.packs].map(w=>[String(w.grade)+':'+w.word,w])).values()]});}
@@ -42,7 +42,7 @@ async function boot(){
   python.runPython(engine);callPython=python.globals.get('dispatch');
   let loaded;try{const combined=[...new Map([...baseWords,...saved.packs].map(w=>[`${w.grade}:${w.word}`,w])).values()];loaded=api('load',{words:combined});}catch{saved.packs=[];save();loaded=api('load',{words:baseWords});}
   populateGrades(loaded.grades);$('start').textContent='Let’s practice →';$('start').disabled=false;$('pattern-spell-start').disabled=false;$('add-words').disabled=false;
-  $('load-status').textContent=baseWords.length+' words from Learn patterns - Four levels, one little word at a time';refreshLearningHints();
+  $('load-status').textContent=baseWords.length+' words · Grade 1 and Grade 2 starter packs · Four difficulty levels';refreshLearningHints();
  }catch(e){$('load-status').textContent=errorText(e);$('start').textContent='Waiting for your words';$('reload').hidden=false;}
 }
 function checkResponse(response){if(!response.ok)throw Error('A word file could not load. Please try again.');return response;}
@@ -79,6 +79,7 @@ function submit(skip){
   if(response.word)$('mystery').textContent=response.word;
   if(response.locked){$('answer-form').hidden=true;$('skip').hidden=true;$('next').hidden=false;$('next').textContent=state.number===state.total?'See my results →':'Next word →';$('next').focus();}
   else $('spelling').focus();
+  if(response.correct)speak(response.message);
  }catch(e){$('feedback').textContent=errorText(e);}finally{busy=false;}
 }
 $('next').onclick=()=>{stopAudio();state=api('next');if(state.done)finish();else{renderWord();speak(current.word);}};
@@ -204,6 +205,7 @@ $('activity-form').onsubmit=e=>{
  $('activity-feedback').textContent=(correct?'You got it! ':'Good try! ')+q.explanation;$('activity-check').hidden=true;$('activity-next').hidden=false;
  $('activity-next').textContent=quizIndex===quiz.length-1?'See my results':'Next question';
  $('activity-input').disabled=true;document.querySelectorAll('input[name="pattern-answer"]').forEach(input=>input.disabled=true);$('activity-next').focus();
+ if(correct)speak('You got it!');
 };
 $('activity-next').onclick=()=>{
  if(!quizLocked)return;

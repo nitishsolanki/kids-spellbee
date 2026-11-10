@@ -20,18 +20,24 @@ await new Promise((resolve,reject)=>{const deadline=Date.now()+15000;const check
 assert.equal($('speech-speed').value,'1');
 assert.equal($('speed-value').textContent,'1.00× · normal');
 assert.equal(w.document.querySelectorAll('[data-level]').length,4);
+assert.deepEqual([...$('grade').options].map(option=>option.value),['1','2']);
+assert.ok([...$('grade').options].every(option=>option.textContent.includes('starter pack')));
 $('count').value='5';$('start').click();
 assert.equal($('round').hidden,false);
 const answer=py.runPython("bee.current()['word']");
 assert.equal($('mystery').textContent,'A little mystery word.');
 w.document.querySelector('[data-hint="sentence"]').click();
 assert.ok(!$('hint').textContent.includes(answer));
+const beforeWrong=spoken.length;
 $('spelling').value='zzzz';$('answer-form').dispatchEvent(new w.Event('submit',{cancelable:true}));
+assert.equal(spoken.length,beforeWrong);
 assert.equal($('next').hidden,true);
 assert.equal($('mystery').textContent,'A little mystery word.');
 $('spelling').value=answer;$('answer-form').dispatchEvent(new w.Event('submit',{cancelable:true}));
 assert.equal($('mystery').textContent,answer);
 assert.equal($('next').hidden,false);
+assert.equal(spoken.at(-1).text,'You got it!');
+assert.equal(spoken.length,beforeWrong+1);
 $('end').click();
 assert.equal($('results').hidden,false);
 assert.equal($('answers').children.length,5);
@@ -78,6 +84,11 @@ for(const pattern of patternData){
   else $('activity-input').value=question.answer;
   $('activity-form').dispatchEvent(new w.Event('submit',{cancelable:true}));
   assert.ok($('activity-feedback').textContent.startsWith('You got it!'));
+  assert.equal(spoken.at(-1).text,'You got it!');
+  assert.equal(spoken.at(-1).rate,.5);assert.equal(spoken.at(-1).voice.voiceURI,'uk');
+  const afterCorrect=spoken.length;
+  $('activity-form').dispatchEvent(new w.Event('submit',{cancelable:true}));
+  assert.equal(spoken.length,afterCorrect);
   $('activity-next').click();
  }
  assert.equal($('activity-score').textContent,'5 / 5 correct');
@@ -94,8 +105,10 @@ for(const pattern of patternData){
 // Wrong activity answers count once, and a fresh round has a clean slate.
 $('pattern-quiz-start').click();
 const wrongQuestion=runInContext('quiz[quizIndex]',dom.getInternalVMContext());
+const beforeWrongActivity=spoken.length;
 $('activity-input').value='zzzz';$('activity-form').dispatchEvent(new w.Event('submit',{cancelable:true}));
 assert.ok($('activity-feedback').textContent.startsWith('Good try!'));
+assert.equal(spoken.length,beforeWrongActivity);
 $('activity-form').dispatchEvent(new w.Event('submit',{cancelable:true}));
 assert.equal(runInContext('quizAnswers.length',dom.getInternalVMContext()),1);
 $('back-to-lesson').click();
@@ -105,13 +118,14 @@ assert.equal(py.runPython('bee.mode'),'contest');
 assert.ok(JSON.parse(await readFile('docs/words.json','utf8')).some(item=>item.word===py.runPython("bee.current()['word']")));
 $('end').click();
 // Only audio preferences survive a reload; no names, scores, or difficulty history.
-// All four levels in both modes share lesson words and complete clues.
+// Both starter packs support all four levels and modes with complete clues.
 const fullBank=JSON.parse(await readFile('docs/words.json','utf8'));
-for(const difficulty of ['easy','growing','challenge','expert'])for(const roundMode of ['practice','contest']){
- $('spelling-tab').click();w.document.querySelector('[data-level="'+difficulty+'"]').click();w.document.querySelector('[data-mode="'+roundMode+'"]').click();$('start').click();
+for(const grade of [1,2])for(const difficulty of ['easy','growing','challenge','expert'])for(const roundMode of ['practice','contest']){
+ $('spelling-tab').click();$('grade').value=String(grade);$('grade').dispatchEvent(new w.Event('change'));w.document.querySelector('[data-level="'+difficulty+'"]').click();w.document.querySelector('[data-mode="'+roundMode+'"]').click();$('start').click();
  for(let i=0;i<5;i++){
-  const word=py.runPython("bee.current()['word']");const entry=fullBank.find(w=>w.word===word);
-  assert.equal(entry.level,difficulty);assert.ok(entry.patterns.length>0);
+  const word=py.runPython("bee.current()['word']");const entry=fullBank.find(w=>w.grade===grade&&w.word===word);
+  assert.equal(entry.level,difficulty);assert.equal(py.runPython("bee.current()['grade']"),grade);
+  if(grade===1)assert.ok(entry.patterns.length>0);
   assert.equal(w.document.querySelector('.hint-buttons').hidden,false);
   for(const kind of ['definition','sentence','part']){
    w.document.querySelector('[data-hint="'+kind+'"]').click();
@@ -119,12 +133,23 @@ for(const difficulty of ['easy','growing','challenge','expert'])for(const roundM
    if(kind==='sentence')assert.ok($('hint').textContent.includes('____'));
    assert.ok(!new RegExp('\\b'+word+'\\b','i').test($('hint').textContent));
   }
+  const beforeSubmit=spoken.length;
   $('spelling').value=word;$('answer-form').dispatchEvent(new w.Event('submit',{cancelable:true}));
-  if(roundMode==='contest')assert.equal($('mystery').textContent,'A little mystery word.');
+  if(roundMode==='contest'){
+   assert.equal($('mystery').textContent,'A little mystery word.');assert.equal(spoken.length,beforeSubmit);
+  }else{
+   assert.equal(spoken.length,beforeSubmit+1);assert.equal(spoken.at(-1).text,'You got it!');
+   assert.equal(spoken.at(-1).rate,.5);assert.equal(spoken.at(-1).voice.voiceURI,'uk');
+  }
   $('next').click();
  }
  assert.equal($('score').textContent,'5 / 5 correct');
 }
+// Skipping does not announce a correct answer.
+$('spelling-tab').click();w.document.querySelector('[data-mode="practice"]').click();$('start').click();
+const beforeSkip=spoken.length;$('skip').click();
+assert.equal(spoken.length,beforeSkip);assert.equal($('mystery').textContent,'A little mystery word.');
+assert.equal($('next').hidden,false);$('end').click();
 // Untrusted plain text is validated as a whole, without touching the current bank.
 $('spelling-tab').click();
 assert.equal($('import'),null);

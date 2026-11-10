@@ -1,0 +1,81 @@
+# level|word|part|definition|sentence
+easy|basket|noun|A container used to carry or hold things.|Put the apples in the basket.
+easy|rabbit|noun|A small animal with long ears that hops.|The rabbit hopped across the grass.
+easy|picnic|noun|A meal eaten outdoors.|We had a picnic under a tree.
+easy|pocket|noun|A small cloth pouch sewn into clothing.|I keep a pebble in my pocket.
+easy|sunset|noun|The time when the sun disappears below the horizon.|We watched the sunset from the porch.
+easy|insect|noun|A small animal with six legs and three main body parts.|An ant is an insect.
+easy|napkin|noun|A small cloth or paper used to wipe your mouth.|Please put a napkin beside each plate.
+easy|mitten|noun|A hand covering with one space for the thumb and another for the fingers.|I found my missing mitten in the snow.
+easy|kitten|noun|A young cat.|The kitten curled up on a blanket.
+easy|puppet|noun|A figure moved by a hand or strings.|She made the puppet wave to us.
+easy|ribbon|noun|A narrow strip of cloth used for tying or decorating.|He tied a ribbon around the gift.
+easy|button|noun|A small fastener that fits through a hole in clothing.|One button fell off my coat.
+easy|dentist|noun|A person who takes care of teeth.|The dentist checked my teeth.
+easy|finish|verb|To reach the end of something you are doing.|I will finish my drawing after lunch.
+easy|happen|verb|To take place or occur.|What will happen in the next chapter?
+easy|lesson|noun|A period of teaching or something being taught.|Our music lesson starts after lunch.
+easy|magnet|noun|An object that attracts iron and some other metals.|The magnet holds a note on the fridge.
+easy|robin|noun|A bird that often has a reddish or orange breast.|A robin landed on the fence.
+easy|velvet|noun|A fabric with a soft, thick surface.|The costume has a velvet cape.
+easy|cabin|noun|A small, simple house, often made of wood.|We stayed in a cabin near the lake.
+growing|float|verb|To stay on the surface of a liquid.|The toy boat can float in the tub.
+growing|coach|noun|A person who teaches and guides a sports team.|Our coach showed us how to pass the ball.
+growing|toast|noun|Bread browned by heat.|I spread butter on my toast.
+growing|dream|noun|Pictures or events you experience in your mind while asleep.|I had a dream about flying.
+growing|cream|noun|The thick, rich part of milk.|We poured cream over the berries.
+growing|peach|noun|A round fruit with fuzzy skin and a large pit.|The peach was sweet and juicy.
+growing|treat|noun|Something special that gives pleasure.|We had frozen yogurt as a treat.
+growing|beach|noun|Land covered with sand or pebbles beside water.|We built a castle on the beach.
+growing|bright|adjective|Giving off or reflecting a lot of light.|The bright lamp lit the room.
+growing|flight|noun|A journey through the air.|Our flight landed before noon.
+growing|might|verb|Expresses that something is possible.|We might go to the park today.
+growing|paint|verb|To cover a surface with color using a brush or another tool.|We will paint the birdhouse blue.
+growing|train|noun|Connected railway cars pulled by an engine.|The train stopped at the station.
+growing|snail|noun|A small animal with a soft body and usually a spiral shell.|A snail moved slowly along the path.
+growing|spray|verb|To send out liquid in many small drops.|Please spray water on the seedlings.
+growing|clay|noun|A fine earth that can be shaped when wet.|I made a bowl from clay.
+growing|cheer|verb|To shout with joy or encouragement.|We cheer when our team scores.
+growing|clear|adjective|Easy to see through.|We could see the fish in the clear water.
+growing|shout|verb|To speak or call very loudly.|Please do not shout in the library.
+growing|brown|adjective|The color of chocolate or many tree trunks.|The puppy has brown fur.
+challenge|boxes|noun|Containers with flat sides.|We packed our books into boxes.
+challenge|wishes|noun|Hopes for things you want to happen.|She made three wishes on her birthday.
+challenge|benches|noun|Long seats that can hold several people.|We sat on the benches beside the field.
+challenge|babies|noun|Very young children.|The babies slept in their cribs.
+challenge|cities|noun|Large towns where many people live and work.|Our map shows the largest cities in the state.
+challenge|carried|verb|Held and moved something from one place to another.|He carried the bag into the house.
+challenge|cried|verb|Shed tears or called out loudly in the past.|The child cried after falling down.
+challenge|stopped|verb|Ended a movement or action.|The bus stopped at the corner.
+challenge|planned|verb|Decided ahead of time how to do something.|We planned a party for our teacher.
+challenge|running|verb|Moving quickly on your feet.|The dog is running across the yard.
+challenge|swimming|verb|Moving through water using your body.|The duck is swimming in the pond.
+challenge|hopping|verb|Jumping on one foot or with both feet together.|The bunny is hopping over the grass.
+challenge|making|verb|Creating or putting something together.|We are making paper hats.
+challenge|smiling|verb|Showing a happy expression with your mouth.|The baby is smiling at me.
+challenge|careful|adjective|Taking time to avoid mistakes or harm.|Be careful with the glass jar.
+challenge|helpful|adjective|Giving useful help.|My helpful neighbor watered our plants.
+challenge|fearless|adjective|Showing no fear.|The fearless explorer entered the cave.
+challenge|quickly|adverb|At a fast speed.|We walked quickly to catch the bus.
+challenge|slowly|adverb|At a low speed.|The turtle moved slowly across the sand.
+challenge|kindness|noun|The quality of being friendly and caring.|Her kindness made the new student feel welcome.
+expert|because|conjunction|For the reason that.|We stayed inside because it was raining.
+expert|people|noun|Human beings.|Many people came to the school play.
+expert|beautiful|adjective|Very pleasing to see or hear.|We saw a beautiful rainbow after the storm.
+expert|different|adjective|Not the same as something else.|Each butterfly has a different pattern.
+expert|favorite|adjective|Liked more than the other choices.|This is my favorite story.
+expert|question|noun|Something you ask when you want an answer.|I raised my hand to ask a question.
+expert|answer|noun|A reply to a question.|She knew the answer to the riddle.
+expert|enough|adjective|As much or as many as needed.|We have enough chairs for everyone.
+expert|through|preposition|From one side or end to the other.|We walked through the tunnel.
+expert|thought|verb|Had an idea or belief in the past.|I thought the movie was funny.
+expert|brought|verb|Carried or took something to a place in the past.|He brought a book to school.
+expert|bought|verb|Got something by paying for it.|We bought fresh bread at the bakery.
+expert|caught|verb|Grabbed and held something moving in the past.|She caught the ball with both hands.
+expert|laugh|verb|To make sounds that show you are amused.|The silly joke made us laugh.
+expert|listen|verb|To pay attention to sounds.|Please listen to the directions.
+expert|often|adverb|Many times or on many occasions.|We often visit the park after school.
+expert|special|adjective|Unusual or important in a pleasing way.|We made a special card for Grandma.
+expert|surprise|noun|Something unexpected.|The gift was a wonderful surprise.
+expert|tomorrow|adverb|On the day after today.|We will visit the museum tomorrow.
+expert|together|adverb|With one another in the same place or activity.|We worked together to build a tower.

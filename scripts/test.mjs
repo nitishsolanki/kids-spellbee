@@ -12,10 +12,13 @@ class RulesTest(unittest.TestCase):
         self.bee = Bee(WORDS)
         self.bee.start(count=5)
     def test_bank(self):
-        self.assertEqual(len(WORDS), 258)
-        for level in ('easy', 'growing', 'challenge', 'expert'):
-            self.assertGreaterEqual(len([w for w in WORDS if w['level']==level]),20)
-        self.assertTrue(all(w.get('patterns') for w in WORDS))
+        self.assertEqual(len(WORDS), 338)
+        self.assertEqual(len([w for w in WORDS if w['grade']==1]), 258)
+        self.assertEqual(len([w for w in WORDS if w['grade']==2]), 80)
+        for grade in (1, 2):
+            for level in ('easy', 'growing', 'challenge', 'expert'):
+                self.assertGreaterEqual(len([w for w in WORDS if w['grade']==grade and w['level']==level]),20)
+        self.assertTrue(all(w.get('patterns') for w in WORDS if w['grade']==1))
     def test_practice_hides_wrong_answer(self):
         response = self.bee.submit('zzzz')
         self.assertFalse(response['locked'])
@@ -47,7 +50,7 @@ class RulesTest(unittest.TestCase):
                 seen['1:'+item['word']] = session+1
         self.assertEqual(len(set(heard)),27)
     def test_oldest_words_return_when_exhausted(self):
-        pool=[w for w in WORDS if w['level']=='easy']
+        pool=[w for w in WORDS if w['grade']==1 and w['level']=='easy']
         seen={'1:'+w['word']:i+1 for i,w in enumerate(pool)}
         self.bee.start(count=5,seen=seen)
         self.assertEqual([w['word'] for w in self.bee.deck],[w['word'] for w in pool[:5]])
@@ -80,10 +83,29 @@ class RulesTest(unittest.TestCase):
         with self.assertRaises(ValueError): self.bee.results()
         with self.assertRaises(ValueError): self.bee.next()
     def test_grade_pack(self):
-        words=[dict(w,grade=4) for w in WORDS]
+        words=[dict(w,grade=4) for w in WORDS if w['grade']==1]
         bee=Bee(words)
         self.assertEqual(bee.start(grade=4)['total'],10)
         with self.assertRaises(ValueError): bee.start(grade=2)
+    def test_grade_two_rotation_and_progression(self):
+        seen = {}
+        heard = set()
+        for round_number in range(4):
+            self.bee.start(grade=2,level='easy',count=5,seen=seen)
+            for item in self.bee.deck:
+                self.assertEqual(item['grade'],2)
+                self.assertNotIn(item['word'],heard)
+                heard.add(item['word'])
+                seen['2:'+item['word']] = round_number+1
+        self.assertEqual(len(heard),20)
+        for level, expected in [('easy','growing'),('growing','challenge'),('challenge','expert'),('expert','expert')]:
+            self.bee.start(grade=2,level=level,count=20)
+            self.assertEqual(len(self.bee.deck),20)
+            for _ in range(20):
+                self.bee.submit(self.bee.current()['word'])
+                self.bee.next()
+            self.assertEqual(self.bee.results()['score'],20)
+            self.assertEqual(self.bee.results()['next_level'],expected)
     def test_invalid_pack_and_answer(self):
         with self.assertRaises(ValueError): Bee([{}]*10)
         with self.assertRaises(ValueError): Bee(WORDS+WORDS)
@@ -125,10 +147,15 @@ report=unittest.TextTestRunner(verbosity=2).run(suite)
 if not report.wasSuccessful():
     raise RuntimeError('Spelling engine tests failed')
 `);
-// Every practice word is a lesson word, and every lesson word has real clues.
+// Grade 1 matches its lessons; both starter packs have curated clues.
 const lessons=JSON.parse(await readFile('docs/patterns.json','utf8')).lessons;
 const bank=JSON.parse(await readFile('docs/words.json','utf8'));
-assert.deepEqual(new Set(bank.map(w=>w.word)),new Set(lessons.flatMap(p=>p.words)));
+assert.deepEqual(new Set(bank.filter(w=>w.grade===1).map(w=>w.word)),new Set(lessons.flatMap(p=>p.words)));
+for(const entry of bank){
+ assert.ok(entry.definition.length>5&&entry.part!=='word');
+ assert.match(entry.sentence,new RegExp('\\b'+entry.word+'\\b','i'));
+ assert.doesNotMatch(entry.definition,/No definition|practice word for/i);
+}
 for(const lesson of lessons)for(const word of lesson.words){
  const entry=bank.find(w=>w.word===word);
  assert.ok(entry.patterns.includes(lesson.id));

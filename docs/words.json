@@ -2853,5 +2853,725 @@
     "patterns": [
       "tricky"
     ]
+  },
+  {
+    "word": "basket",
+    "part": "noun",
+    "definition": "A container used to carry or hold things.",
+    "sentence": "Put the apples in the basket.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "rabbit",
+    "part": "noun",
+    "definition": "A small animal with long ears that hops.",
+    "sentence": "The rabbit hopped across the grass.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "picnic",
+    "part": "noun",
+    "definition": "A meal eaten outdoors.",
+    "sentence": "We had a picnic under a tree.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "pocket",
+    "part": "noun",
+    "definition": "A small cloth pouch sewn into clothing.",
+    "sentence": "I keep a pebble in my pocket.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "sunset",
+    "part": "noun",
+    "definition": "The time when the sun disappears below the horizon.",
+    "sentence": "We watched the sunset from the porch.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "insect",
+    "part": "noun",
+    "definition": "A small animal with six legs and three main body parts.",
+    "sentence": "An ant is an insect.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "napkin",
+    "part": "noun",
+    "definition": "A small cloth or paper used to wipe your mouth.",
+    "sentence": "Please put a napkin beside each plate.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "mitten",
+    "part": "noun",
+    "definition": "A hand covering with one space for the thumb and another for the fingers.",
+    "sentence": "I found my missing mitten in the snow.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "kitten",
+    "part": "noun",
+    "definition": "A young cat.",
+    "sentence": "The kitten curled up on a blanket.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "puppet",
+    "part": "noun",
+    "definition": "A figure moved by a hand or strings.",
+    "sentence": "She made the puppet wave to us.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "ribbon",
+    "part": "noun",
+    "definition": "A narrow strip of cloth used for tying or decorating.",
+    "sentence": "He tied a ribbon around the gift.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "button",
+    "part": "noun",
+    "definition": "A small fastener that fits through a hole in clothing.",
+    "sentence": "One button fell off my coat.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "dentist",
+    "part": "noun",
+    "definition": "A person who takes care of teeth.",
+    "sentence": "The dentist checked my teeth.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "finish",
+    "part": "verb",
+    "definition": "To reach the end of something you are doing.",
+    "sentence": "I will finish my drawing after lunch.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "happen",
+    "part": "verb",
+    "definition": "To take place or occur.",
+    "sentence": "What will happen in the next chapter?",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "lesson",
+    "part": "noun",
+    "definition": "A period of teaching or something being taught.",
+    "sentence": "Our music lesson starts after lunch.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "magnet",
+    "part": "noun",
+    "definition": "An object that attracts iron and some other metals.",
+    "sentence": "The magnet holds a note on the fridge.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "robin",
+    "part": "noun",
+    "definition": "A bird that often has a reddish or orange breast.",
+    "sentence": "A robin landed on the fence.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "velvet",
+    "part": "noun",
+    "definition": "A fabric with a soft, thick surface.",
+    "sentence": "The costume has a velvet cape.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "cabin",
+    "part": "noun",
+    "definition": "A small, simple house, often made of wood.",
+    "sentence": "We stayed in a cabin near the lake.",
+    "grade": 2,
+    "level": "easy",
+    "patterns": []
+  },
+  {
+    "word": "float",
+    "part": "verb",
+    "definition": "To stay on the surface of a liquid.",
+    "sentence": "The toy boat can float in the tub.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "coach",
+    "part": "noun",
+    "definition": "A person who teaches and guides a sports team.",
+    "sentence": "Our coach showed us how to pass the ball.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "toast",
+    "part": "noun",
+    "definition": "Bread browned by heat.",
+    "sentence": "I spread butter on my toast.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "dream",
+    "part": "noun",
+    "definition": "Pictures or events you experience in your mind while asleep.",
+    "sentence": "I had a dream about flying.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "cream",
+    "part": "noun",
+    "definition": "The thick, rich part of milk.",
+    "sentence": "We poured cream over the berries.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "peach",
+    "part": "noun",
+    "definition": "A round fruit with fuzzy skin and a large pit.",
+    "sentence": "The peach was sweet and juicy.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "treat",
+    "part": "noun",
+    "definition": "Something special that gives pleasure.",
+    "sentence": "We had frozen yogurt as a treat.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "beach",
+    "part": "noun",
+    "definition": "Land covered with sand or pebbles beside water.",
+    "sentence": "We built a castle on the beach.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "bright",
+    "part": "adjective",
+    "definition": "Giving off or reflecting a lot of light.",
+    "sentence": "The bright lamp lit the room.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "flight",
+    "part": "noun",
+    "definition": "A journey through the air.",
+    "sentence": "Our flight landed before noon.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "might",
+    "part": "verb",
+    "definition": "Expresses that something is possible.",
+    "sentence": "We might go to the park today.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "paint",
+    "part": "verb",
+    "definition": "To cover a surface with color using a brush or another tool.",
+    "sentence": "We will paint the birdhouse blue.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "train",
+    "part": "noun",
+    "definition": "Connected railway cars pulled by an engine.",
+    "sentence": "The train stopped at the station.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "snail",
+    "part": "noun",
+    "definition": "A small animal with a soft body and usually a spiral shell.",
+    "sentence": "A snail moved slowly along the path.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "spray",
+    "part": "verb",
+    "definition": "To send out liquid in many small drops.",
+    "sentence": "Please spray water on the seedlings.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "clay",
+    "part": "noun",
+    "definition": "A fine earth that can be shaped when wet.",
+    "sentence": "I made a bowl from clay.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "cheer",
+    "part": "verb",
+    "definition": "To shout with joy or encouragement.",
+    "sentence": "We cheer when our team scores.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "clear",
+    "part": "adjective",
+    "definition": "Easy to see through.",
+    "sentence": "We could see the fish in the clear water.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "shout",
+    "part": "verb",
+    "definition": "To speak or call very loudly.",
+    "sentence": "Please do not shout in the library.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "brown",
+    "part": "adjective",
+    "definition": "The color of chocolate or many tree trunks.",
+    "sentence": "The puppy has brown fur.",
+    "grade": 2,
+    "level": "growing",
+    "patterns": []
+  },
+  {
+    "word": "boxes",
+    "part": "noun",
+    "definition": "Containers with flat sides.",
+    "sentence": "We packed our books into boxes.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "wishes",
+    "part": "noun",
+    "definition": "Hopes for things you want to happen.",
+    "sentence": "She made three wishes on her birthday.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "benches",
+    "part": "noun",
+    "definition": "Long seats that can hold several people.",
+    "sentence": "We sat on the benches beside the field.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "babies",
+    "part": "noun",
+    "definition": "Very young children.",
+    "sentence": "The babies slept in their cribs.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "cities",
+    "part": "noun",
+    "definition": "Large towns where many people live and work.",
+    "sentence": "Our map shows the largest cities in the state.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "carried",
+    "part": "verb",
+    "definition": "Held and moved something from one place to another.",
+    "sentence": "He carried the bag into the house.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "cried",
+    "part": "verb",
+    "definition": "Shed tears or called out loudly in the past.",
+    "sentence": "The child cried after falling down.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "stopped",
+    "part": "verb",
+    "definition": "Ended a movement or action.",
+    "sentence": "The bus stopped at the corner.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "planned",
+    "part": "verb",
+    "definition": "Decided ahead of time how to do something.",
+    "sentence": "We planned a party for our teacher.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "running",
+    "part": "verb",
+    "definition": "Moving quickly on your feet.",
+    "sentence": "The dog is running across the yard.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "swimming",
+    "part": "verb",
+    "definition": "Moving through water using your body.",
+    "sentence": "The duck is swimming in the pond.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "hopping",
+    "part": "verb",
+    "definition": "Jumping on one foot or with both feet together.",
+    "sentence": "The bunny is hopping over the grass.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "making",
+    "part": "verb",
+    "definition": "Creating or putting something together.",
+    "sentence": "We are making paper hats.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "smiling",
+    "part": "verb",
+    "definition": "Showing a happy expression with your mouth.",
+    "sentence": "The baby is smiling at me.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "careful",
+    "part": "adjective",
+    "definition": "Taking time to avoid mistakes or harm.",
+    "sentence": "Be careful with the glass jar.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "helpful",
+    "part": "adjective",
+    "definition": "Giving useful help.",
+    "sentence": "My helpful neighbor watered our plants.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "fearless",
+    "part": "adjective",
+    "definition": "Showing no fear.",
+    "sentence": "The fearless explorer entered the cave.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "quickly",
+    "part": "adverb",
+    "definition": "At a fast speed.",
+    "sentence": "We walked quickly to catch the bus.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "slowly",
+    "part": "adverb",
+    "definition": "At a low speed.",
+    "sentence": "The turtle moved slowly across the sand.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "kindness",
+    "part": "noun",
+    "definition": "The quality of being friendly and caring.",
+    "sentence": "Her kindness made the new student feel welcome.",
+    "grade": 2,
+    "level": "challenge",
+    "patterns": []
+  },
+  {
+    "word": "because",
+    "part": "conjunction",
+    "definition": "For the reason that.",
+    "sentence": "We stayed inside because it was raining.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "people",
+    "part": "noun",
+    "definition": "Human beings.",
+    "sentence": "Many people came to the school play.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "beautiful",
+    "part": "adjective",
+    "definition": "Very pleasing to see or hear.",
+    "sentence": "We saw a beautiful rainbow after the storm.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "different",
+    "part": "adjective",
+    "definition": "Not the same as something else.",
+    "sentence": "Each butterfly has a different pattern.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "favorite",
+    "part": "adjective",
+    "definition": "Liked more than the other choices.",
+    "sentence": "This is my favorite story.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "question",
+    "part": "noun",
+    "definition": "Something you ask when you want an answer.",
+    "sentence": "I raised my hand to ask a question.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "answer",
+    "part": "noun",
+    "definition": "A reply to a question.",
+    "sentence": "She knew the answer to the riddle.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "enough",
+    "part": "adjective",
+    "definition": "As much or as many as needed.",
+    "sentence": "We have enough chairs for everyone.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "through",
+    "part": "preposition",
+    "definition": "From one side or end to the other.",
+    "sentence": "We walked through the tunnel.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "thought",
+    "part": "verb",
+    "definition": "Had an idea or belief in the past.",
+    "sentence": "I thought the movie was funny.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "brought",
+    "part": "verb",
+    "definition": "Carried or took something to a place in the past.",
+    "sentence": "He brought a book to school.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "bought",
+    "part": "verb",
+    "definition": "Got something by paying for it.",
+    "sentence": "We bought fresh bread at the bakery.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "caught",
+    "part": "verb",
+    "definition": "Grabbed and held something moving in the past.",
+    "sentence": "She caught the ball with both hands.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "laugh",
+    "part": "verb",
+    "definition": "To make sounds that show you are amused.",
+    "sentence": "The silly joke made us laugh.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "listen",
+    "part": "verb",
+    "definition": "To pay attention to sounds.",
+    "sentence": "Please listen to the directions.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "often",
+    "part": "adverb",
+    "definition": "Many times or on many occasions.",
+    "sentence": "We often visit the park after school.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "special",
+    "part": "adjective",
+    "definition": "Unusual or important in a pleasing way.",
+    "sentence": "We made a special card for Grandma.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "surprise",
+    "part": "noun",
+    "definition": "Something unexpected.",
+    "sentence": "The gift was a wonderful surprise.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "tomorrow",
+    "part": "adverb",
+    "definition": "On the day after today.",
+    "sentence": "We will visit the museum tomorrow.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
+  },
+  {
+    "word": "together",
+    "part": "adverb",
+    "definition": "With one another in the same place or activity.",
+    "sentence": "We worked together to build a tower.",
+    "grade": 2,
+    "level": "expert",
+    "patterns": []
   }
 ]
