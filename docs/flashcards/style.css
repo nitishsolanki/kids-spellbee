@@ -1,0 +1,75 @@
+/* All game styling is scoped; the existing activities keep their own styles. */
+#flashcards { --fc-honey: #f5cd68; --fc-leaf: #375c43; --fc-petal: #e7a7b7; padding-bottom: 12px; }
+#flashcards .fc-intro { position: relative; text-align: center; padding: 34px 12px 12px; }
+#flashcards h1 { font-size: clamp(28px, 5vw, 39px); margin: 12px 0; letter-spacing: -1.1px; }
+#flashcards h1 span { display: block; }
+#flashcards .fc-intro p { color: #64705d; line-height: 1.7; max-width: 390px; margin: 0 auto; }
+#flashcards .fc-doodle { position: absolute; font-size: 35px; color: #ad7426; animation: fc-sway 5s ease-in-out infinite; }
+#flashcards .fc-doodle-one { left: 11%; top: 35px; }
+#flashcards .fc-doodle-two { right: 10%; top: 72px; color: #a74d68; animation-delay: -2s; }
+#flashcards .fc-grades { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin: 20px auto 25px; text-align: center; }
+#flashcards .fc-grades legend { margin: 0 0 10px; width: 100%; color: #64705d; font-size: 12px; }
+#flashcards .fc-grades label { display: flex; align-items: center; gap: 9px; background: #fffef9; border: 1px solid #d7dccf; padding: 12px 19px; border-radius: 14px; cursor: pointer; font-size: 14px; }
+#flashcards .fc-grades label:has(input:checked) { background: #eaf0df; border-color: var(--fc-leaf); box-shadow: 0 2px 0 #cdd9bd; }
+#flashcards .fc-grades input { accent-color: var(--fc-leaf); width: 17px; height: 17px; margin: 0; }
+#flashcards .fc-grades span { display: flex; align-items: center; gap: 7px; }
+#flashcards .fc-game { max-width: 520px; margin: auto; text-align: center; }
+#flashcards .fc-deck-bar { display: flex; justify-content: space-between; gap: 12px; color: #64705d; font-size: 12px; margin: 0 5px 15px; }
+#flashcards .fc-deck-bar span:first-child { font-weight: 600; color: var(--fc-leaf); }
+#flashcards .fc-listen { display: inline-flex; align-items: center; gap: 10px; background: var(--fc-leaf); color: #fffef9; font-weight: 600; padding: 13px 24px; border-radius: 24px; min-height: 48px; box-shadow: 0 3px 0 #253f2e; transition: transform .2s; }
+#flashcards .fc-listen:hover { transform: translateY(-2px); }
+#flashcards .fc-listen span { font-size: 22px; line-height: 1; }
+#flashcards .fc-directions { font-size: 12px; line-height: 1.5; color: #64705d; margin: 12px 0 20px; }
+#flashcards .fc-card-stage { position: relative; margin: 0 13px; perspective: 1200px; }
+#flashcards .fc-orbit { position: absolute; z-index: 2; right: -20px; top: -15px; pointer-events: none; animation: fc-hover 4s ease-in-out infinite; }
+#flashcards .fc-card { display: block; width: 100%; height: 286px; padding: 0; border-radius: 25px; background: transparent; color: var(--ink); text-align: center; -webkit-tap-highlight-color: transparent; }
+#flashcards .fc-card-inner { display: block; position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform .6s cubic-bezier(.2,.65,.2,1); }
+#flashcards .fc-revealed .fc-card-inner { transform: rotateY(180deg); }
+#flashcards .fc-face { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; border-radius: 25px; padding: 24px 20px; backface-visibility: hidden; -webkit-backface-visibility: hidden; border: 2px solid #e4bc5e; box-shadow: 0 7px 0 #e8dfc8, 0 15px 24px #6a57210c; }
+#flashcards .fc-front { background: radial-gradient(circle at 15% 25%, #ffffff70 0 3px, transparent 4px), radial-gradient(circle at 85% 75%, #ffffff80 0 4px, transparent 5px), #fae5a6; }
+#flashcards .fc-card-kicker { font-size: 10px; letter-spacing: 1.8px; font-weight: 700; color: #73551a; }
+#flashcards .fc-mystery { font: 500 88px/1.3 Outfit, sans-serif; color: #8d6320; text-shadow: 3px 3px 0 #fff4d3; }
+#flashcards .fc-front strong { font: 500 25px Outfit, sans-serif; }
+#flashcards .fc-flip-prompt { font-size: 12px; margin-top: 19px; color: #725c31; }
+#flashcards .fc-back { transform: rotateY(180deg); background: #eaf2df; border-color: #a9c48e; }
+#flashcards .fc-back .fc-card-kicker, #flashcards .fc-back .fc-flip-prompt { color: #436135; }
+#flashcards #fc-word { font: 600 clamp(30px, 7vw, 54px)/1.3 Outfit, sans-serif; color: #294c34; margin: 23px 0 12px; overflow-wrap: anywhere; max-width: 100%; }
+#flashcards #fc-pattern { font-size: 10px; line-height: 1.7; letter-spacing: 1px; color: #536c46; }
+#flashcards .fc-clues { display: flex; justify-content: center; gap: 10px; margin-top: 25px; }
+#flashcards .fc-clues button { padding: 11px 18px; border: 1px solid #d7dccf; border-radius: 22px; min-height: 44px; color: #375c43; background: #fffef9; font-size: 13px; }
+#flashcards .fc-clues button span { margin-right: 5px; }
+#flashcards .fc-clues button[aria-expanded=true] { background: #eaf0df; border-color: #78926b; }
+#flashcards .fc-clue-area p { background: #fffef9; border: 1px solid #e3e3d6; border-radius: 12px; text-align: left; padding: 13px 18px; margin: 12px 0 0; line-height: 1.7; font-size: 14px; }
+#flashcards .fc-status { min-height: 34px; margin: 15px 8px 8px; font-size: 12px; line-height: 1.6; color: #53634a; }
+#flashcards .fc-next { display: flex; justify-content: space-between; align-items: center; gap: 15px; width: 100%; padding: 16px 24px; border: 1px solid #cba240; border-radius: 13px; background: var(--fc-honey); color: #4d3b17; font-weight: 600; min-height: 53px; }
+#flashcards .fc-next:hover { background: #f3c457; }
+#flashcards .fc-next span { font-size: 22px; line-height: 1; }
+#flashcards .fc-garden { position: relative; overflow: hidden; margin-top: 23px; padding: 0 12px 19px; border-bottom: 1px solid #d9e1ca; border-radius: 0 0 18px 18px; }
+#flashcards .fc-flowers { display: flex; justify-content: center; gap: 25px; height: 39px; align-items: end; }
+#flashcards .fc-flowers span { color: #c5cfb7; font-size: 27px; display: inline-block; transform-origin: bottom; transition: color .3s; }
+#flashcards .fc-flowers .fc-bloom { color: #ae526f; animation: fc-bloom .65s ease-out; }
+#flashcards .fc-flowers .fc-bloom:nth-child(even) { color: #a57a16; }
+#flashcards .fc-garden p { position: relative; z-index: 1; color: #64705d; font-size: 12px; margin: 9px 0 0; line-height: 1.6; }
+#flashcards .fc-garden-ground { position: absolute; width: 120%; height: 65px; left: -10%; bottom: -38px; border-radius: 50%; background: #e8efdb; }
+#flashcards .fc-note { color: #64705d; font-size: 11px; text-align: center; margin: 18px 0 0; line-height: 1.8; }
+#flashcards #fc-retry { margin-bottom: 15px; }
+#flashcards .fc-motion { display: block; background: transparent; color: #53634a; margin: 4px auto 0; padding: 12px; font-size: 11px; text-decoration: underline; }
+#flashcards.fc-motion-paused *, #flashcards.fc-motion-paused *::before, #flashcards.fc-motion-paused *::after { animation: none !important; transition: none !important; }
+#flashcards button:disabled { transform: none; }
+@keyframes fc-hover { 0%,100% { transform: translateY(0) rotate(8deg); } 50% { transform: translateY(-8px) rotate(-6deg); } }
+@keyframes fc-sway { 0%,100% { transform: rotate(-8deg); } 50% { transform: rotate(8deg); } }
+@keyframes fc-bloom { 0% { transform: scale(.6) rotate(-15deg); } 60% { transform: scale(1.2) rotate(5deg); } 100% { transform: scale(1); } }
+@media(max-width:600px) {
+  #flashcards .fc-doodle-one { left: 0; top: 34px; font-size: 23px; }
+  #flashcards .fc-doodle-two { right: 0; top: 90px; font-size: 23px; }
+  #flashcards .fc-intro { padding-left: 0; padding-right: 0; }
+  #flashcards .fc-intro .eyebrow { font-size: 9px; letter-spacing: 1.4px; }
+  #flashcards .fc-intro p { max-width: 280px; font-size: 13px; }
+  #flashcards .fc-grades label { padding: 12px 13px; }
+  #flashcards .fc-card { height: 265px; }
+  #flashcards .fc-clues { gap: 8px; }
+  #flashcards .fc-clues button { padding: 11px 13px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  #flashcards *, #flashcards *::before, #flashcards *::after { animation: none !important; transition: none !important; }
+}

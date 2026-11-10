@@ -17,11 +17,12 @@ function save(){try{localStorage.setItem(settingsKey,JSON.stringify({...saved.au
 function api(action,data={}){return JSON.parse(callPython(JSON.stringify({action,...data})));}
 function errorText(error){console.error(error);return String(error.message||error).split('\n').filter(Boolean).at(-1).replace(/^ValueError: /,'');}
 function show(id){
- stopAudio();for(const name of ['home','patterns','round','results'])$(name).hidden=name!==id;
- const selected=id==='home'||id==='patterns'?id:origin;
+ stopAudio();for(const name of ['home','patterns','flashcards','round','results'])$(name).hidden=name!==id;
+ const selected=['home','patterns','flashcards'].includes(id)?id:origin;
  document.querySelectorAll('[data-tab]').forEach(b=>{const active=b.dataset.tab===selected;b.setAttribute('aria-selected',active);b.setAttribute('aria-controls',active?id:b.dataset.tab);b.tabIndex=active?0:-1;});
  if(id==='round'||id==='results'){$(id).setAttribute('role','tabpanel');$(id).setAttribute('aria-labelledby',selected==='home'?'spelling-tab':'patterns-tab');}
  window.scrollTo({top:0,behavior:'instant'});
+ document.dispatchEvent(new CustomEvent('little-bee-activity',{detail:id}));
 }
 function stopAudio(){voiceToken++;recognition?.abort();recognition=null;if('speechSynthesis'in window)window.speechSynthesis.cancel();}
 function selectLevel(value){level=value;document.querySelectorAll('[data-level]').forEach(b=>{const selected=b.dataset.level===value;b.classList.toggle('selected',selected);b.setAttribute('aria-pressed',selected);});}
@@ -222,7 +223,7 @@ $('pattern-spell-start').onclick=()=>{
 };
 document.querySelectorAll('[data-tab]').forEach((button,index,buttons)=>{
  button.onclick=()=>{if(!$('round').hidden&&!confirm('Leave this spelling round? This round will not be saved.'))return;origin=button.dataset.tab;show(origin);};
- button.onkeydown=e=>{let next;if(e.key==='ArrowRight'||e.key==='ArrowLeft')next=1-index;else if(e.key==='Home')next=0;else if(e.key==='End')next=1;else return;e.preventDefault();buttons[next].click();buttons[next].focus();};
+ button.onkeydown=e=>{let next;if(e.key==='ArrowRight')next=(index+1)%buttons.length;else if(e.key==='ArrowLeft')next=(index-1+buttons.length)%buttons.length;else if(e.key==='Home')next=0;else if(e.key==='End')next=buttons.length-1;else return;e.preventDefault();buttons[next].click();buttons[next].focus();};
 });
 function clueText(word,kind){return kind==='part'?'This word is '+(/^[aeiou]/i.test(word.part)?'an':'a')+' '+word.part+'.':word[kind];}
 function refreshLearningHints(){

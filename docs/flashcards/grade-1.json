@@ -1,0 +1,4495 @@
+{
+  "grade": 1,
+  "source": "One_Bee_First_Grade_Phonics_Flashcards.pdf",
+  "sourcePages": 42,
+  "note": "All word cards from the supplied PDF, including practice words. Repeated words are combined; cards preserve each pattern and source page. Definitions and sentences are app content.",
+  "cardCount": 276,
+  "patterns": [
+    {
+      "name": "SHORT VOWELS (CVC)",
+      "cardCount": 27
+    },
+    {
+      "name": "ENDING BLENDS",
+      "cardCount": 40
+    },
+    {
+      "name": "DOUBLE LL AND CK",
+      "cardCount": 20
+    },
+    {
+      "name": "DIGRAPHS SH, CH, TH",
+      "cardCount": 32
+    },
+    {
+      "name": "SILENT E (MAGIC E)",
+      "cardCount": 26
+    },
+    {
+      "name": "BOSSY R",
+      "cardCount": 30
+    },
+    {
+      "name": "VOWEL TEAMS",
+      "cardCount": 40
+    },
+    {
+      "name": "ENDING Y",
+      "cardCount": 20
+    },
+    {
+      "name": "PLURALS WITH S",
+      "cardCount": 12
+    },
+    {
+      "name": "TWO-SYLLABLE WORDS",
+      "cardCount": 15
+    },
+    {
+      "name": "TRICKY WORDS",
+      "cardCount": 14
+    }
+  ],
+  "words": [
+    {
+      "word": "ran",
+      "definition": "Moved quickly on foot in the past.",
+      "sentence": "We ran to the playground.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short a",
+          "chunks": [
+            "r",
+            "a",
+            "n"
+          ],
+          "page": 2
+        }
+      ]
+    },
+    {
+      "word": "can",
+      "definition": "To be able to do something.",
+      "sentence": "I can tie my shoes.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short a",
+          "chunks": [
+            "c",
+            "a",
+            "n"
+          ],
+          "page": 2
+        }
+      ]
+    },
+    {
+      "word": "man",
+      "definition": "An adult male person.",
+      "sentence": "The man waved to us.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short a",
+          "chunks": [
+            "m",
+            "a",
+            "n"
+          ],
+          "page": 2
+        }
+      ]
+    },
+    {
+      "word": "pan",
+      "definition": "A container used for cooking food.",
+      "sentence": "The eggs are in the pan.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short a",
+          "chunks": [
+            "p",
+            "a",
+            "n"
+          ],
+          "page": 2
+        }
+      ]
+    },
+    {
+      "word": "van",
+      "definition": "A vehicle that carries people or things.",
+      "sentence": "We packed the van for our trip.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short a",
+          "chunks": [
+            "v",
+            "a",
+            "n"
+          ],
+          "page": 2
+        }
+      ]
+    },
+    {
+      "word": "cap",
+      "definition": "A soft hat, often with a brim at the front.",
+      "sentence": "Wear your cap in the sunshine.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short a",
+          "chunks": [
+            "c",
+            "a",
+            "p"
+          ],
+          "page": 2
+        }
+      ]
+    },
+    {
+      "word": "tap",
+      "definition": "To touch something lightly.",
+      "sentence": "Please tap the drum gently.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short a",
+          "chunks": [
+            "t",
+            "a",
+            "p"
+          ],
+          "page": 2
+        }
+      ]
+    },
+    {
+      "word": "leg",
+      "definition": "A body part used for standing and walking.",
+      "sentence": "The puppy has a spot on one leg.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short e",
+          "chunks": [
+            "l",
+            "e",
+            "g"
+          ],
+          "page": 3
+        }
+      ]
+    },
+    {
+      "word": "pet",
+      "definition": "An animal kept at home for company.",
+      "sentence": "My pet likes to cuddle.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short e",
+          "chunks": [
+            "p",
+            "e",
+            "t"
+          ],
+          "page": 3
+        }
+      ]
+    },
+    {
+      "word": "net",
+      "definition": "A material made of strings with spaces between them.",
+      "sentence": "We caught the ball in a net.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short e",
+          "chunks": [
+            "n",
+            "e",
+            "t"
+          ],
+          "page": 3
+        }
+      ]
+    },
+    {
+      "word": "red",
+      "definition": "The color of a ripe strawberry.",
+      "sentence": "I picked a red apple.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short e",
+          "chunks": [
+            "r",
+            "e",
+            "d"
+          ],
+          "page": 3
+        }
+      ]
+    },
+    {
+      "word": "bed",
+      "definition": "A place where you lie down to sleep.",
+      "sentence": "I make my bed each morning.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short e",
+          "chunks": [
+            "b",
+            "e",
+            "d"
+          ],
+          "page": 3
+        }
+      ]
+    },
+    {
+      "word": "ten",
+      "definition": "The number that comes after nine.",
+      "sentence": "I have ten fingers.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short e",
+          "chunks": [
+            "t",
+            "e",
+            "n"
+          ],
+          "page": 3
+        }
+      ]
+    },
+    {
+      "word": "hen",
+      "definition": "A grown female chicken.",
+      "sentence": "The hen laid an egg.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short e",
+          "chunks": [
+            "h",
+            "e",
+            "n"
+          ],
+          "page": 3
+        }
+      ]
+    },
+    {
+      "word": "rod",
+      "definition": "A long, thin stick or pole.",
+      "sentence": "He held a fishing rod.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short o",
+          "chunks": [
+            "r",
+            "o",
+            "d"
+          ],
+          "page": 3
+        }
+      ]
+    },
+    {
+      "word": "hot",
+      "definition": "Having a high temperature.",
+      "sentence": "The soup is too hot to eat.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short o",
+          "chunks": [
+            "h",
+            "o",
+            "t"
+          ],
+          "page": 4
+        }
+      ]
+    },
+    {
+      "word": "dog",
+      "definition": "A pet that barks and wags its tail.",
+      "sentence": "Our dog likes to play fetch.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short o",
+          "chunks": [
+            "d",
+            "o",
+            "g"
+          ],
+          "page": 4
+        }
+      ]
+    },
+    {
+      "word": "pot",
+      "definition": "A deep container used for cooking or growing plants.",
+      "sentence": "The flower grows in a pot.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short o",
+          "chunks": [
+            "p",
+            "o",
+            "t"
+          ],
+          "page": 4
+        }
+      ]
+    },
+    {
+      "word": "top",
+      "definition": "The highest part of something.",
+      "sentence": "The flag is at the top of the hill.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short o",
+          "chunks": [
+            "t",
+            "o",
+            "p"
+          ],
+          "page": 4
+        }
+      ]
+    },
+    {
+      "word": "mop",
+      "definition": "A tool with a long handle used to clean floors.",
+      "sentence": "We used a mop to clean the spill.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short o",
+          "chunks": [
+            "m",
+            "o",
+            "p"
+          ],
+          "page": 4
+        }
+      ]
+    },
+    {
+      "word": "nod",
+      "definition": "To move your head up and down to say yes.",
+      "sentence": "Please nod if you understand.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short o",
+          "chunks": [
+            "n",
+            "o",
+            "d"
+          ],
+          "page": 4
+        }
+      ]
+    },
+    {
+      "word": "sit",
+      "definition": "To rest with your body on a chair or the ground.",
+      "sentence": "Please sit beside me.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short i / u",
+          "chunks": [
+            "s",
+            "i",
+            "t"
+          ],
+          "page": 4
+        }
+      ]
+    },
+    {
+      "word": "pig",
+      "definition": "A farm animal with a flat snout and a curly tail.",
+      "sentence": "The pig rolls in the mud.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short i / u",
+          "chunks": [
+            "p",
+            "i",
+            "g"
+          ],
+          "page": 4
+        }
+      ]
+    },
+    {
+      "word": "sun",
+      "definition": "The bright star that lights our daytime sky.",
+      "sentence": "The sun feels warm today.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short i / u",
+          "chunks": [
+            "s",
+            "u",
+            "n"
+          ],
+          "page": 5
+        }
+      ]
+    },
+    {
+      "word": "cup",
+      "definition": "A small container you drink from.",
+      "sentence": "My cup is full of water.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short i / u",
+          "chunks": [
+            "c",
+            "u",
+            "p"
+          ],
+          "page": 5
+        }
+      ]
+    },
+    {
+      "word": "bug",
+      "definition": "A small crawling creature, often an insect.",
+      "sentence": "A tiny bug landed on the leaf.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short i / u",
+          "chunks": [
+            "b",
+            "u",
+            "g"
+          ],
+          "page": 5
+        }
+      ]
+    },
+    {
+      "word": "hug",
+      "definition": "An embrace with your arms around someone.",
+      "sentence": "I gave my friend a hug.",
+      "cards": [
+        {
+          "pattern": "SHORT VOWELS (CVC)",
+          "label": "short i / u",
+          "chunks": [
+            "h",
+            "u",
+            "g"
+          ],
+          "page": 5
+        }
+      ]
+    },
+    {
+      "word": "wind",
+      "definition": "Moving air that you can feel outside.",
+      "sentence": "The wind blew the leaves away.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nd",
+          "chunks": [
+            "wi",
+            "nd"
+          ],
+          "page": 6
+        }
+      ]
+    },
+    {
+      "word": "hand",
+      "definition": "The body part at the end of your arm with fingers and a thumb.",
+      "sentence": "Raise your hand to ask a question.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nd",
+          "chunks": [
+            "ha",
+            "nd"
+          ],
+          "page": 6
+        }
+      ]
+    },
+    {
+      "word": "sand",
+      "definition": "Tiny grains of rock found on beaches and in deserts.",
+      "sentence": "We built a castle in the sand.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nd",
+          "chunks": [
+            "sa",
+            "nd"
+          ],
+          "page": 6
+        }
+      ]
+    },
+    {
+      "word": "pond",
+      "definition": "A small area of still water surrounded by land.",
+      "sentence": "The ducks swim in the pond.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nd",
+          "chunks": [
+            "po",
+            "nd"
+          ],
+          "page": 6
+        }
+      ]
+    },
+    {
+      "word": "bend",
+      "definition": "To make something curve or to lean your body.",
+      "sentence": "Please bend your knees.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nd",
+          "chunks": [
+            "be",
+            "nd"
+          ],
+          "page": 6
+        }
+      ]
+    },
+    {
+      "word": "send",
+      "definition": "To make something go to another person or place.",
+      "sentence": "I will send a card to my cousin.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nd",
+          "chunks": [
+            "se",
+            "nd"
+          ],
+          "page": 6
+        }
+      ]
+    },
+    {
+      "word": "band",
+      "definition": "A group of people who play music together.",
+      "sentence": "The band played a happy song.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nd",
+          "chunks": [
+            "ba",
+            "nd"
+          ],
+          "page": 6
+        }
+      ]
+    },
+    {
+      "word": "drink",
+      "definition": "To take liquid into your mouth and swallow it.",
+      "sentence": "I drink water after playing.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nk",
+          "chunks": [
+            "dri",
+            "nk"
+          ],
+          "page": 7
+        }
+      ]
+    },
+    {
+      "word": "sink",
+      "definition": "A bowl with a faucet and drain used for washing.",
+      "sentence": "Wash your hands in the sink.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nk",
+          "chunks": [
+            "si",
+            "nk"
+          ],
+          "page": 7
+        }
+      ]
+    },
+    {
+      "word": "pink",
+      "definition": "A pale color made by mixing red and white.",
+      "sentence": "She wore a pink ribbon.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nk",
+          "chunks": [
+            "pi",
+            "nk"
+          ],
+          "page": 7
+        }
+      ]
+    },
+    {
+      "word": "think",
+      "definition": "To use your mind to form an idea.",
+      "sentence": "I think the answer is five.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nk",
+          "chunks": [
+            "thi",
+            "nk"
+          ],
+          "page": 7
+        }
+      ]
+    },
+    {
+      "word": "wink",
+      "definition": "To close one eye briefly as a signal.",
+      "sentence": "Can you wink with one eye?",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nk",
+          "chunks": [
+            "wi",
+            "nk"
+          ],
+          "page": 7
+        }
+      ]
+    },
+    {
+      "word": "link",
+      "definition": "A connection between two things.",
+      "sentence": "One link in the chain is broken.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nk",
+          "chunks": [
+            "li",
+            "nk"
+          ],
+          "page": 7
+        }
+      ]
+    },
+    {
+      "word": "bank",
+      "definition": "The land along the edge of a river.",
+      "sentence": "We sat on the river bank.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-nk",
+          "chunks": [
+            "ba",
+            "nk"
+          ],
+          "page": 7
+        }
+      ]
+    },
+    {
+      "word": "pump",
+      "definition": "A tool that moves air or liquid.",
+      "sentence": "Use the pump to fill the tire with air.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-mp",
+          "chunks": [
+            "pu",
+            "mp"
+          ],
+          "page": 7
+        }
+      ]
+    },
+    {
+      "word": "jump",
+      "definition": "To push off the ground into the air.",
+      "sentence": "I can jump over the puddle.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-mp",
+          "chunks": [
+            "ju",
+            "mp"
+          ],
+          "page": 8
+        }
+      ]
+    },
+    {
+      "word": "bump",
+      "definition": "To hit something, usually by accident.",
+      "sentence": "Be careful not to bump the table.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-mp",
+          "chunks": [
+            "bu",
+            "mp"
+          ],
+          "page": 8
+        }
+      ]
+    },
+    {
+      "word": "lamp",
+      "definition": "A thing that gives light to a room.",
+      "sentence": "Turn on the lamp to read.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-mp",
+          "chunks": [
+            "la",
+            "mp"
+          ],
+          "page": 8
+        }
+      ]
+    },
+    {
+      "word": "camp",
+      "definition": "A place to stay outdoors, often in tents.",
+      "sentence": "We made our camp beside the lake.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-mp",
+          "chunks": [
+            "ca",
+            "mp"
+          ],
+          "page": 8
+        }
+      ]
+    },
+    {
+      "word": "dump",
+      "definition": "To empty something out of a container.",
+      "sentence": "Please dump the leaves onto the pile.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-mp",
+          "chunks": [
+            "du",
+            "mp"
+          ],
+          "page": 8
+        }
+      ]
+    },
+    {
+      "word": "lump",
+      "definition": "A small piece or mass without a regular shape.",
+      "sentence": "There is a lump of clay on the table.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-mp",
+          "chunks": [
+            "lu",
+            "mp"
+          ],
+          "page": 8
+        }
+      ]
+    },
+    {
+      "word": "mist",
+      "definition": "Tiny water drops floating in the air near the ground.",
+      "sentence": "The morning mist hid the hill.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-st",
+          "chunks": [
+            "mi",
+            "st"
+          ],
+          "page": 8
+        }
+      ]
+    },
+    {
+      "word": "fist",
+      "definition": "A hand with its fingers curled tightly into the palm.",
+      "sentence": "He held the coin in his fist.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-st",
+          "chunks": [
+            "fi",
+            "st"
+          ],
+          "page": 8
+        }
+      ]
+    },
+    {
+      "word": "list",
+      "definition": "Words written one below another to help you remember things.",
+      "sentence": "We made a list of things to pack.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-st",
+          "chunks": [
+            "li",
+            "st"
+          ],
+          "page": 9
+        }
+      ]
+    },
+    {
+      "word": "fast",
+      "definition": "Moving at a high speed.",
+      "sentence": "The rabbit is fast.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-st",
+          "chunks": [
+            "fa",
+            "st"
+          ],
+          "page": 9
+        }
+      ]
+    },
+    {
+      "word": "best",
+      "definition": "Better than all the others.",
+      "sentence": "That was my best jump.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-st",
+          "chunks": [
+            "be",
+            "st"
+          ],
+          "page": 9
+        }
+      ]
+    },
+    {
+      "word": "nest",
+      "definition": "A place a bird builds to lay its eggs.",
+      "sentence": "The bird built a nest in the tree.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-st",
+          "chunks": [
+            "ne",
+            "st"
+          ],
+          "page": 9
+        }
+      ]
+    },
+    {
+      "word": "rest",
+      "definition": "To stop working or playing so your body can relax.",
+      "sentence": "Let us rest under the tree.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-st",
+          "chunks": [
+            "re",
+            "st"
+          ],
+          "page": 9
+        }
+      ]
+    },
+    {
+      "word": "shift",
+      "definition": "To move something to a different position.",
+      "sentence": "Please shift your chair a little.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-ft",
+          "chunks": [
+            "shi",
+            "ft"
+          ],
+          "page": 9
+        },
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "sh",
+            "ift"
+          ],
+          "page": 15
+        }
+      ]
+    },
+    {
+      "word": "lift",
+      "definition": "To move something upward.",
+      "sentence": "Can you lift this box?",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-ft",
+          "chunks": [
+            "li",
+            "ft"
+          ],
+          "page": 9
+        }
+      ]
+    },
+    {
+      "word": "gift",
+      "definition": "Something you give to another person.",
+      "sentence": "I made a gift for my teacher.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-ft",
+          "chunks": [
+            "gi",
+            "ft"
+          ],
+          "page": 9
+        }
+      ]
+    },
+    {
+      "word": "left",
+      "definition": "On the side opposite the right.",
+      "sentence": "Put the mitten on your left hand.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-ft",
+          "chunks": [
+            "le",
+            "ft"
+          ],
+          "page": 10
+        }
+      ]
+    },
+    {
+      "word": "soft",
+      "definition": "Easy to press or pleasant to touch.",
+      "sentence": "The blanket is soft.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-ft",
+          "chunks": [
+            "so",
+            "ft"
+          ],
+          "page": 10
+        }
+      ]
+    },
+    {
+      "word": "raft",
+      "definition": "A flat floating platform used on water.",
+      "sentence": "The raft floated down the river.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-ft",
+          "chunks": [
+            "ra",
+            "ft"
+          ],
+          "page": 10
+        }
+      ]
+    },
+    {
+      "word": "tusk",
+      "definition": "A long, pointed tooth that sticks out of an animal's mouth.",
+      "sentence": "The elephant has a curved tusk.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-sk",
+          "chunks": [
+            "tu",
+            "sk"
+          ],
+          "page": 10
+        }
+      ]
+    },
+    {
+      "word": "desk",
+      "definition": "A table used for reading, writing, or working.",
+      "sentence": "My notebook is on the desk.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-sk",
+          "chunks": [
+            "de",
+            "sk"
+          ],
+          "page": 10
+        }
+      ]
+    },
+    {
+      "word": "dusk",
+      "definition": "The time in the evening when daylight is fading.",
+      "sentence": "We came home at dusk.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-sk",
+          "chunks": [
+            "du",
+            "sk"
+          ],
+          "page": 10
+        }
+      ]
+    },
+    {
+      "word": "mask",
+      "definition": "Something worn over part or all of the face.",
+      "sentence": "The costume has a cat mask.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-sk",
+          "chunks": [
+            "ma",
+            "sk"
+          ],
+          "page": 10
+        }
+      ]
+    },
+    {
+      "word": "task",
+      "definition": "A piece of work that needs to be done.",
+      "sentence": "My task is to water the plants.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-sk",
+          "chunks": [
+            "ta",
+            "sk"
+          ],
+          "page": 10
+        }
+      ]
+    },
+    {
+      "word": "risk",
+      "definition": "The chance that something unwanted may happen.",
+      "sentence": "There is a risk of slipping on ice.",
+      "cards": [
+        {
+          "pattern": "ENDING BLENDS",
+          "label": "-sk",
+          "chunks": [
+            "ri",
+            "sk"
+          ],
+          "page": 11
+        }
+      ]
+    },
+    {
+      "word": "still",
+      "definition": "Not moving.",
+      "sentence": "The rabbit stayed very still.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ll",
+          "chunks": [
+            "sti",
+            "ll"
+          ],
+          "page": 12
+        }
+      ]
+    },
+    {
+      "word": "shell",
+      "definition": "A hard covering that protects an animal.",
+      "sentence": "The turtle pulled its head into its shell.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ll",
+          "chunks": [
+            "she",
+            "ll"
+          ],
+          "page": 12
+        },
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "sh",
+            "ell"
+          ],
+          "page": 15
+        }
+      ]
+    },
+    {
+      "word": "bell",
+      "definition": "A hollow object that rings when struck.",
+      "sentence": "The bell rang for lunch.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ll",
+          "chunks": [
+            "be",
+            "ll"
+          ],
+          "page": 12
+        }
+      ]
+    },
+    {
+      "word": "fill",
+      "definition": "To put things into a space until it is full.",
+      "sentence": "Please fill the bowl with water.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ll",
+          "chunks": [
+            "fi",
+            "ll"
+          ],
+          "page": 12
+        }
+      ]
+    },
+    {
+      "word": "hill",
+      "definition": "An area of land higher than the ground around it.",
+      "sentence": "We climbed the hill.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ll",
+          "chunks": [
+            "hi",
+            "ll"
+          ],
+          "page": 12
+        }
+      ]
+    },
+    {
+      "word": "doll",
+      "definition": "A toy shaped like a person.",
+      "sentence": "My doll has a blue dress.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ll",
+          "chunks": [
+            "do",
+            "ll"
+          ],
+          "page": 12
+        }
+      ]
+    },
+    {
+      "word": "tell",
+      "definition": "To give information by speaking.",
+      "sentence": "Please tell me a story.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ll",
+          "chunks": [
+            "te",
+            "ll"
+          ],
+          "page": 12
+        }
+      ]
+    },
+    {
+      "word": "well",
+      "definition": "In a good or skillful way.",
+      "sentence": "You read that story very well.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ll",
+          "chunks": [
+            "we",
+            "ll"
+          ],
+          "page": 13
+        }
+      ]
+    },
+    {
+      "word": "spill",
+      "definition": "To let liquid fall out of its container by accident.",
+      "sentence": "Try not to spill your juice.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ll",
+          "chunks": [
+            "spi",
+            "ll"
+          ],
+          "page": 13
+        }
+      ]
+    },
+    {
+      "word": "sick",
+      "definition": "Not feeling well.",
+      "sentence": "I stayed home because I felt sick.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ck",
+          "chunks": [
+            "si",
+            "ck"
+          ],
+          "page": 13
+        }
+      ]
+    },
+    {
+      "word": "truck",
+      "definition": "A large vehicle used to carry things.",
+      "sentence": "The truck delivered our new sofa.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ck",
+          "chunks": [
+            "tru",
+            "ck"
+          ],
+          "page": 13
+        }
+      ]
+    },
+    {
+      "word": "crack",
+      "definition": "A narrow break in something.",
+      "sentence": "There is a crack in the old flowerpot.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ck",
+          "chunks": [
+            "cra",
+            "ck"
+          ],
+          "page": 13
+        }
+      ]
+    },
+    {
+      "word": "duck",
+      "definition": "A water bird with a wide, flat bill.",
+      "sentence": "The duck paddled across the pond.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ck",
+          "chunks": [
+            "du",
+            "ck"
+          ],
+          "page": 13
+        }
+      ]
+    },
+    {
+      "word": "back",
+      "definition": "The part of your body opposite your chest.",
+      "sentence": "My backpack rests against my back.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ck",
+          "chunks": [
+            "ba",
+            "ck"
+          ],
+          "page": 13
+        }
+      ]
+    },
+    {
+      "word": "kick",
+      "definition": "To hit something with your foot.",
+      "sentence": "Please kick the ball to me.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ck",
+          "chunks": [
+            "ki",
+            "ck"
+          ],
+          "page": 13
+        }
+      ]
+    },
+    {
+      "word": "rock",
+      "definition": "A hard piece of stone.",
+      "sentence": "I found a smooth rock by the stream.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ck",
+          "chunks": [
+            "ro",
+            "ck"
+          ],
+          "page": 14
+        }
+      ]
+    },
+    {
+      "word": "sock",
+      "definition": "A piece of clothing worn on your foot.",
+      "sentence": "I found my missing sock.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ck",
+          "chunks": [
+            "so",
+            "ck"
+          ],
+          "page": 14
+        }
+      ]
+    },
+    {
+      "word": "pack",
+      "definition": "To put things into a bag or container for a trip.",
+      "sentence": "We pack our bags before leaving.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ck",
+          "chunks": [
+            "pa",
+            "ck"
+          ],
+          "page": 14
+        }
+      ]
+    },
+    {
+      "word": "lock",
+      "definition": "A device that keeps something closed until it is opened with a key or code.",
+      "sentence": "The gate has a lock.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ck",
+          "chunks": [
+            "lo",
+            "ck"
+          ],
+          "page": 14
+        }
+      ]
+    },
+    {
+      "word": "clock",
+      "definition": "A device that shows the time.",
+      "sentence": "The clock says it is noon.",
+      "cards": [
+        {
+          "pattern": "DOUBLE LL AND CK",
+          "label": "-ck",
+          "chunks": [
+            "clo",
+            "ck"
+          ],
+          "page": 14
+        }
+      ]
+    },
+    {
+      "word": "shy",
+      "definition": "Feeling nervous about meeting or speaking to people.",
+      "sentence": "The shy child waved hello.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "sh",
+            "y"
+          ],
+          "page": 15
+        },
+        {
+          "pattern": "ENDING Y",
+          "label": "y says eye",
+          "chunks": [
+            "sh",
+            "y"
+          ],
+          "page": 35
+        }
+      ]
+    },
+    {
+      "word": "bush",
+      "definition": "A plant with many woody stems growing close to the ground.",
+      "sentence": "A bird landed in the bush.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "bu",
+            "sh"
+          ],
+          "page": 15
+        }
+      ]
+    },
+    {
+      "word": "sharp",
+      "definition": "Having an edge or point that can cut or pierce.",
+      "sentence": "Be careful with that sharp pencil.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "sh",
+            "arp"
+          ],
+          "page": 15
+        },
+        {
+          "pattern": "BOSSY R",
+          "label": "ar",
+          "chunks": [
+            "sh",
+            "ar",
+            "p"
+          ],
+          "page": 24
+        }
+      ]
+    },
+    {
+      "word": "shoot",
+      "definition": "To send a ball toward a goal or basket.",
+      "sentence": "I will shoot the ball into the basket.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "sh",
+            "oot"
+          ],
+          "page": 15
+        },
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "oo (long)",
+          "chunks": [
+            "sh",
+            "oo",
+            "t"
+          ],
+          "page": 29
+        }
+      ]
+    },
+    {
+      "word": "shine",
+      "definition": "To give off or reflect bright light.",
+      "sentence": "The stars shine at night.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "sh",
+            "ine"
+          ],
+          "page": 15
+        },
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "i_e",
+          "chunks": [
+            "sh",
+            "i",
+            "n",
+            "e"
+          ],
+          "page": 21
+        }
+      ]
+    },
+    {
+      "word": "ship",
+      "definition": "A large boat that travels on water.",
+      "sentence": "The ship sailed across the sea.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "sh",
+            "ip"
+          ],
+          "page": 16
+        }
+      ]
+    },
+    {
+      "word": "shop",
+      "definition": "A place where people buy things.",
+      "sentence": "We visited the toy shop.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "sh",
+            "op"
+          ],
+          "page": 16
+        }
+      ]
+    },
+    {
+      "word": "shut",
+      "definition": "To close something.",
+      "sentence": "Please shut the door softly.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "sh",
+            "ut"
+          ],
+          "page": 16
+        }
+      ]
+    },
+    {
+      "word": "fish",
+      "definition": "An animal that lives in water and breathes through gills.",
+      "sentence": "The fish swims in the pond.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "fi",
+            "sh"
+          ],
+          "page": 16
+        }
+      ]
+    },
+    {
+      "word": "dish",
+      "definition": "A plate or bowl used to hold food.",
+      "sentence": "Put the dish on the table.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "di",
+            "sh"
+          ],
+          "page": 16
+        }
+      ]
+    },
+    {
+      "word": "wish",
+      "definition": "Something you hope will happen.",
+      "sentence": "Make a wish before blowing out the candles.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "wi",
+            "sh"
+          ],
+          "page": 16
+        }
+      ]
+    },
+    {
+      "word": "push",
+      "definition": "To move something away from you by pressing against it.",
+      "sentence": "Help me push the wagon.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "pu",
+            "sh"
+          ],
+          "page": 16
+        }
+      ]
+    },
+    {
+      "word": "rush",
+      "definition": "To move or act very quickly.",
+      "sentence": "We do not need to rush.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "sh",
+          "chunks": [
+            "ru",
+            "sh"
+          ],
+          "page": 16
+        }
+      ]
+    },
+    {
+      "word": "rich",
+      "definition": "Having a lot of money or valuable things.",
+      "sentence": "The rich king lived in a palace.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "ch",
+          "chunks": [
+            "ri",
+            "ch"
+          ],
+          "page": 17
+        }
+      ]
+    },
+    {
+      "word": "chip",
+      "definition": "A thin, crisp piece of food.",
+      "sentence": "I ate a potato chip.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "ch",
+          "chunks": [
+            "ch",
+            "ip"
+          ],
+          "page": 17
+        }
+      ]
+    },
+    {
+      "word": "chin",
+      "definition": "The part of your face below your mouth.",
+      "sentence": "Wipe the milk off your chin.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "ch",
+          "chunks": [
+            "ch",
+            "in"
+          ],
+          "page": 17
+        }
+      ]
+    },
+    {
+      "word": "chop",
+      "definition": "To cut something into pieces.",
+      "sentence": "A grown-up will chop the carrots.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "ch",
+          "chunks": [
+            "ch",
+            "op"
+          ],
+          "page": 17
+        }
+      ]
+    },
+    {
+      "word": "much",
+      "definition": "A large amount of something.",
+      "sentence": "There is not much milk left.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "ch",
+          "chunks": [
+            "mu",
+            "ch"
+          ],
+          "page": 17
+        }
+      ]
+    },
+    {
+      "word": "such",
+      "definition": "Of that kind or degree.",
+      "sentence": "It was such a lovely day.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "ch",
+          "chunks": [
+            "su",
+            "ch"
+          ],
+          "page": 17
+        }
+      ]
+    },
+    {
+      "word": "lunch",
+      "definition": "A meal usually eaten around the middle of the day.",
+      "sentence": "We eat lunch at school.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "ch",
+          "chunks": [
+            "lun",
+            "ch"
+          ],
+          "page": 17
+        }
+      ]
+    },
+    {
+      "word": "chick",
+      "definition": "A baby chicken.",
+      "sentence": "The yellow chick followed its mother.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "ch",
+          "chunks": [
+            "ch",
+            "ick"
+          ],
+          "page": 17
+        }
+      ]
+    },
+    {
+      "word": "path",
+      "definition": "A narrow track for walking.",
+      "sentence": "We followed the path to the pond.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "th",
+          "chunks": [
+            "pa",
+            "th"
+          ],
+          "page": 18
+        }
+      ]
+    },
+    {
+      "word": "bath",
+      "definition": "A washing of your body in a tub of water.",
+      "sentence": "The puppy needs a bath.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "th",
+          "chunks": [
+            "ba",
+            "th"
+          ],
+          "page": 18
+        }
+      ]
+    },
+    {
+      "word": "math",
+      "definition": "The study of numbers, shapes, and amounts.",
+      "sentence": "We counted blocks in math.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "th",
+          "chunks": [
+            "ma",
+            "th"
+          ],
+          "page": 18
+        }
+      ]
+    },
+    {
+      "word": "with",
+      "definition": "Together or in the company of someone or something.",
+      "sentence": "I played with my friend.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "th",
+          "chunks": [
+            "wi",
+            "th"
+          ],
+          "page": 18
+        }
+      ]
+    },
+    {
+      "word": "this",
+      "definition": "Used to point out one person or thing nearby.",
+      "sentence": "Please read this book.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "th",
+          "chunks": [
+            "th",
+            "is"
+          ],
+          "page": 18
+        }
+      ]
+    },
+    {
+      "word": "that",
+      "definition": "Used to point out one person or thing farther away.",
+      "sentence": "Look at that bird in the tree.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "th",
+          "chunks": [
+            "th",
+            "at"
+          ],
+          "page": 18
+        }
+      ]
+    },
+    {
+      "word": "thin",
+      "definition": "Having only a small distance from one side to the other.",
+      "sentence": "We drew a thin line.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "th",
+          "chunks": [
+            "th",
+            "in"
+          ],
+          "page": 18
+        }
+      ]
+    },
+    {
+      "word": "moth",
+      "definition": "An insect related to a butterfly that often flies at night.",
+      "sentence": "A moth flew near the porch light.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "th",
+          "chunks": [
+            "mo",
+            "th"
+          ],
+          "page": 18
+        }
+      ]
+    },
+    {
+      "word": "thick",
+      "definition": "Having a large distance from one side to the other.",
+      "sentence": "The bear has thick fur.",
+      "cards": [
+        {
+          "pattern": "DIGRAPHS SH, CH, TH",
+          "label": "th",
+          "chunks": [
+            "th",
+            "ick"
+          ],
+          "page": 19
+        }
+      ]
+    },
+    {
+      "word": "late",
+      "definition": "Arriving or happening after the expected time.",
+      "sentence": "We were late for the bus.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "a_e",
+          "chunks": [
+            "l",
+            "a",
+            "t",
+            "e"
+          ],
+          "page": 20
+        }
+      ]
+    },
+    {
+      "word": "cake",
+      "definition": "A sweet baked food often served at a birthday party.",
+      "sentence": "We shared a chocolate cake.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "a_e",
+          "chunks": [
+            "c",
+            "a",
+            "k",
+            "e"
+          ],
+          "page": 20
+        }
+      ]
+    },
+    {
+      "word": "gate",
+      "definition": "A door in a fence or wall.",
+      "sentence": "Please close the garden gate.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "a_e",
+          "chunks": [
+            "g",
+            "a",
+            "t",
+            "e"
+          ],
+          "page": 20
+        }
+      ]
+    },
+    {
+      "word": "make",
+      "definition": "To create or put something together.",
+      "sentence": "We make paper boats.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "a_e",
+          "chunks": [
+            "m",
+            "a",
+            "k",
+            "e"
+          ],
+          "page": 20
+        }
+      ]
+    },
+    {
+      "word": "game",
+      "definition": "An activity with rules that people play for fun.",
+      "sentence": "We played a game after lunch.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "a_e",
+          "chunks": [
+            "g",
+            "a",
+            "m",
+            "e"
+          ],
+          "page": 20
+        }
+      ]
+    },
+    {
+      "word": "name",
+      "definition": "A word used to identify a person, place, or thing.",
+      "sentence": "Write your name at the top.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "a_e",
+          "chunks": [
+            "n",
+            "a",
+            "m",
+            "e"
+          ],
+          "page": 20
+        }
+      ]
+    },
+    {
+      "word": "lake",
+      "definition": "A large area of water surrounded by land.",
+      "sentence": "We saw ducks on the lake.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "a_e",
+          "chunks": [
+            "l",
+            "a",
+            "k",
+            "e"
+          ],
+          "page": 20
+        }
+      ]
+    },
+    {
+      "word": "dive",
+      "definition": "To jump or move headfirst into water.",
+      "sentence": "Watch the swimmer dive into the pool.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "i_e",
+          "chunks": [
+            "d",
+            "i",
+            "v",
+            "e"
+          ],
+          "page": 21
+        }
+      ]
+    },
+    {
+      "word": "fine",
+      "definition": "Well or in good condition.",
+      "sentence": "I feel fine today.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "i_e",
+          "chunks": [
+            "f",
+            "i",
+            "n",
+            "e"
+          ],
+          "page": 21
+        }
+      ]
+    },
+    {
+      "word": "five",
+      "definition": "The number that comes after four.",
+      "sentence": "There are five stars on my sticker.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "i_e",
+          "chunks": [
+            "f",
+            "i",
+            "v",
+            "e"
+          ],
+          "page": 21
+        }
+      ]
+    },
+    {
+      "word": "hive",
+      "definition": "A home where bees live together.",
+      "sentence": "The bees flew back to their hive.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "i_e",
+          "chunks": [
+            "h",
+            "i",
+            "v",
+            "e"
+          ],
+          "page": 21
+        }
+      ]
+    },
+    {
+      "word": "bike",
+      "definition": "A vehicle with two wheels that you move by pedaling.",
+      "sentence": "I ride my bike in the park.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "i_e",
+          "chunks": [
+            "b",
+            "i",
+            "k",
+            "e"
+          ],
+          "page": 21
+        }
+      ]
+    },
+    {
+      "word": "time",
+      "definition": "What we measure in seconds, minutes, and hours.",
+      "sentence": "It is time for lunch.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "i_e",
+          "chunks": [
+            "t",
+            "i",
+            "m",
+            "e"
+          ],
+          "page": 21
+        }
+      ]
+    },
+    {
+      "word": "line",
+      "definition": "A long, narrow mark.",
+      "sentence": "Draw a straight line across the page.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "i_e",
+          "chunks": [
+            "l",
+            "i",
+            "n",
+            "e"
+          ],
+          "page": 21
+        }
+      ]
+    },
+    {
+      "word": "nine",
+      "definition": "The number that comes after eight.",
+      "sentence": "I counted nine shells.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "i_e",
+          "chunks": [
+            "n",
+            "i",
+            "n",
+            "e"
+          ],
+          "page": 22
+        }
+      ]
+    },
+    {
+      "word": "smile",
+      "definition": "A happy look made by turning up the corners of your mouth.",
+      "sentence": "Her smile made me happy.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "i_e",
+          "chunks": [
+            "sm",
+            "i",
+            "l",
+            "e"
+          ],
+          "page": 22
+        }
+      ]
+    },
+    {
+      "word": "home",
+      "definition": "The place where you live.",
+      "sentence": "We went home after school.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "o_e",
+          "chunks": [
+            "h",
+            "o",
+            "m",
+            "e"
+          ],
+          "page": 22
+        }
+      ]
+    },
+    {
+      "word": "bone",
+      "definition": "One of the hard parts inside a body that support it.",
+      "sentence": "The dog buried a bone.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "o_e",
+          "chunks": [
+            "b",
+            "o",
+            "n",
+            "e"
+          ],
+          "page": 22
+        }
+      ]
+    },
+    {
+      "word": "nose",
+      "definition": "The part of your face used for smelling and breathing.",
+      "sentence": "The puppy has a wet nose.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "o_e",
+          "chunks": [
+            "n",
+            "o",
+            "s",
+            "e"
+          ],
+          "page": 22
+        }
+      ]
+    },
+    {
+      "word": "rope",
+      "definition": "A strong, thick cord made of twisted fibers.",
+      "sentence": "We used a rope to pull the sled.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "o_e",
+          "chunks": [
+            "r",
+            "o",
+            "p",
+            "e"
+          ],
+          "page": 22
+        }
+      ]
+    },
+    {
+      "word": "hope",
+      "definition": "To want something good to happen.",
+      "sentence": "I hope we can play outside.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "o_e",
+          "chunks": [
+            "h",
+            "o",
+            "p",
+            "e"
+          ],
+          "page": 22
+        }
+      ]
+    },
+    {
+      "word": "cube",
+      "definition": "A solid shape with six equal square faces.",
+      "sentence": "An ice cube melted in my cup.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "u_e",
+          "chunks": [
+            "c",
+            "u",
+            "b",
+            "e"
+          ],
+          "page": 22
+        }
+      ]
+    },
+    {
+      "word": "tube",
+      "definition": "A hollow object that is usually long and round.",
+      "sentence": "The toothpaste comes in a tube.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "u_e",
+          "chunks": [
+            "t",
+            "u",
+            "b",
+            "e"
+          ],
+          "page": 23
+        }
+      ]
+    },
+    {
+      "word": "cute",
+      "definition": "Pretty or charming in a small, pleasing way.",
+      "sentence": "The puppy is very cute.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "u_e",
+          "chunks": [
+            "c",
+            "u",
+            "t",
+            "e"
+          ],
+          "page": 23
+        }
+      ]
+    },
+    {
+      "word": "huge",
+      "definition": "Very large.",
+      "sentence": "A huge whale swam past the boat.",
+      "cards": [
+        {
+          "pattern": "SILENT E (MAGIC E)",
+          "label": "u_e",
+          "chunks": [
+            "h",
+            "u",
+            "g",
+            "e"
+          ],
+          "page": 23
+        }
+      ]
+    },
+    {
+      "word": "yarn",
+      "definition": "A long thread used for knitting or weaving.",
+      "sentence": "The kitten played with a ball of yarn.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ar",
+          "chunks": [
+            "y",
+            "ar",
+            "n"
+          ],
+          "page": 24
+        }
+      ]
+    },
+    {
+      "word": "stars",
+      "definition": "Bright objects like our sun that are far away in space.",
+      "sentence": "We looked at the stars at night.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ar",
+          "chunks": [
+            "st",
+            "ar",
+            "s"
+          ],
+          "page": 24
+        },
+        {
+          "pattern": "PLURALS WITH S",
+          "label": "add s",
+          "chunks": [
+            "star",
+            "s"
+          ],
+          "page": 37
+        }
+      ]
+    },
+    {
+      "word": "car",
+      "definition": "A road vehicle with wheels that carries a few people.",
+      "sentence": "Our car is parked outside.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ar",
+          "chunks": [
+            "c",
+            "ar"
+          ],
+          "page": 24
+        }
+      ]
+    },
+    {
+      "word": "star",
+      "definition": "A huge glowing ball of gas seen as a bright point in the night sky.",
+      "sentence": "I saw a bright star tonight.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ar",
+          "chunks": [
+            "st",
+            "ar"
+          ],
+          "page": 24
+        }
+      ]
+    },
+    {
+      "word": "farm",
+      "definition": "Land used for growing crops or raising animals.",
+      "sentence": "We visited a farm with goats.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ar",
+          "chunks": [
+            "f",
+            "ar",
+            "m"
+          ],
+          "page": 24
+        }
+      ]
+    },
+    {
+      "word": "barn",
+      "definition": "A farm building used for animals or storing crops and tools.",
+      "sentence": "The horses sleep in the barn.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ar",
+          "chunks": [
+            "b",
+            "ar",
+            "n"
+          ],
+          "page": 24
+        }
+      ]
+    },
+    {
+      "word": "park",
+      "definition": "An open place where people can play or relax.",
+      "sentence": "We had a picnic in the park.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ar",
+          "chunks": [
+            "p",
+            "ar",
+            "k"
+          ],
+          "page": 25
+        }
+      ]
+    },
+    {
+      "word": "dark",
+      "definition": "Having little or no light.",
+      "sentence": "The room was dark until we turned on a lamp.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ar",
+          "chunks": [
+            "d",
+            "ar",
+            "k"
+          ],
+          "page": 25
+        }
+      ]
+    },
+    {
+      "word": "card",
+      "definition": "A small piece of thick paper used for a message or game.",
+      "sentence": "I made a birthday card.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ar",
+          "chunks": [
+            "c",
+            "ar",
+            "d"
+          ],
+          "page": 25
+        }
+      ]
+    },
+    {
+      "word": "dirt",
+      "definition": "Loose earth or soil.",
+      "sentence": "We planted seeds in the dirt.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ir",
+          "chunks": [
+            "d",
+            "ir",
+            "t"
+          ],
+          "page": 25
+        }
+      ]
+    },
+    {
+      "word": "bird",
+      "definition": "An animal with feathers, wings, and a beak.",
+      "sentence": "A bird sang outside my window.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ir",
+          "chunks": [
+            "b",
+            "ir",
+            "d"
+          ],
+          "page": 25
+        }
+      ]
+    },
+    {
+      "word": "girl",
+      "definition": "A female child.",
+      "sentence": "The girl read a book.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ir",
+          "chunks": [
+            "g",
+            "ir",
+            "l"
+          ],
+          "page": 25
+        }
+      ]
+    },
+    {
+      "word": "first",
+      "definition": "Coming before all the others.",
+      "sentence": "I was the first person in line.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ir",
+          "chunks": [
+            "f",
+            "ir",
+            "st"
+          ],
+          "page": 25
+        }
+      ]
+    },
+    {
+      "word": "shirt",
+      "definition": "Clothing worn on the top half of your body.",
+      "sentence": "My shirt has stripes.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ir",
+          "chunks": [
+            "sh",
+            "ir",
+            "t"
+          ],
+          "page": 25
+        }
+      ]
+    },
+    {
+      "word": "stir",
+      "definition": "To move a spoon or another tool around in a liquid to mix it.",
+      "sentence": "Please stir the soup.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ir",
+          "chunks": [
+            "st",
+            "ir"
+          ],
+          "page": 26
+        }
+      ]
+    },
+    {
+      "word": "hurt",
+      "definition": "To feel pain.",
+      "sentence": "My toe began to hurt.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ur",
+          "chunks": [
+            "h",
+            "ur",
+            "t"
+          ],
+          "page": 26
+        }
+      ]
+    },
+    {
+      "word": "burn",
+      "definition": "To be damaged or used up by fire or heat.",
+      "sentence": "Dry sticks burn in a campfire.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ur",
+          "chunks": [
+            "b",
+            "ur",
+            "n"
+          ],
+          "page": 26
+        }
+      ]
+    },
+    {
+      "word": "turn",
+      "definition": "To move so that you face a different direction.",
+      "sentence": "Please turn toward the window.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ur",
+          "chunks": [
+            "t",
+            "ur",
+            "n"
+          ],
+          "page": 26
+        }
+      ]
+    },
+    {
+      "word": "fur",
+      "definition": "The thick hair covering the bodies of many animals.",
+      "sentence": "The rabbit has soft fur.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ur",
+          "chunks": [
+            "f",
+            "ur"
+          ],
+          "page": 26
+        }
+      ]
+    },
+    {
+      "word": "curl",
+      "definition": "A piece of hair or another thing shaped into a loop or curve.",
+      "sentence": "One curl fell over her forehead.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ur",
+          "chunks": [
+            "c",
+            "ur",
+            "l"
+          ],
+          "page": 26
+        }
+      ]
+    },
+    {
+      "word": "nurse",
+      "definition": "A person trained to care for people who are sick or injured.",
+      "sentence": "The school nurse checked my temperature.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ur",
+          "chunks": [
+            "n",
+            "ur",
+            "se"
+          ],
+          "page": 26
+        }
+      ]
+    },
+    {
+      "word": "her",
+      "definition": "Used to refer to a girl or woman already mentioned.",
+      "sentence": "I gave her a pencil.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "er",
+          "chunks": [
+            "h",
+            "er"
+          ],
+          "page": 26
+        }
+      ]
+    },
+    {
+      "word": "fern",
+      "definition": "A green plant with divided, feathery leaves and no flowers.",
+      "sentence": "A fern grows in the shady garden.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "er",
+          "chunks": [
+            "f",
+            "er",
+            "n"
+          ],
+          "page": 27
+        }
+      ]
+    },
+    {
+      "word": "after",
+      "definition": "Later than something else.",
+      "sentence": "We play outside after lunch.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "er",
+          "chunks": [
+            "aft",
+            "er"
+          ],
+          "page": 27
+        }
+      ]
+    },
+    {
+      "word": "under",
+      "definition": "Below or beneath something.",
+      "sentence": "The cat is under the table.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "er",
+          "chunks": [
+            "und",
+            "er"
+          ],
+          "page": 27
+        }
+      ]
+    },
+    {
+      "word": "fire",
+      "definition": "Heat, light, and flames produced when something burns.",
+      "sentence": "The campers sat near the fire.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ire",
+          "chunks": [
+            "f",
+            "ire"
+          ],
+          "page": 27
+        }
+      ]
+    },
+    {
+      "word": "hire",
+      "definition": "To give someone a job.",
+      "sentence": "The shop will hire a new helper.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ire",
+          "chunks": [
+            "h",
+            "ire"
+          ],
+          "page": 27
+        }
+      ]
+    },
+    {
+      "word": "tire",
+      "definition": "A rubber ring around a wheel.",
+      "sentence": "My bicycle has a flat tire.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ire",
+          "chunks": [
+            "t",
+            "ire"
+          ],
+          "page": 27
+        }
+      ]
+    },
+    {
+      "word": "wire",
+      "definition": "Metal drawn into a long, thin strand.",
+      "sentence": "A bird perched on the wire.",
+      "cards": [
+        {
+          "pattern": "BOSSY R",
+          "label": "ire",
+          "chunks": [
+            "w",
+            "ire"
+          ],
+          "page": 27
+        }
+      ]
+    },
+    {
+      "word": "seal",
+      "definition": "A sea animal with flippers that can also rest on land.",
+      "sentence": "The seal swam beside the rocks.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ea",
+          "chunks": [
+            "s",
+            "ea",
+            "l"
+          ],
+          "page": 28
+        }
+      ]
+    },
+    {
+      "word": "easy",
+      "definition": "Not difficult to do or understand.",
+      "sentence": "The first puzzle was easy.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ea",
+          "chunks": [
+            "ea",
+            "sy"
+          ],
+          "page": 28
+        },
+        {
+          "pattern": "ENDING Y",
+          "label": "y says ee",
+          "chunks": [
+            "eas",
+            "y"
+          ],
+          "page": 34
+        }
+      ]
+    },
+    {
+      "word": "beat",
+      "definition": "To strike something again and again.",
+      "sentence": "We beat the drum to the song.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ea",
+          "chunks": [
+            "b",
+            "ea",
+            "t"
+          ],
+          "page": 28
+        }
+      ]
+    },
+    {
+      "word": "meat",
+      "definition": "Food made from the flesh of an animal.",
+      "sentence": "The sandwich has meat and cheese.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ea",
+          "chunks": [
+            "m",
+            "ea",
+            "t"
+          ],
+          "page": 28
+        }
+      ]
+    },
+    {
+      "word": "leaf",
+      "definition": "A flat, usually green part of a plant.",
+      "sentence": "A leaf fell from the tree.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ea",
+          "chunks": [
+            "l",
+            "ea",
+            "f"
+          ],
+          "page": 28
+        }
+      ]
+    },
+    {
+      "word": "beach",
+      "definition": "Land covered with sand or pebbles beside water.",
+      "sentence": "We built a castle on the beach.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ea",
+          "chunks": [
+            "b",
+            "ea",
+            "ch"
+          ],
+          "page": 28
+        }
+      ]
+    },
+    {
+      "word": "read",
+      "definition": "To look at written words and understand them.",
+      "sentence": "I like to read a book before bed.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ea",
+          "chunks": [
+            "r",
+            "ea",
+            "d"
+          ],
+          "page": 28
+        }
+      ]
+    },
+    {
+      "word": "team",
+      "definition": "A group of people working or playing together.",
+      "sentence": "Our team cheered for everyone.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ea",
+          "chunks": [
+            "t",
+            "ea",
+            "m"
+          ],
+          "page": 29
+        }
+      ]
+    },
+    {
+      "word": "moon",
+      "definition": "The round natural object that travels around Earth.",
+      "sentence": "The moon glows in the night sky.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "oo (long)",
+          "chunks": [
+            "m",
+            "oo",
+            "n"
+          ],
+          "page": 29
+        }
+      ]
+    },
+    {
+      "word": "food",
+      "definition": "Things that people or animals eat.",
+      "sentence": "We put food in the puppy's bowl.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "oo (long)",
+          "chunks": [
+            "f",
+            "oo",
+            "d"
+          ],
+          "page": 29
+        }
+      ]
+    },
+    {
+      "word": "zoom",
+      "definition": "To move very quickly.",
+      "sentence": "The toy cars zoom down the track.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "oo (long)",
+          "chunks": [
+            "z",
+            "oo",
+            "m"
+          ],
+          "page": 29
+        }
+      ]
+    },
+    {
+      "word": "pool",
+      "definition": "An area of water used for swimming.",
+      "sentence": "We splashed in the pool.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "oo (long)",
+          "chunks": [
+            "p",
+            "oo",
+            "l"
+          ],
+          "page": 29
+        }
+      ]
+    },
+    {
+      "word": "boot",
+      "definition": "A shoe that covers the foot and some of the leg.",
+      "sentence": "One boot was stuck in the mud.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "oo (long)",
+          "chunks": [
+            "b",
+            "oo",
+            "t"
+          ],
+          "page": 29
+        }
+      ]
+    },
+    {
+      "word": "good",
+      "definition": "Of a pleasing or helpful kind.",
+      "sentence": "That was a good idea.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "oo (short)",
+          "chunks": [
+            "g",
+            "oo",
+            "d"
+          ],
+          "page": 29
+        },
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "good family",
+          "chunks": [
+            "g",
+            "oo",
+            "d"
+          ],
+          "page": 42
+        }
+      ]
+    },
+    {
+      "word": "book",
+      "definition": "Pages joined together inside a cover.",
+      "sentence": "We read a book before bed.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "oo (short)",
+          "chunks": [
+            "b",
+            "oo",
+            "k"
+          ],
+          "page": 30
+        }
+      ]
+    },
+    {
+      "word": "look",
+      "definition": "To turn your eyes toward something.",
+      "sentence": "Please look at the picture.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "oo (short)",
+          "chunks": [
+            "l",
+            "oo",
+            "k"
+          ],
+          "page": 30
+        }
+      ]
+    },
+    {
+      "word": "cook",
+      "definition": "To prepare food by heating it.",
+      "sentence": "We cook soup in a pot.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "oo (short)",
+          "chunks": [
+            "c",
+            "oo",
+            "k"
+          ],
+          "page": 30
+        }
+      ]
+    },
+    {
+      "word": "foot",
+      "definition": "The body part at the end of a leg that you stand on.",
+      "sentence": "I put a sock on my foot.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "oo (short)",
+          "chunks": [
+            "f",
+            "oo",
+            "t"
+          ],
+          "page": 30
+        },
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "good family",
+          "chunks": [
+            "f",
+            "oo",
+            "t"
+          ],
+          "page": 42
+        }
+      ]
+    },
+    {
+      "word": "wood",
+      "definition": "The hard material that makes up the trunk and branches of a tree.",
+      "sentence": "The chair is made of wood.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "oo (short)",
+          "chunks": [
+            "w",
+            "oo",
+            "d"
+          ],
+          "page": 30
+        },
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "good family",
+          "chunks": [
+            "w",
+            "oo",
+            "d"
+          ],
+          "page": 42
+        }
+      ]
+    },
+    {
+      "word": "house",
+      "definition": "A building where people live.",
+      "sentence": "Our house has a red door.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ou",
+          "chunks": [
+            "h",
+            "ou",
+            "se"
+          ],
+          "page": 30
+        }
+      ]
+    },
+    {
+      "word": "sound",
+      "definition": "Something you can hear.",
+      "sentence": "I heard the sound of a bell.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ou",
+          "chunks": [
+            "s",
+            "ou",
+            "nd"
+          ],
+          "page": 30
+        }
+      ]
+    },
+    {
+      "word": "out",
+      "definition": "Away from the inside of something.",
+      "sentence": "The puppy ran out of the room.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ou",
+          "chunks": [
+            "ou",
+            "t"
+          ],
+          "page": 30
+        }
+      ]
+    },
+    {
+      "word": "loud",
+      "definition": "Making a strong sound that is easy to hear.",
+      "sentence": "The drum made a loud noise.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ou",
+          "chunks": [
+            "l",
+            "ou",
+            "d"
+          ],
+          "page": 31
+        }
+      ]
+    },
+    {
+      "word": "cloud",
+      "definition": "Tiny drops of water or ice floating together in the sky.",
+      "sentence": "A white cloud drifted overhead.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ou",
+          "chunks": [
+            "cl",
+            "ou",
+            "d"
+          ],
+          "page": 31
+        }
+      ]
+    },
+    {
+      "word": "mouse",
+      "definition": "A small animal with a pointed nose and a long tail.",
+      "sentence": "The mouse nibbled a seed.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ou",
+          "chunks": [
+            "m",
+            "ou",
+            "se"
+          ],
+          "page": 31
+        }
+      ]
+    },
+    {
+      "word": "found",
+      "definition": "Discovered something or learned where it was.",
+      "sentence": "I found my missing mitten.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ou",
+          "chunks": [
+            "f",
+            "ou",
+            "nd"
+          ],
+          "page": 31
+        }
+      ]
+    },
+    {
+      "word": "round",
+      "definition": "Shaped like a circle or ball.",
+      "sentence": "The table has a round top.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ou",
+          "chunks": [
+            "r",
+            "ou",
+            "nd"
+          ],
+          "page": 31
+        }
+      ]
+    },
+    {
+      "word": "down",
+      "definition": "Toward a lower place.",
+      "sentence": "The ball rolled down the hill.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ow",
+          "chunks": [
+            "d",
+            "ow",
+            "n"
+          ],
+          "page": 31
+        }
+      ]
+    },
+    {
+      "word": "town",
+      "definition": "A place with homes, shops, and streets, smaller than many cities.",
+      "sentence": "Our town has a library.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ow",
+          "chunks": [
+            "t",
+            "ow",
+            "n"
+          ],
+          "page": 31
+        }
+      ]
+    },
+    {
+      "word": "brown",
+      "definition": "The color of chocolate or many tree trunks.",
+      "sentence": "The puppy has brown fur.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ow",
+          "chunks": [
+            "br",
+            "ow",
+            "n"
+          ],
+          "page": 31
+        }
+      ]
+    },
+    {
+      "word": "clown",
+      "definition": "A performer who wears funny clothes and makes people laugh.",
+      "sentence": "The clown juggled three balls.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ow",
+          "chunks": [
+            "cl",
+            "ow",
+            "n"
+          ],
+          "page": 32
+        }
+      ]
+    },
+    {
+      "word": "crown",
+      "definition": "A special head covering worn by a king or queen.",
+      "sentence": "We made a crown from paper.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ow",
+          "chunks": [
+            "cr",
+            "ow",
+            "n"
+          ],
+          "page": 32
+        }
+      ]
+    },
+    {
+      "word": "owl",
+      "definition": "A bird with large eyes that often hunts at night.",
+      "sentence": "An owl sat on a branch.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "ow",
+          "chunks": [
+            "ow",
+            "l"
+          ],
+          "page": 32
+        }
+      ]
+    },
+    {
+      "word": "claws",
+      "definition": "Sharp, curved nails on an animal's feet.",
+      "sentence": "The cat used its claws to climb.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "aw",
+          "chunks": [
+            "cl",
+            "aw",
+            "s"
+          ],
+          "page": 32
+        },
+        {
+          "pattern": "PLURALS WITH S",
+          "label": "add s",
+          "chunks": [
+            "claw",
+            "s"
+          ],
+          "page": 37
+        }
+      ]
+    },
+    {
+      "word": "paw",
+      "definition": "The foot of an animal such as a cat or dog.",
+      "sentence": "The puppy lifted one paw.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "aw",
+          "chunks": [
+            "p",
+            "aw"
+          ],
+          "page": 32
+        }
+      ]
+    },
+    {
+      "word": "saw",
+      "definition": "A tool with a toothed blade used for cutting.",
+      "sentence": "A grown-up used a saw to cut the wood.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "aw",
+          "chunks": [
+            "s",
+            "aw"
+          ],
+          "page": 32
+        }
+      ]
+    },
+    {
+      "word": "jaw",
+      "definition": "One of the bones in your mouth that holds your teeth.",
+      "sentence": "My jaw moves when I chew.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "aw",
+          "chunks": [
+            "j",
+            "aw"
+          ],
+          "page": 32
+        }
+      ]
+    },
+    {
+      "word": "draw",
+      "definition": "To make a picture using lines.",
+      "sentence": "I like to draw animals.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "aw",
+          "chunks": [
+            "dr",
+            "aw"
+          ],
+          "page": 32
+        }
+      ]
+    },
+    {
+      "word": "straw",
+      "definition": "A thin tube used for drinking.",
+      "sentence": "I drank juice through a straw.",
+      "cards": [
+        {
+          "pattern": "VOWEL TEAMS",
+          "label": "aw",
+          "chunks": [
+            "str",
+            "aw"
+          ],
+          "page": 33
+        }
+      ]
+    },
+    {
+      "word": "bunny",
+      "definition": "A rabbit, especially a young one.",
+      "sentence": "The bunny hopped across the grass.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says ee",
+          "chunks": [
+            "bunn",
+            "y"
+          ],
+          "page": 34
+        },
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "bun",
+            "ny"
+          ],
+          "page": 39
+        }
+      ]
+    },
+    {
+      "word": "silly",
+      "definition": "Playful or funny in a way that is not serious.",
+      "sentence": "We laughed at the silly dance.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says ee",
+          "chunks": [
+            "sill",
+            "y"
+          ],
+          "page": 34
+        },
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "sil",
+            "ly"
+          ],
+          "page": 39
+        }
+      ]
+    },
+    {
+      "word": "mossy",
+      "definition": "Covered with small, soft green plants that grow in damp places.",
+      "sentence": "The frog sat on a mossy rock.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says ee",
+          "chunks": [
+            "moss",
+            "y"
+          ],
+          "page": 34
+        },
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "mos",
+            "sy"
+          ],
+          "page": 39
+        }
+      ]
+    },
+    {
+      "word": "body",
+      "definition": "All the physical parts of a person or animal.",
+      "sentence": "Exercise helps keep your body strong.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says ee",
+          "chunks": [
+            "bod",
+            "y"
+          ],
+          "page": 34
+        },
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "heart word",
+          "chunks": [
+            "b",
+            "o",
+            "dy"
+          ],
+          "page": 42
+        }
+      ]
+    },
+    {
+      "word": "happy",
+      "definition": "Feeling pleased or glad.",
+      "sentence": "I am happy to see my friend.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says ee",
+          "chunks": [
+            "happ",
+            "y"
+          ],
+          "page": 34
+        }
+      ]
+    },
+    {
+      "word": "puppy",
+      "definition": "A young dog.",
+      "sentence": "The puppy chased its tail.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says ee",
+          "chunks": [
+            "pupp",
+            "y"
+          ],
+          "page": 34
+        },
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "pup",
+            "py"
+          ],
+          "page": 40
+        }
+      ]
+    },
+    {
+      "word": "funny",
+      "definition": "Making you laugh.",
+      "sentence": "The story had a funny ending.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says ee",
+          "chunks": [
+            "funn",
+            "y"
+          ],
+          "page": 35
+        }
+      ]
+    },
+    {
+      "word": "sunny",
+      "definition": "Bright with light from the sun.",
+      "sentence": "It was a sunny day.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says ee",
+          "chunks": [
+            "sunn",
+            "y"
+          ],
+          "page": 35
+        }
+      ]
+    },
+    {
+      "word": "candy",
+      "definition": "A sweet food often made with sugar.",
+      "sentence": "I chose a piece of candy.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says ee",
+          "chunks": [
+            "cand",
+            "y"
+          ],
+          "page": 35
+        }
+      ]
+    },
+    {
+      "word": "baby",
+      "definition": "A very young child.",
+      "sentence": "The baby held my finger.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says ee",
+          "chunks": [
+            "bab",
+            "y"
+          ],
+          "page": 35
+        }
+      ]
+    },
+    {
+      "word": "messy",
+      "definition": "Untidy or not neatly arranged.",
+      "sentence": "My desk was messy after art class.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says ee",
+          "chunks": [
+            "mess",
+            "y"
+          ],
+          "page": 35
+        }
+      ]
+    },
+    {
+      "word": "my",
+      "definition": "Belonging to the person who is speaking.",
+      "sentence": "This is my favorite book.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says eye",
+          "chunks": [
+            "m",
+            "y"
+          ],
+          "page": 35
+        }
+      ]
+    },
+    {
+      "word": "by",
+      "definition": "Next to or near something.",
+      "sentence": "We sat by the window.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says eye",
+          "chunks": [
+            "b",
+            "y"
+          ],
+          "page": 35
+        }
+      ]
+    },
+    {
+      "word": "fly",
+      "definition": "To move through the air using wings.",
+      "sentence": "Birds fly above the trees.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says eye",
+          "chunks": [
+            "fl",
+            "y"
+          ],
+          "page": 36
+        }
+      ]
+    },
+    {
+      "word": "try",
+      "definition": "To make an effort to do something.",
+      "sentence": "I will try to solve the puzzle.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says eye",
+          "chunks": [
+            "tr",
+            "y"
+          ],
+          "page": 36
+        }
+      ]
+    },
+    {
+      "word": "cry",
+      "definition": "To shed tears because of a strong feeling.",
+      "sentence": "The sad story made me cry.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says eye",
+          "chunks": [
+            "cr",
+            "y"
+          ],
+          "page": 36
+        }
+      ]
+    },
+    {
+      "word": "sky",
+      "definition": "The space above the ground that you see when you look up outside.",
+      "sentence": "The sky is bright blue.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says eye",
+          "chunks": [
+            "sk",
+            "y"
+          ],
+          "page": 36
+        }
+      ]
+    },
+    {
+      "word": "dry",
+      "definition": "Not wet.",
+      "sentence": "The towel is clean and dry.",
+      "cards": [
+        {
+          "pattern": "ENDING Y",
+          "label": "y says eye",
+          "chunks": [
+            "dr",
+            "y"
+          ],
+          "page": 36
+        }
+      ]
+    },
+    {
+      "word": "wings",
+      "definition": "The body parts that birds use to fly.",
+      "sentence": "The bird spread its wings.",
+      "cards": [
+        {
+          "pattern": "PLURALS WITH S",
+          "label": "add s",
+          "chunks": [
+            "wing",
+            "s"
+          ],
+          "page": 37
+        }
+      ]
+    },
+    {
+      "word": "steps",
+      "definition": "Flat surfaces you put your feet on to go up or down.",
+      "sentence": "We climbed the steps to the door.",
+      "cards": [
+        {
+          "pattern": "PLURALS WITH S",
+          "label": "add s",
+          "chunks": [
+            "step",
+            "s"
+          ],
+          "page": 37
+        }
+      ]
+    },
+    {
+      "word": "cats",
+      "definition": "Small pets that have whiskers and often meow.",
+      "sentence": "The cats slept in the sunshine.",
+      "cards": [
+        {
+          "pattern": "PLURALS WITH S",
+          "label": "add s",
+          "chunks": [
+            "cat",
+            "s"
+          ],
+          "page": 37
+        }
+      ]
+    },
+    {
+      "word": "dogs",
+      "definition": "Pets that bark and often wag their tails.",
+      "sentence": "The dogs played in the park.",
+      "cards": [
+        {
+          "pattern": "PLURALS WITH S",
+          "label": "add s",
+          "chunks": [
+            "dog",
+            "s"
+          ],
+          "page": 37
+        }
+      ]
+    },
+    {
+      "word": "hats",
+      "definition": "Things you wear on your head.",
+      "sentence": "We wore warm hats outside.",
+      "cards": [
+        {
+          "pattern": "PLURALS WITH S",
+          "label": "add s",
+          "chunks": [
+            "hat",
+            "s"
+          ],
+          "page": 37
+        }
+      ]
+    },
+    {
+      "word": "ships",
+      "definition": "Large boats that carry people or things.",
+      "sentence": "Two ships sailed past the harbor.",
+      "cards": [
+        {
+          "pattern": "PLURALS WITH S",
+          "label": "add s",
+          "chunks": [
+            "ship",
+            "s"
+          ],
+          "page": 38
+        }
+      ]
+    },
+    {
+      "word": "birds",
+      "definition": "Animals with feathers, wings, and beaks.",
+      "sentence": "The birds sang in the trees.",
+      "cards": [
+        {
+          "pattern": "PLURALS WITH S",
+          "label": "add s",
+          "chunks": [
+            "bird",
+            "s"
+          ],
+          "page": 38
+        }
+      ]
+    },
+    {
+      "word": "trucks",
+      "definition": "Large road vehicles that carry things.",
+      "sentence": "The trucks delivered boxes to the store.",
+      "cards": [
+        {
+          "pattern": "PLURALS WITH S",
+          "label": "add s",
+          "chunks": [
+            "truck",
+            "s"
+          ],
+          "page": 38
+        }
+      ]
+    },
+    {
+      "word": "shells",
+      "definition": "Hard coverings that protect animals such as turtles and snails.",
+      "sentence": "We found empty shells on the beach.",
+      "cards": [
+        {
+          "pattern": "PLURALS WITH S",
+          "label": "add s",
+          "chunks": [
+            "shell",
+            "s"
+          ],
+          "page": 38
+        }
+      ]
+    },
+    {
+      "word": "bunnies",
+      "definition": "Rabbits, especially young ones.",
+      "sentence": "The bunnies hopped into the grass.",
+      "cards": [
+        {
+          "pattern": "PLURALS WITH S",
+          "label": "y to ies",
+          "chunks": [
+            "bunn",
+            "ies"
+          ],
+          "page": 38
+        }
+      ]
+    },
+    {
+      "word": "winter",
+      "definition": "The coldest season of the year.",
+      "sentence": "We wear warm coats in winter.",
+      "cards": [
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "win",
+            "ter"
+          ],
+          "page": 39
+        }
+      ]
+    },
+    {
+      "word": "apple",
+      "definition": "A round fruit that can have red, green, or yellow skin.",
+      "sentence": "I ate an apple at lunch.",
+      "cards": [
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "ap",
+            "ple"
+          ],
+          "page": 39
+        }
+      ]
+    },
+    {
+      "word": "yellow",
+      "definition": "The color of a ripe lemon.",
+      "sentence": "The duck has a yellow beak.",
+      "cards": [
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "yel",
+            "low"
+          ],
+          "page": 39
+        }
+      ]
+    },
+    {
+      "word": "hello",
+      "definition": "A word used to greet someone.",
+      "sentence": "I said hello to my teacher.",
+      "cards": [
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "hel",
+            "lo"
+          ],
+          "page": 39
+        }
+      ]
+    },
+    {
+      "word": "sunset",
+      "definition": "The time when the sun disappears below the horizon.",
+      "sentence": "We watched the sunset from the porch.",
+      "cards": [
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "sun",
+            "set"
+          ],
+          "page": 40
+        }
+      ]
+    },
+    {
+      "word": "rabbit",
+      "definition": "A small animal with long ears that hops.",
+      "sentence": "The rabbit hopped across the grass.",
+      "cards": [
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "rab",
+            "bit"
+          ],
+          "page": 40
+        }
+      ]
+    },
+    {
+      "word": "picnic",
+      "definition": "A meal eaten outdoors.",
+      "sentence": "We had a picnic under a tree.",
+      "cards": [
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "pic",
+            "nic"
+          ],
+          "page": 40
+        }
+      ]
+    },
+    {
+      "word": "little",
+      "definition": "Small in size or amount.",
+      "sentence": "A little frog sat on the leaf.",
+      "cards": [
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "lit",
+            "tle"
+          ],
+          "page": 40
+        }
+      ]
+    },
+    {
+      "word": "mitten",
+      "definition": "A hand covering with one space for the thumb and another for the fingers.",
+      "sentence": "I found my missing mitten in the snow.",
+      "cards": [
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "mit",
+            "ten"
+          ],
+          "page": 40
+        }
+      ]
+    },
+    {
+      "word": "butter",
+      "definition": "A pale yellow food made from cream that is often spread on bread.",
+      "sentence": "I spread butter on my toast.",
+      "cards": [
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "but",
+            "ter"
+          ],
+          "page": 40
+        }
+      ]
+    },
+    {
+      "word": "summer",
+      "definition": "The warmest season of the year.",
+      "sentence": "We swim outside in summer.",
+      "cards": [
+        {
+          "pattern": "TWO-SYLLABLE WORDS",
+          "label": "2 syllables",
+          "chunks": [
+            "sum",
+            "mer"
+          ],
+          "page": 40
+        }
+      ]
+    },
+    {
+      "word": "come",
+      "definition": "To move toward the person speaking or a certain place.",
+      "sentence": "Please come and sit beside me.",
+      "cards": [
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "come family",
+          "chunks": [
+            "c",
+            "o",
+            "me"
+          ],
+          "page": 41
+        }
+      ]
+    },
+    {
+      "word": "some",
+      "definition": "An amount or number that is not stated exactly.",
+      "sentence": "We saved some cookies for later.",
+      "cards": [
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "come family",
+          "chunks": [
+            "s",
+            "o",
+            "me"
+          ],
+          "page": 41
+        }
+      ]
+    },
+    {
+      "word": "done",
+      "definition": "Finished or completed.",
+      "sentence": "My homework is done.",
+      "cards": [
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "come family",
+          "chunks": [
+            "d",
+            "o",
+            "ne"
+          ],
+          "page": 41
+        }
+      ]
+    },
+    {
+      "word": "most",
+      "definition": "The greatest amount or number.",
+      "sentence": "This basket holds the most apples.",
+      "cards": [
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "most family",
+          "chunks": [
+            "m",
+            "o",
+            "st"
+          ],
+          "page": 41
+        }
+      ]
+    },
+    {
+      "word": "post",
+      "definition": "A strong upright piece of wood or metal used as a support.",
+      "sentence": "The gate hangs from a wooden post.",
+      "cards": [
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "most family",
+          "chunks": [
+            "p",
+            "o",
+            "st"
+          ],
+          "page": 41
+        }
+      ]
+    },
+    {
+      "word": "host",
+      "definition": "A person who welcomes guests.",
+      "sentence": "Our host showed us where to sit.",
+      "cards": [
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "most family",
+          "chunks": [
+            "h",
+            "o",
+            "st"
+          ],
+          "page": 41
+        }
+      ]
+    },
+    {
+      "word": "both",
+      "definition": "The two people or things together.",
+      "sentence": "I put both shoes by the door.",
+      "cards": [
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "most family",
+          "chunks": [
+            "b",
+            "o",
+            "th"
+          ],
+          "page": 41
+        }
+      ]
+    },
+    {
+      "word": "stood",
+      "definition": "Was upright on the feet in the past.",
+      "sentence": "We stood in a line.",
+      "cards": [
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "good family",
+          "chunks": [
+            "st",
+            "oo",
+            "d"
+          ],
+          "page": 42
+        }
+      ]
+    },
+    {
+      "word": "even",
+      "definition": "Able to be divided into two equal whole-number groups.",
+      "sentence": "Six is an even number.",
+      "cards": [
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "heart word",
+          "chunks": [
+            "e",
+            "ven"
+          ],
+          "page": 42
+        }
+      ]
+    },
+    {
+      "word": "heart",
+      "definition": "The organ inside your chest that pumps blood through your body.",
+      "sentence": "My heart beats faster when I run.",
+      "cards": [
+        {
+          "pattern": "TRICKY WORDS",
+          "label": "heart word",
+          "chunks": [
+            "h",
+            "ear",
+            "t"
+          ],
+          "page": 42
+        }
+      ]
+    }
+  ]
+}

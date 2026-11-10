@@ -32,6 +32,23 @@ Each lesson has spoken examples, a five-question pattern activity with feedback/
 
 Expand **Voice & reading speed** before or during an activity. Choose an English voice installed on the device, adjust speed from 0.50x to 1.20x (default 1.00x, normal), and use **Try this voice** for a sample. Voice lists can load after the page opens. An unavailable selected voice falls back to the device's US English/default voice. The previous automatic 0.75x default migrates to normal speed once. Explicitly chosen speeds remain saved. These preferences are the only data remembered across visits.
 
+## Flip & spell flashcards
+
+The separate **Flip & spell** tab uses every word card from the two supplied flashcard PDFs, including practice words. Choose **1st grade** or **2nd grade** with the radio buttons, hear a random word, spell aloud or on paper, then tap the card to flip and check. Definition and sentence buttons sit below the card. Written clues mask the answer until the card is flipped; spoken sentences include the word. The shared voice and reading-speed controls apply here too.
+
+The two standalone word files are:
+
+| File | Source PDF | Unique words | Source cards |
+| --- | --- | --- | --- |
+| `docs/flashcards/grade-1.json` | `One_Bee_First_Grade_Phonics_Flashcards.pdf` | 259 | 276 across 11 patterns |
+| `docs/flashcards/grade-2.json` | `Spelling_Patterns_Flashcards.pdf` | 93 | 95 across 8 patterns |
+
+Duplicates within a grade are combined. Each entry retains its source pattern, printed chunks, and PDF page number for every occurrence, plus an app-curated definition and example sentence. The second PDF identifies its source as Second Grade on page 1. The first-grade deck includes **read**, which is printed in this PDF but absent from the existing 258-word lesson bank. The PDFs remain outside the repository. Their pattern classifications are retained for traceability; the activity does not present their simplified rules as universal spelling rules.
+
+Each grade has its own shuffled deck with no repeats until all its words have appeared. A new pass avoids repeating the immediately preceding word. Switching grades continues that grade's deck; returning to the tab keeps the current card. Flipping a card grows the garden once per presented card, with a small celebration every five reveals. This counts exploration, not correctness. There is no timer, stored progress, or new service dependency. Motion honors the device's reduced-motion preference and can also be paused with **Pause animations**.
+
+The flashcard module and styles live in `docs/flashcards/`. The existing Python engine, spelling banks, pattern lessons, and activity logic are unchanged; shared navigation adds the third panel and keyboard support for three tabs. Flashcards work even when Python cannot load. `node scripts/test-flashcards.mjs` checks deck integrity, hidden answers, clues, full-deck rotation, tab isolation, speech failures, retry, and rapid grade changes. It also runs as part of `npm test`.
+
 ## Publish to GitHub Pages
 
 With Git and GitHub CLI installed, authenticate (`gh auth login --hostname github.com`) then run from PowerShell:
