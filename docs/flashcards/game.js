@@ -61,6 +61,7 @@ const $ = id => document.getElementById(id);
 const decks = new Map();
 let grade = 1, current = null, revealed = false, loadToken = 0, speechToken = 0;
 let explored = 0, exploredThisCard = false;
+let autoReadTimer;
 
 function shuffle(words, previous) {
   const result = [...words];
@@ -76,6 +77,7 @@ function shuffle(words, previous) {
 }
 
 function stopSpeech() {
+  clearTimeout(autoReadTimer);
   speechToken++;
   window.speechSynthesis?.cancel();
 }
@@ -204,7 +206,12 @@ $('fc-motion').addEventListener('click', () => {
   $('fc-motion').textContent = paused ? 'Resume animations' : 'Pause animations';
 });
 $('fc-listen').addEventListener('click', () => { if (current) speak(current.word); });
-$('fc-next').addEventListener('click', nextCard);
+$('fc-next').addEventListener('click', () => {
+  nextCard();
+  autoReadTimer = setTimeout(() => {
+    if (!panel.hidden && current) speak(current.word);
+  }, 1000);
+});
 $('fc-card').addEventListener('click', () => {
   if (!current) return;
   stopSpeech();
@@ -235,6 +242,7 @@ document.addEventListener('little-bee-activity', event => {
   if (event.detail === 'flashcards') {
     if (!current && panel.getAttribute('aria-busy') !== 'true') loadGrade();
   } else {
+    clearTimeout(autoReadTimer);
     speechToken++;
   }
 });
